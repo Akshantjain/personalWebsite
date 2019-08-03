@@ -1,0 +1,45 @@
+div.content  {
+    padding: 23px 190px 1px 120px;
+    margin: 0%;
+    font-size: 14px;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+ul.content  {
+    list-style-type: square;
+    padding: 0px 0px 5px 50px;
+    margin-top: 3px;
+    font-weight: 50;
+}
+
+ul.content2  {
+    list-style-type: square;
+    padding: 0px 0px 5px 50px;
+    margin-top: 3px;
+    font-weight: 50;
+}
+
+ul.content2 > li {
+    padding: 6px 0px 6px 0px;
+    text-align: left;
+    text-align: justify; 
+    text-justify: inter-word;
+}
+
+ul.content2 li:nth-child(odd)   {
+    font-weight: bold;
+    padding-bottom: 0px;
+    font-style: italic;
+}
+
+ul.content2 li:nth-child(even)  {
+    list-style-type: none;
+    padding-left: 30px;
+    padding-top: 1px;
+}
+
+ul.content > li {
+    padding: 6px 0px 6px 0px;
+    text-align: left;
+}
