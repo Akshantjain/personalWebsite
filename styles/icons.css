@@ -81,16 +81,16 @@
     background-color: white;
 }
 
-a.mail:link, a.mail:visited  {
+a.weblink:link, a.weblink:visited  {
     color: white;
     text-decoration: none;
 }
 
-a.mail:hover    {
-    color: rgb(216, 37, 37);
+a.weblink:hover    {
+    color: #989898;
 }
 
-a.mail:active   {
+a.weblink:active   {
     color: white;
     text-decoration: none;
 }
