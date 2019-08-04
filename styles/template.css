@@ -1,5 +1,5 @@
 div.header  {
-    background-image: url("header.jpg");
+    background-image: url("../images/header.jpg");
     opacity: 0.8;
     background-repeat: no-repeat;
     background-size: cover;
@@ -33,7 +33,6 @@ div.section  {
 .footer    {
     background-color: black;
     color: white;
-    padding: 9px 5px 0px 5px;
     text-align: center;
     z-index: 1;
     left: 0;
@@ -46,8 +45,8 @@ div.section  {
 .footer p{
     font-size: 12px;
     margin: 0%;
-    padding: 5px 10px 0px 10px;
-    text-align: center;   
+    text-align: center; 
+    padding-bottom: 10px;  
 }
 
 .footer a{

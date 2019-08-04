@@ -7,10 +7,10 @@
     width: 100%;
     z-index: 1;
     transition: top 0.3s;
+    color: white;
 }
 
 ul.navigation  {
-    background-color: black;
     list-style-type: none;
     font-size: 14px;
     margin: 1px;
