@@ -1,0 +1,52 @@
+.navigation {
+    overflow: hidden;
+    background-color: black;
+}
+
+.navigation a   {
+    float: right;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px 13px;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.navigation a::first-letter {
+    font-size: 15px;
+}
+
+.navigation a:hover {
+    color: #989898;
+}
+
+.navigation .icon   {
+    display: none;
+}
+
+@media screen and (max-width: 600px) {
+    .navigation.responsive {
+        position: relative;
+
+    }
+    .navigation.responsive .icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+
+    }
+    .navigation.responsive a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .navigation a   {display: none;}
+    .navigation a.icon {
+      float: left;
+      display: block;
+    }
+}
