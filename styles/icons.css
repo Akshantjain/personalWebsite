@@ -81,6 +81,16 @@
     background-color: white;
 }
 
+.fa-envelope-open {
+    color: white;
+    background-color: black;
+}
+
+.fa-envelope-open:hover  {
+    color: white;
+    background-color: red;
+}
+
 a.weblink:link, a.weblink:visited  {
     color: white;
     text-decoration: none;
