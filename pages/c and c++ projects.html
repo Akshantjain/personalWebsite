@@ -20,36 +20,27 @@
         <link rel="shortcut icon" type="image/png" href="../images/favicon2.png">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <script src="../scripts/navigation_bar.js"></script>
+        <script src="../scripts/navigation_side.js"></script>
     </head>
 
     <body>
         <!------------------------ Navigation Bar of the website -------------------------------------->
-        <div id="navbar">
-            <ul class="navigation" style="float: left;">
-                <li class="navigation" style="letter-spacing: 1.8px; color: white; font-size: 20px; font-family: tahoma; font-weight: 530;"> 
-                        <a style="color: white;" href="../pages/home.html" target="_self"> Akshant Jain </a> 
-                </li>
-                <li class="navigation" style=" margin-left: 12px;"> 
-                        <img src="../images/favicon2.png" style="width: 43px; height: 39px; margin: -9px -15px -10px 12px; padding: 0px -13px;" >
-                </li>
-            </ul>
-            <ul class="navigation" id="hidenav">
-                <li class="navigation"> <a target="_self" href="mailto:akshant.jain2@gmail.com">E-mail</a></li>
-                <li class="navigation"> <a target="_self" href="../pages/resume.html">Resume</a></li>
-                <li class="navigation"> <a target="_self" href="../pages/experience.html">Experience</a></li>
-                <div class="dropdown" style="float: right">
-                    <li class="navigation"> 
-                            <a target="_self" href="../pages/projects.html" style="font-weight: bolder">Projects</a>
-                    </li>
-                    <div class="dropdown-content">
-                        <a href="../pages/c and c++ projects.html" target="_self" style="font-weight: bolder">C and C++ Projects</a>
-                        <a href="../pages/python projects.html" target="_self">Python Projects</a>
-                    </div>
+        <div id="navbar" class="navbar">
+            <div class="container" style="float: left;" onclick="myFunction(this)">
+                    <div class="bar1"></div>
+                    <div class="bar2"></div>
+                    <div class="bar3"></div>
                 </div>
-                <li class="navigation"> <a target="_self" href="../pages/coursework.html">Coursework</a></li>
-                <li class="navigation"> <a target="_self" href="../pages/home.html">Home</a></li>
-            </ul>
-        </div>
+            <a href="#default" class="logo" style="color: white;"> <img src="../images/favicon2.png"> Akshant Jain</a>
+            <div id="navbar-right">
+                <a target="_self" href="../pages/home.html">Home</a>
+                <a target="_self" href="../pages/coursework.html">Coursework</a>
+                <a target="_self" href="../pages/projects.html">Projects</a>
+                <a target="_self" href="../pages/experience.html">Experience</a>
+                <a target="_self" href="../pages/resume.html">Resume</a>
+                <a class="active" target="_self" href="mailto:akshant.jain2@gmail.com" style="font-weight: bolder">E-mail</a>
+            </div>
+        </div> 
 
         <!------------------------------ Header of the page ------------------------------------------->
         <div class="header">    <p>C and C++ Projects</p>    </div>

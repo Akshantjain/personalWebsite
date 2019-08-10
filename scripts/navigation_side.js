@@ -1,10 +1,11 @@
-function openNav() {
-  document.getElementById("mySidenav").style.width = "250px";
-  document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
-}
+function myFunction(y) {
+  y.classList.toggle("change");
+  var x = document.getElementById("navbar");
+  if (x.className === "navbar") {
+    x.className += " responsive";
+  } else {
+    x.className = "navbar";
+  }
 
-/* Set the width of the side navigation to 0 */
-function closeNav() {
-  document.getElementById("mySidenav").style.width = "0";
-  document.body.style.backgroundColor = "white";
+  document.getElementById("mybody").style.marginTop = "300px";
 }
