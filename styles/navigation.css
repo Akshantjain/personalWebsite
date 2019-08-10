@@ -8,7 +8,8 @@
     z-index: 1;
     transition: top 0.3s;
     color: white;
-    max-height: 80px;
+    max-height: 50px;
+    top: 0%;
 }
 
 ul.navigation  {
