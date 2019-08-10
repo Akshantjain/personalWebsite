@@ -13,33 +13,50 @@ ul.content  {
     font-weight: 50;
 }
 
-ul.content2  {
+.content2  {
     list-style-type: square;
     padding: 0px 0px 5px 50px;
     margin-top: 3px;
     font-weight: 50;
 }
 
-ul.content2 > li {
+.content2 > li {
     padding: 6px 0px 6px 0px;
     text-align: left;
     text-align: justify; 
     text-justify: inter-word;
 }
 
-ul.content2 li:nth-child(odd)   {
+.content2 li:nth-child(odd)   {
     font-weight: bold;
     padding-bottom: 0px;
     font-style: italic;
 }
 
-ul.content2 li:nth-child(even)  {
+.content2 li:nth-child(even)  {
     list-style-type: none;
     padding-left: 30px;
     padding-top: 1px;
 }
 
-ul.content > li {
+.content > li {
     padding: 6px 0px 6px 0px;
     text-align: left;
+}
+
+#myimg  {
+    width: 43px;
+    height: 39px;
+    margin: -6px -15px -10px 12px;
+    padding: 0px -13px;
+}
+
+@media screen and (max-width: 900px)    {
+    div.content {
+        padding: 21px;
+    }
+
+    ul.content  {
+        padding-left: 21px;
+    }
 }

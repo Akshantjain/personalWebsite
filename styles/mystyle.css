@@ -6,29 +6,9 @@ html    {
 body   {
     color: black;
     background-color: white;
-    margin: 0 0 78px;
+    margin: 0px 0px 60px 0px;
     font-family: Bitter;
-}
-
-div.aboutme {
-    color: black;
-    text-align: left;
-    margin: 0px 0px 125px 0px;
-    padding-top: 10px; 
-}
-
-div.aboutme > img   {
-    float: left;
-    height: auto;
-    width: 215px;
-    overflow: hidden;
-    padding: 13px 20px 5px 140px;
-    margin-bottom: 4px;
-}
-
-div.aboutme > p {
-    font-size: 15px;
-    padding: 10px 195px 20px 0px;
+    font-size: 70%;
 }
 
 .heading   {
@@ -36,11 +16,22 @@ div.aboutme > p {
     color: rgb(0, 2, 99);
 }
 
-div.column {
+.column {
     float: left;
     width: 33.33%;
     margin: 0%;
     padding: 2px  0px 2px 0px;
+}
+
+.column33   {
+    float: left;
+    width: 33.33%;
+}
+
+.column66 {
+    float: left;
+    width: 66.66%;
+    margin: 0%;
 }
 
 div.row:after  {
@@ -51,11 +42,22 @@ div.row:after  {
     padding: 0%;
 }
 
+@media screen and (max-width: 900px)    {
+    .column {
+        width: 100%;
+    }
+}
+
+.content_resume {
+    margin: 1% 10% 0% 10%;
+    padding: 0%;
+    align-content: center;
+}
+
 img.resume  {
     width: 100%;
     height: 90%;
     border-block-color: 1px solid;
-    margin-left: 20px;
 }
 
 a.button:link, a.button:visited {
@@ -64,11 +66,12 @@ a.button:link, a.button:visited {
     text-align: center;
     padding: 5px 0px 5px 0px;
     display: inline-block;
-    width: 100%;
+    width: 99%;
     border: 1px solid black;
     border-radius: 5px;
-    margin-left: 20px;
+    margin: 0%;
     text-decoration: none;
+    align-content: center;
 }
 
 a.button:hover, a.button:visited {

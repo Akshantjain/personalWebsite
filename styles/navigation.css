@@ -8,12 +8,14 @@
     z-index: 1;
     transition: top 0.3s;
     color: white;
+    max-height: 80px;
 }
 
 ul.navigation  {
     list-style-type: none;
     font-size: 14px;
-    margin: 1px;
+    margin: 0%;
+    padding: 1px;
     z-index: 1;
 }
 
@@ -45,4 +47,3 @@ li.navigation a:link {
 li.navigation a:hover {
     color: #989898
 }
-
