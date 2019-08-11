@@ -10,7 +10,7 @@
     color: white;
     max-height: 50px;
     top: 0%;
-    overflow: hidden;
+    max-height: 50px;
 }
 
 .navbar:hover {
@@ -42,6 +42,7 @@
     color: white;
     display: block;
     padding: 14px 16px 13px;
+    z-index: -1;
 }
 
 .navbar a:link {
@@ -58,7 +59,10 @@
 
 #navbar-right   {
     float: right;
+    transition: linear 0.6s;
 }
+
+.hideit {display: none;}
 
 
 @media screen and (max-width: 850px) {
@@ -66,7 +70,7 @@
       float: none;
       display: block;
       text-align: left;
-      padding-left: 30px;
+      padding-left: 55px;
       width: 100%;
       background-color: black;
       margin: -0.1%;
@@ -74,18 +78,19 @@
 
     .navbar a.logo   {
         background-color: black;
+        text-align: right;
+        margin-left: -70px;
     }
     
     #navbar-right {
       float: none;
       text-align: left;
+      z-index: -1;
     }
 
-    .navbar .container  {
-        padding-right: 16px;
-    }
+    .fixed  {    margin-top: -300px;    }
 
-    .responsive {
-        overflow: visible;
-    }
+    .navbar .container  {    padding-right: 16px;    }
+
+    .responsive {    margin-top: 0%;    }
 }

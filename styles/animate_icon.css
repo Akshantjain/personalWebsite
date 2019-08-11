@@ -1,14 +1,15 @@
 .container {
   display: inline-block;
   cursor: pointer;
-  margin: 14px 16px 13px;
+  padding: 14px 16px 16px;
+  background-color: rgb(45, 45, 45);
 }
 
 .bar1 {
   width: 21px;
   height: 2px;
   background-color: white;
-  margin: 3.5px 0;
+  margin: 3px 0;
   transition: 0.4s;
 }
 
@@ -16,7 +17,7 @@
     width: 21px;
     height: 2px;
     background-color: white;
-    margin: 3.5px 0;
+    margin: 3px 0;
     transition: 0.4s;
 }
 
@@ -24,14 +25,14 @@
     width: 21px;
     height: 2px;
     background-color: white;
-    margin: 3.5px 0 3.5px;
+    margin: 3px 0;
     transition: 0.4s;
 }
 
 /* Rotate first bar */
 .change .bar1 {
-  -webkit-transform: rotate(-45deg) translate(-4px, 4px);
-  transform: rotate(-45deg) translate(-4px, 4px);
+  -webkit-transform: rotate(-45deg) translate(-3.5px, 3.5px);
+  transform: rotate(-45deg) translate(-3.5px, 3.5px);
 }
 
 /* Fade out the second bar */
@@ -41,6 +42,6 @@
 
 /* Rotate last bar */
 .change .bar3 {
-    -webkit-transform: rotate(45deg) translate(-4px, -4px);
-    transform: rotate(45deg) translate(-4px, -4px);
+    -webkit-transform: rotate(45deg) translate(-3.5px, -3.5px);
+    transform: rotate(45deg) translate(-3.5px, -3.5px);
 }
