@@ -12,9 +12,3 @@ window.onscroll = function() {
     }
     prevScrollpos = currentScrollPos;
 }
-
-window.outerWidth = function()  {
-    if (window.pageXOffset < "900px") {
-        this.document.getElementById("cont").style.display = "block";
-    }
-}

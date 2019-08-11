@@ -59,7 +59,7 @@
 
 #navbar-right   {
     float: right;
-    transition: linear 0.6s;
+    transition: ease-in-out 0.6s;
 }
 
 .hideit {display: none;}
@@ -78,8 +78,7 @@
 
     .navbar a.logo   {
         background-color: black;
-        text-align: right;
-        margin-left: -70px;
+        text-align: left;
     }
     
     #navbar-right {
@@ -93,4 +92,36 @@
     .navbar .container  {    padding-right: 16px;    }
 
     .responsive {    margin-top: 0%;    }
+
+    .container {
+        display: inline-block;
+        cursor: pointer;
+        padding: 14px 16px 16px;
+        background-color: rgb(45, 45, 45);
+        margin-top: -10px;
+    }
+
+    .bar1 {
+        width: 21px;
+        height: 2px;
+        background-color: white;
+        margin: 3px 0;
+        transition: 0.4s;
+    }
+    
+    .bar2 {
+        width: 21px;
+        height: 2px;
+        background-color: white;
+        margin: 3px 0;
+        transition: 0.4s;
+    }
+    
+    .bar3 {
+        width: 21px;
+        height: 2px;
+        background-color: white;
+        margin: 3px 0;
+        transition: 0.4s;
+    }
 }

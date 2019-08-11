@@ -27,19 +27,25 @@
     <body id="mybody">
         <!------------------------ Navigation Bar of the website -------------------------------------->
         <div id="navbar" class="navbar">
-            <div id="cont" class="container" style="float: left;" onclick="myFunction(this)">
-                    <div class="bar1"></div>
-                    <div class="bar2"></div>
-                    <div class="bar3"></div>
-                </div>
             <a href="#default" class="logo" style="color: white; cursor: default"> <img src="../images/favicon2.png"> Akshant Jain</a>
             <div id="navbar-right" class="fixed">
                 <a target="_self" href="../pages/home.html">Home</a>
                 <a target="_self" href="../pages/coursework.html">Coursework</a>
-                <a target="_self" href="../pages/projects.html">Projects</a>
+                <div class="dropdown">
+                    <a target="_self" href="../pages/projects.html">Projects</a>
+                    <div class="dropdown-content">
+                        <a href="../pages/c and c++ projects.html" target="_self">C and C++ Projects</a>
+                        <a href="../pages/python projects.html" target="_self">Python Projects</a>
+                    </div>
+                </div>
                 <a target="_self" href="../pages/experience.html">Experience</a>
-                <a target="_self" href="../pages/resume.html">Resume</a>
-                <a class="active" target="_self" href="mailto:akshant.jain2@gmail.com" style="font-weight: bolder">E-mail</a>
+                <a class="active" target="_self" href="../pages/resume.html">Resume</a>
+                <a target="_self" href="mailto:akshant.jain2@gmail.com" style="font-weight: bolder">E-mail</a>
+            </div>
+            <div id="cont" class="container" style="float: left;" onclick="myFunction(this)">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
             </div>
         </div> 
 
@@ -60,7 +66,7 @@
                 <a href="https://www.facebook.com/akshant.jain" target="_blank" class="fa fa-facebook"></a>
                 <a href="https://www.linkedin.com/in/akshant-jain" target="_blank" class="fa fa-linkedin"></a>
                 <a href="mailto:akshant.jain2@gmail.com" target="_blank" class="fa fa-envelope-open"></a>
-                <a href="https://wa.me/13125610879?text=I'm%20interested%20in%20developing%20a%20site%by%20you." target="_blank" class="fa fa-whatsapp"></a>
+                <a href="https://wa.me/13125610879?text=I'm%20interested%20in%20developing%20a%20site%20by%20you." target="_blank" class="fa fa-whatsapp"></a>
                 <a href="https://www.instagram.com/akshant_jain/" target="_blank" class="fa fa-instagram"></a>
                 <a href="akshant-jain" target="_blank" class="fa fa-snapchat-ghost"></a>
                 <a href="https://github.com/Akshantjain" target="_blank" class="fa fa-github"></a>

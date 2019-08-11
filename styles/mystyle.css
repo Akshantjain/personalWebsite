@@ -10,7 +10,7 @@ body   {
     margin: 0px 0px 65px 0px;
     font-family: Bitter;
     font-size: 70%;
-    transition: 1s;
+    transition: ease-in-out 0.6s;
 }
 
 .heading   {
@@ -95,6 +95,7 @@ a.button:hover, a.button:visited {
     margin: 0px 0px 0px 20%;
     padding: 20px;
     align-items: center;
+    border-radius: 12%;
 }
 
 .intro  {
