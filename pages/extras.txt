@@ -13,3 +13,31 @@
     <a href="#">Clients</a>
     <a href="#">Contact</a>
 </div-->
+
+
+<div id="navbar">
+            <ul class="navigation" style="float: left;">
+                <li class="navigation" style="letter-spacing: 1.8px; color: white; font-size: 20px; font-family: tahoma; font-weight: 530;"> 
+                        <a style="color: white;" href="../pages/home.html" target="_self"> Akshant Jain </a> 
+                </li>
+                <li class="navigation" style=" margin-left: 12px;"> 
+                        <img src="../images/favicon2.png" style="width: 43px; height: 39px; margin: -9px -15px -10px 12px; padding: 0px -13px;" >
+                </li>
+            </ul>
+            <ul class="navigation" id="hidenav">
+                <li class="navigation"> <a target="_self" href="mailto:akshant.jain2@gmail.com" style="font-weight: bolder">E-mail</a></li>
+                <li class="navigation"> <a target="_self" href="../pages/resume.html">Resume</a></li>
+                <li class="navigation"> <a target="_self" href="../pages/experience.html">Experience</a></li>
+                <div class="dropdown" style="float: right">
+                    <li class="navigation"> 
+                            <a target="_self" href="../pages/projects.html">Projects</a>
+                    </li>
+                    <div class="dropdown-content">
+                        <a href="../pages/c and c++ projects.html" target="_self">C and C++ Projects</a>
+                        <a href="../pages/python projects.html" target="_self">Python Projects</a>
+                    </div>
+                </div>
+                <li class="navigation"> <a target="_self" href="../pages/coursework.html">Coursework</a></li>
+                <li class="navigation"> <a target="_self" href="../pages/home.html">Home</a></li>
+            </ul>
+        </div>
