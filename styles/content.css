@@ -4,6 +4,7 @@ div.content  {
     font-size: 14px;
     text-align: justify;
     text-justify: inter-word;
+    background-color: white;
 }
 
 ul.content  {
