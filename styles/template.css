@@ -31,12 +31,14 @@ div.section  {
     bottom: 0px;
     width: 100%;
     position: absolute;
+    padding-top: 10px;
     overflow: hidden;
 }
 
 .footer p{
     font-size: 12px;
     margin: 0%;
+    padding-top: 10px;
     text-align: center; 
     padding-bottom: 10px;
     background-color: black;
