@@ -27,6 +27,7 @@ div.section  {
     text-align: center;
     z-index: 0;
     left: 0;
+    margin-top: 0px;
     bottom: 0px;
     width: 100%;
     position: absolute;
