@@ -22,7 +22,7 @@ div.section  {
 }
 
 .footer    {
-    background-color: black;
+    background-color: white;
     color: white;
     text-align: center;
     z-index: 0;
@@ -37,7 +37,8 @@ div.section  {
     font-size: 12px;
     margin: 0%;
     text-align: center; 
-    padding-bottom: 10px;  
+    padding-bottom: 10px;
+    background-color: black;
 }
 
 .footer a{
