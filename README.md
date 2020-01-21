@@ -5,6 +5,6 @@
     <h1> Akshantjain.github.io</h1>
     First Version of my personal Website <br>
     using HTML, CSS and Javascript<br>
-    published using Github Pages.
+    published through Github Pages.
   </p>
 </div>
