@@ -1,93 +1,299 @@
+<!--
+    Initial Work done by Blackrock Digital LLC under MIT License
+        Copyright (c) 2013-2019 Blackrock Digital LLC
+
+    Re-designed and edited by Akshant Jain under MIT License
+        Copyright (c) 2019-2020 Akshant Jain
+ -->
 <!DOCTYPE html>
-<!-- HTML Document Starts Here-->
+<html lang="en">
 
-<html>
-    <head>
-        <title> Akshant Jain </title>
-        <meta charset="utf-8">
-        <meta name="Description" content="Personal Website">
-        <meta name="author" content="Akshant Jain">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<head>
 
-        <!-- Various links to the websites and CSS files -->
-        <link rel="stylesheet" type="text/css" href="../styles/mystyle.css">
-        <link rel="stylesheet" type="text/css" href="../styles/icons.css">
-        <link rel="stylesheet" type="text/css" href="../styles/navigation.css">
-        <link rel="stylesheet" type="text/css" href="../styles/dropdown.css">
-        <link rel="stylesheet" type="text/css" href="../styles/template.css">
-        <link rel="stylesheet" type="text/css" href="../styles/content.css">
-        <link rel="stylesheet" type="text/css" href="../styles/animate_icon.css">
-        <link href="https://fonts.googleapis.com/css?family=Bitter&display=swap" rel="stylesheet">
-        <link rel="shortcut icon" type="image/png" href="../images/favicon2.png">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-        <script src="../scripts/navigation_bar.js"></script>
-        <script src="../scripts/navigation_side.js"></script>
-    </head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
 
-    <body id="bdy">
-        <!------------------------ Navigation Bar of the website -------------------------------------->
-        <div id="navbar" class="navbar">
-            <a href="#default" class="logo" style="color: white; cursor: default"> <img src="../images/favicon2.png"> Akshant Jain</a>
-            <div id="navbar-right" class="fixed">
-                <a class="active" target="_self" href="index.html">Home</a>
-                <a target="_self" href="../pages/coursework.html">Coursework</a>
-                <div class="dropdown">
-                    <a target="_self" href="../pages/projects.html">Projects</a>
-                    <div class="dropdown-content">
-                        <a href="../pages/c and c++ projects.html" target="_self">C and C++ Projects</a>
-                        <a href="../pages/python projects.html" target="_self">Python Projects</a>
+    <title>Grayscale - Start Bootstrap Theme</title>
+
+    <!-- Bootstrap core CSS -->
+    <!-- <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet"> -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <!-- Custom fonts for this template -->
+    <!-- <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css"
+        integrity="sha256-mmgLkCYLUQbXn0B1SRqzHar6dCnv9oZFPEC1g1cwlkk=" crossorigin="anonymous" />
+    <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/grayscale.min.css" rel="stylesheet">
+
+</head>
+
+<body id="page-top">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+        <div class="container">
+            <a class="navbar-brand js-scroll-trigger" href="#page-top">Akshant Jain</a>
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
+                data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
+                aria-label="Toggle navigation">
+                Menu
+                <i class="fas fa-bars"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="#skills">Coursework & Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="#projects">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="#experience">Experience</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="#signup">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Header -->
+    <header class="masthead">
+        <div class="container d-flex h-75 align-items-center pt-5">
+            <div class="mx-auto text-center pb-1">
+                <h1 class="mx-auto my-0 text-uppercase text-white pt-3">Akshant Jain</h1>
+                <h2 class="text-white mx-auto mt-2 mb-5 pt-3">Aspiring Software and Web Developer</h2>
+            </div>
+        </div>
+        <div class="container d-flex h-25 p-5 align-items-end">
+            <div class="mx-auto text-center">
+                <a href="#about" class="btn btn-primary js-scroll-trigger">
+                    <span>&#8595;</span> about me <span>&#8595;</span>
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="about-section text-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 mx-auto">
+                    <h2 class="text-white mb-4">Hi! I am Akshant Jain!</h2>
+                    <p class="text-white-50">Grayscale is a free Bootstrap theme created by Start Bootstrap. It can be
+                        yours right now, simply download the template on
+                        <a href="http://startbootstrap.com/template-overviews/grayscale/">the preview page</a>. The
+                        theme is open source, and you can use it for any purpose, personal or commercial.</p>
+                </div>
+            </div>
+            <!-- <img src="img/about.png" class="img-fluid" alt=""> -->
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects-section bg-light">
+        <div class="container">
+
+            <!-- Featured Project Row -->
+            <div class="row align-items-center no-gutters mb-4 mb-lg-5">
+                <div class="col-xl-8 col-lg-7">
+                    <img class="img-fluid mb-3 mb-lg-0" src="img/bg-masthead.jpg" alt="">
+                </div>
+                <div class="col-xl-4 col-lg-5">
+                    <div class="featured-text text-center text-lg-left">
+                        <h4>Shoreline</h4>
+                        <p class="text-black-50 mb-0">Grayscale is open source and MIT licensed. This means you can use
+                            it for any project - even commercial projects! Download it, customize it, and publish your
+                            website!</p>
                     </div>
                 </div>
-                <a target="_self" href="../pages/experience.html">Experience</a>
-                <a target="_self" href="../pages/resume.html">Resume</a>
-                <a target="_self" href="mailto:akshant.jain2@gmail.com" style="font-weight: bolder">E-mail</a>
             </div>
-            <div id="cont" class="container" style="float: left;" onclick="myFunction(this)">
-                <div class="bar1"></div>
-                <div class="bar2"></div>
-                <div class="bar3"></div>
+
+            <!-- Project One Row -->
+            <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
+                <div class="col-lg-6">
+                    <img class="img-fluid" src="img/demo-image-01.jpg" alt="">
+                </div>
+                <div class="col-lg-6">
+                    <div class="bg-black text-center h-100 project">
+                        <div class="d-flex h-100">
+                            <div class="project-text w-100 my-auto text-center text-lg-left">
+                                <h4 class="text-white">Misty</h4>
+                                <p class="mb-0 text-white-50">An example of where you can put an image of a project, or
+                                    anything else, along with a description.</p>
+                                <hr class="d-none d-lg-block mb-0 ml-0">
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-        </div> 
 
-        <!------------------------------ Header of the page ------------------------------------------->
-        <div id="head" class="header">    <p>About Me</p>     </div>
+            <!-- Project Two Row -->
+            <div class="row justify-content-center no-gutters">
+                <div class="col-lg-6">
+                    <img class="img-fluid" src="img/demo-image-02.jpg" alt="">
+                </div>
+                <div class="col-lg-6 order-lg-first">
+                    <div class="bg-black text-center h-100 project">
+                        <div class="d-flex h-100">
+                            <div class="project-text w-100 my-auto text-center text-lg-right">
+                                <h4 class="text-white">Mountains</h4>
+                                <p class="mb-0 text-white-50">Another example of a project with its respective
+                                    description. These sections work well responsively as well, try this theme on a
+                                    small screen!</p>
+                                <hr class="d-none d-lg-block mb-0 mr-0">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
-        <!------------------------------ Section in the page ------------------------------------------>
-        <div class="aboutme" style="align-content: center; font-size: 14px; background-color: white">
+        </div>
+    </section>
+
+    <!-- Signup Section -->
+    <section id="signup" class="signup-section">
+        <div class="container">
             <div class="row">
-                <div class="column33">
-                    <img src="../images/my_image.jpg" class="me">
-                </div>
-                <div class="column66">
-                    <p class="intro"> <span class="heading" style="font-size: 17px;">Hi! I am Akshant Jain.</span> <br> <br>
-                        Pursuing <strong> B.S in Computer Science </strong> along with <strong> Minor in Mathematics </strong> at University of Illinois at Chicago. 
-                        I love learning new programming languages and using them to achieve my goals and assignments.
-                    <br>
-                    <br>
-                        I am an International Student in my Junior year and I have experience in programming languages like 
-                        C++, Python, Assembly, Java along with software like Microsoft Word, Microsoft Excel, Microsoft Power Point, Adobe Photoshop, Adobe Reader, Unix.
-                    <br> 
-                    <br>   
-                        I am currently looking for Internships and co-op opportunities to gain experience in a working environment.
-                    </p>
+                <div class="col-md-10 col-lg-8 mx-auto text-center">
+
+                    <i class="far fa-paper-plane fa-2x mb-2 text-white"></i>
+                    <h2 class="text-white mb-5">Subscribe to receive updates!</h2>
+
+                    <form class="form-inline d-flex">
+                        <input type="email" class="form-control flex-fill mr-0 mr-sm-2 mb-3 mb-sm-0" id="inputEmail"
+                            placeholder="Enter email address...">
+                        <button type="submit" class="btn btn-primary mx-auto">Subscribe</button>
+                    </form>
+
                 </div>
             </div>
         </div>
+    </section>
 
-        <!------------------------------------- Footer of the Page -------------------------------------->
-        <div class="footer">
-            <p>
-                <a href="https://www.facebook.com/akshant.jain" target="_blank" class="fa fa-facebook"></a>
-                <a href="https://www.linkedin.com/in/akshant-jain" target="_blank" class="fa fa-linkedin"></a>
-                <a href="mailto:akshant.jain2@gmail.com" target="_blank" class="fa fa-envelope-open"></a>
-                <a href="https://wa.me/13125610879?text=I'm%20interested%20in%20developing%20a%20site%20by%20you." target="_blank" class="fa fa-whatsapp"></a>
-                <a href="https://www.instagram.com/akshant_jain/" target="_blank" class="fa fa-instagram"></a>
-                <a href="https://github.com/Akshantjain" target="_blank" class="fa fa-github"></a>
-                <br>
-                <a class="weblink" href="https://github.com/Akshantjain/my_website" target="_blank" style="font-size: 12px"> Designed & Built by Akshant Jain</a>
-            </p>
+    <!-- Contact Section -->
+    <section class="contact-section bg-black">
+        <div class="container">
+
+            <div class="row">
+
+                <div class="col-md-4 mb-3 mb-md-0">
+                    <div class="card py-4 h-100">
+                        <div class="card-body text-center">
+                            <i class="fas fa-map-marked-alt text-primary mb-2"></i>
+                            <h4 class="text-uppercase m-0">Address</h4>
+                            <hr class="my-4">
+                            <div class="small text-black-50">4923 Market Street, Orlando FL</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 mb-3 mb-md-0">
+                    <div class="card py-4 h-100">
+                        <div class="card-body text-center">
+                            <i class="fas fa-envelope text-primary mb-2"></i>
+                            <h4 class="text-uppercase m-0">Email</h4>
+                            <hr class="my-4">
+                            <div class="small text-black-50">
+                                <a href="#">your@domain.com</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 mb-3 mb-md-0">
+                    <div class="card py-4 h-100">
+                        <div class="card-body text-center">
+                            <i class="fas fa-mobile-alt text-primary mb-2"></i>
+                            <h4 class="text-uppercase m-0">Phone</h4>
+                            <hr class="my-4">
+                            <div class="small text-black-50">+1 (555) 902-8832</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="social d-flex justify-content-center">
+                <a href="#" class="mx-2 google">
+                    <!-- The Google logo code has been taken from "developers.google.com" website using Chrome Dev Tools -->
+                    <svg class="google-colored" version="1.1" xmlns="http://www.w3.org/2000/svg" width="15px" height="16px"
+                        viewBox="0 0 48 48" class="abcRioButtonSvg">
+                        <g>
+                            <path fill="#EA4335"
+                                d="M24 9.5c3.54 0 6.71 1.22 9.21 3.6l6.85-6.85C35.9 2.38 30.47 0 24 0 14.62 0 6.51 5.38 2.56 13.22l7.98 6.19C12.43 13.72 17.74 9.5 24 9.5z">
+                            </path>
+                            <path fill="#4285F4"
+                                d="M46.98 24.55c0-1.57-.15-3.09-.38-4.55H24v9.02h12.94c-.58 2.96-2.26 5.48-4.78 7.18l7.73 6c4.51-4.18 7.09-10.36 7.09-17.65z">
+                            </path>
+                            <path fill="#FBBC05"
+                                d="M10.53 28.59c-.48-1.45-.76-2.99-.76-4.59s.27-3.14.76-4.59l-7.98-6.19C.92 16.46 0 20.12 0 24c0 3.88.92 7.54 2.56 10.78l7.97-6.19z">
+                            </path>
+                            <path fill="#34A853"
+                                d="M24 48c6.48 0 11.93-2.13 15.89-5.81l-7.73-6c-2.15 1.45-4.92 2.3-8.16 2.3-6.26 0-11.57-4.22-13.47-9.91l-7.98 6.19C6.51 42.62 14.62 48 24 48z">
+                            </path>
+                            <path fill="none" d="M0 0h48v48H0z"></path>
+                        </g>
+                    </svg>
+                    <!-- The Google Logo code from "developers.google.com ends here" -->
+                </a>
+
+                <a href="#" class="mx-2 linkedin">
+                    <i class="fab fa-linkedin-in"></i>
+                </a>
+                <a href="#" class="mx-2 github">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="#" class="mx-2 fb">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+                <a href="#" class="mx-2 whatsapp">
+                    <i class="fab fa-whatsapp"></i>
+                </a>
+            </div>
         </div>
-        <!--------------------------------------------------------------------------------------------->
-    </body>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-black small text-center text-white-50" style="padding-top: 30px;">
+        <div class="container">
+            Re-Designed by Akshant Jain <br>
+            Copyright &copy; Akshant Jain 2020
+        </div>
+    </footer>
+
+    <!-- Bootstrap core JavaScript -->
+    <!-- <script src="vendor/jquery/jquery.min.js"></script> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" 
+            integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" 
+            crossorigin="anonymous">
+    </script>
+    
+    <!-- <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script> -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" 
+            integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" 
+            crossorigin="anonymous">
+    </script>
+
+    <!-- Plugin JavaScript -->
+    <!-- <script src="vendor/jquery-easing/jquery.easing.min.js"></script> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js" 
+            integrity="sha256-H3cjtrm/ztDeuhCN9I4yh4iN2Ybx/y1RM7rMmAesA0k=" 
+            crossorigin="anonymous">
+    </script>
+
+    <!-- Custom scripts for this template -->
+    <script src="js/grayscale.min.js"></script>
+
+</body>
+
 </html>
