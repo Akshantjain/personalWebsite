@@ -86,6 +86,7 @@
     background: -webkit-linear-gradient(rgba(255, 255, 255, .9), rgba(255, 255, 255, 0));
     -webkit-text-fill-color: transparent;
     -webkit-background-clip:text;
+    background-clip: text;
 }
 
 .masthead h2 {
@@ -185,7 +186,7 @@
 
     #mainNav.navbar-shrink .nav-link {
         color: #161616;
-        padding: 1.5rem 1.5rem 1.25rem;
+        padding: 1.5rem 1.5rem 1.5rem;
         border-bottom:.25rem solid transparent
     }
 
@@ -264,6 +265,10 @@
   }
 }
 
+.skills {
+    padding: 0%;
+    margin: 0%;
+}
 
 .btn-primary:focus  {
     background-color:black;
