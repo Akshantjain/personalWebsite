@@ -6,8 +6,9 @@
         Copyright (c) 2019-2020 Akshant Jain
  */
 
-/* #page-top   {
-    visibility: hidden;
+/* .contents   {
+    /* visibility: hidden; 
+    display: none;
 } */
 
  #mainNav {
@@ -18,7 +19,7 @@
     animation-duration: 1.5s;
     animation-delay: .5s;
     animation-fill-mode: forwards;
-    /* visibility: hidden; */
+     /* visibility: hidden; */
 }
 
 #mainNav .navbar-toggler {
@@ -33,6 +34,10 @@
 }
 
 #mainNav .navbar-brand {
+    font-family: 'Gentium Basic', serif;
+    font-style: italic;
+    font-size: x-large;
+    letter-spacing: 0.1rem;
     color: #161616;
     font-weight: 700;
     padding:.9rem 0;
@@ -109,7 +114,7 @@
 }
 
 #button-container   {
-    margin-top: 200px;
+    margin-top: 20%;
 }
 
 .masthead h2 {
@@ -328,6 +333,10 @@
     margin: auto;
 }
 
+.about-intro p  {
+    font-family: 'Sura', serif;
+}
+
 .skill-section {
     padding-top: 6rem;
     background-image:  linear-gradient(to bottom,#000000 0%, rgba(22, 22, 22, .9) 75%, rgba(17, 17, 17, 0.8) 100%);
@@ -339,10 +348,10 @@
 }
 
 .heads   {
-    font-family: 'Varela Round';
+    font-family: 'Source Sans Pro', sans-serif;
     font-size: 2.8rem;
     line-height: 2.5rem;
-    letter-spacing: .3rem;
+    letter-spacing: .2rem;
     
     background: linear-gradient(rgba(255, 255, 255, .9), rgba(255, 255, 255, 0));
     /* text-fill-color: transparent; */

@@ -87,13 +87,13 @@
     </header>
 
     <!-- About Section -->
-    <section id="about" class="about-section">
+    <section id="about" class="about-section contents">
         <div class="container-fluid">
             <h1 class="mx-5 text-left text-uppercase heads">About Me</h1>
             <div class="row m-4">
                 <div class="about-intro pt-2">
                     <img src="img/my_image.jpg" class="headshot container">
-                    <h2 class="text-white mb-2 text-left">Hi! I am Akshant Jain!</h2>
+                    <h2 class="text-white mb-2 text-left" style=" font-family: 'Source Sans Pro', sans-serif;">Hi! I'm Akshant Jain!</h2>
                     <span class="line mt-0 mb-4"></span>
                     <p class="text-white-50 mb-3 text-justify">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed hendrerit tortor a lacus maximus, ac maximus purus
@@ -132,12 +132,12 @@
     </section>
 
     <!-- Coursework & Skills Section -->
-    <section id="skills" class="skill-section">
+    <section id="skills" class="skill-section contents">
         <div class="container-fluid px-5">
             <h1 class=" text-right text-uppercase heads mx-5">Courserowk and Skills</h1>
             <div class="row m-5">
                 <div class="col" id="works">
-                    <h3 class="text-white mb-2 text-left"><span class="fa fa-book-open px-1"></span>Coursework</h2>
+                    <h3 class="text-white mb-2 text-left"><span class="far fa-book-open px-1"></span>Coursework</h2>
                     <!-- <span class="line mt-0 mb-4 w-50"></span> -->
                 </div>
                 <div class="col">
@@ -216,7 +216,7 @@
     </section>
 
     <!-- Projects Section -->
-    <section id="projects" class="projects-section bg-light">
+    <section id="projects" class="projects-section bg-light contents">
         <div class="container">
             
             <!-- Featured Project Row -->
@@ -275,7 +275,7 @@
     </section>
 
     <!-- Experience Section -->
-    <section id="experience" class=""></section>
+    <section id="experience" class="contents"></section>
 
     <!-- Signup Section -->
     <!-- <section id="signup" class="signup-section">
@@ -298,7 +298,7 @@
     </section> -->
 
     <!-- Contact Section -->
-    <section class="contact-section bg-black" id="contact">
+    <section class="contact-section bg-black contents" id="contact">
         <div class="container">
 
             <div class="row">
@@ -405,7 +405,7 @@
     </section>
 
     <!-- Footer -->
-    <footer class="bg-black small text-center text-white-50" style="padding-top: 30px;">
+    <footer class="bg-black small text-center contents text-white-50" style="padding-top: 30px;">
         <div class="container">
             Re-Designed by Akshant Jain <br>
             Copyright &copy; Akshant Jain 2020
@@ -440,10 +440,11 @@
 
             setTimeout(() => { 
                 $(".masthead h2").css({visibility: 'visible'});
-                $(".masthead h1").animate({ height: '16rem' });
+                $(".masthead h1").animate({ height: '16rem' }, 600);
                 setTimeout(() => {
                     $("#mainNav").animate({ marginTop: '0px' });
                     $("#button-container").animate({ marginTop: '0px' });
+                    // $(".contents").css({ display: 'inherit' });
                 }, 900)
             } , 600);
             
