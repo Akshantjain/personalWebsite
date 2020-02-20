@@ -60,7 +60,7 @@
                         <a class="nav-link js-scroll-trigger" href="#experience">Experience</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link js-scroll-trigger" href="#signup">Contact</a>
+                        <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
                     </li>
                 </ul>
             </div>
@@ -71,12 +71,12 @@
     <header class="masthead">
         <div class="container d-flex h-75 align-items-center pt-5">
             <div class="mx-auto text-center pb-1">
-                <h1 class="mx-auto my-0 text-uppercase text-white pt-3">Akshant Jain</h1>
-                <section class="mt-4" ></section>
-                <h2 class="text-white mx-auto mt-2 mb-5 pt-3">Aspiring Software Developer and Web Designer</h2>
+                <h1 class="mx-auto text-uppercase text-white">Akshant Jain</h1>
+                <div class="divider" style="background-color: transparent;"></div>
+                <h2 class="text-white mx-auto">Aspiring Software Developer and Web Designer</h2>
             </div>
         </div>
-        <div class="container d-flex h-25  pb-5 align-items-end">
+        <div class="container d-flex h-25  pb-5 align-items-end" id="button-container">
             <div class="mx-auto text-center" id="scroll">
                 <a href="#about" class="btn btn-primary js-scroll-trigger">
                     <span></span>
@@ -91,7 +91,7 @@
         <div class="container-fluid">
             <h1 class="mx-5 text-left text-uppercase heads">About Me</h1>
             <div class="row m-4">
-                <div class="about-intro">
+                <div class="about-intro pt-2">
                     <img src="img/my_image.jpg" class="headshot container">
                     <h2 class="text-white mb-2 text-left">Hi! I am Akshant Jain!</h2>
                     <span class="line mt-0 mb-4"></span>
@@ -137,16 +137,16 @@
             <h1 class=" text-right text-uppercase heads mx-5">Courserowk and Skills</h1>
             <div class="row m-5">
                 <div class="col" id="works">
-                    <h3 class="text-white mb-2 text-left text-uppercase">Courserowk</h2>
+                    <h3 class="text-white mb-2 text-left"><span class="fa fa-book-open px-1"></span>Coursework</h2>
                     <!-- <span class="line mt-0 mb-4 w-50"></span> -->
                 </div>
                 <div class="col">
                     <div class="row" id="skills">
-                        <h3 class="text-white mb-2 pl-2 text-left text-uppercase">Tools</h2>
+                        <h3 class="text-white mb-2 pl-2 text-left"><span class="fa fa-cogs px-1"></span>Tools</h2>
                         <!-- <span class="line mt-0 mb-4 ml-2 w-75"></span> -->
                     </div>
                     <div class="row" id="skills">
-                        <h3 class="text-white mb-2 pl-2 text-left text-uppercase">Technologies</h2>
+                        <h3 class="text-white mb-2 pl-2 text-left"><i class="far fa-globe px-1"></i>Technologies</h2>
                         <!-- <span class="line mt-0 mb-4 ml-2 w-75"></span> -->
                     </div>
                 
@@ -278,7 +278,7 @@
     <section id="experience" class=""></section>
 
     <!-- Signup Section -->
-    <section id="signup" class="signup-section">
+    <!-- <section id="signup" class="signup-section">
         <div class="container">
             <div class="row">
                 <div class="col-md-10 col-lg-8 mx-auto text-center">
@@ -295,10 +295,10 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
 
     <!-- Contact Section -->
-    <section class="contact-section bg-black">
+    <section class="contact-section bg-black" id="contact">
         <div class="container">
 
             <div class="row">
@@ -434,6 +434,21 @@
 
     <!-- Custom scripts for this template -->
     <script src="js/script.js"></script>
+
+    <script>
+        $(window).on("load", function name() {
+
+            setTimeout(() => { 
+                $(".masthead h2").css({visibility: 'visible'});
+                $(".masthead h1").animate({ height: '16rem' });
+                setTimeout(() => {
+                    $("#mainNav").animate({ marginTop: '0px' });
+                    $("#button-container").animate({ marginTop: '0px' });
+                }, 900)
+            } , 600);
+            
+        })
+    </script>
 
 </body>
 

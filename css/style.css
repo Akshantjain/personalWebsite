@@ -5,10 +5,19 @@
     Re-designed and edited by Akshant Jain under MIT License
         Copyright (c) 2019-2020 Akshant Jain
  */
+
+/* #page-top   {
+    visibility: hidden;
+} */
+
  #mainNav {
     min-height: 56px;
     background-color:#fff;
     text-transform: uppercase;
+    margin-top: -83px;
+    animation-duration: 1.5s;
+    animation-delay: .5s;
+    animation-fill-mode: forwards;
     /* visibility: hidden; */
 }
 
@@ -62,6 +71,13 @@
     width: 20%;
 }
 
+.divider    {
+    /* transition: height 0.5s ease-in-out; */
+    animation-duration: .8s;
+    animation-delay: .3s;
+    animation-fill-mode: forwards;
+}
+
 .masthead {
     position: relative;
     width: 100%;
@@ -78,27 +94,40 @@
 }
 
 .masthead h1 {
+    height: 0px;
     font-family: 'Varela Round';
     font-size: 2.5rem;
     line-height: 2.5rem;
     letter-spacing: .8rem;
-    padding-bottom: 70px;
-    background: -webkit-linear-gradient(rgba(255, 255, 255, .9), rgba(255, 255, 255, 0));
+    background: -webkit-linear-gradient(rgba(255, 255, 255, 1), rgba(255, 255, 255, 0));
     -webkit-text-fill-color: transparent;
     -webkit-background-clip:text;
     background-clip: text;
+    animation-duration: 1.5s;
+    animation-delay: .5s;
+    animation-fill-mode: forwards;
+}
+
+#button-container   {
+    margin-top: 200px;
 }
 
 .masthead h2 {
+    visibility: hidden;
     max-width: 20rem;
-    font-size:1rem
+    font-size:0rem;
+    animation-duration: 1.5s;
+    animation-delay: 2s;
+    animation-fill-mode: forwards;
+
+    background-clip: text;
 }
 
 @media (max-width: 549px) {
     .masthead h1 {
         font-size: 1.5em;
         letter-spacing: 0.4rem;
-        padding-bottom: 80px;
+        /* padding-bottom: 80px; */
         /* line-height:4rem; */
     }
 }
@@ -107,7 +136,7 @@
     .masthead h1 {
         font-size: 3.5em;
         letter-spacing: 0.4rem;
-        padding-bottom: 80px;
+        /* padding-bottom: 80px; */
         /* line-height:4rem; */
     }
     
@@ -121,7 +150,7 @@
     .masthead h1 {
         font-size: 3rem;
         line-height:4rem;
-        padding-bottom: 90px;
+        /* padding-bottom: 90px; */
     }
 
 }
@@ -271,7 +300,7 @@
 }
 
 .btn-primary:focus  {
-    background-color:black;
+    background-color:none;
 }
 
 .btn-primary:hover {
@@ -285,7 +314,7 @@
 .about-section {
     padding-top: 4.5%;
     padding-bottom: 5%;
-    background:linear-gradient(to bottom, #000000 0, rgba(22, 22, 22, .9) 75%, rgba(17, 17, 17, 0.8) 100%)
+    background:linear-gradient(to bottom, #000000 0%, rgba(22, 22, 22, .9) 75%, rgba(17, 17, 17, 0.8) 100%)
 }
 
 .about-section p {
@@ -301,7 +330,7 @@
 
 .skill-section {
     padding-top: 6rem;
-    background-image:  linear-gradient(to bottom, rgba(22, 22, 22, .8) 0%, rgba(22, 22, 22, 0.7) 50%, rgba(22, 22, 22, 0.6) 100%), url(../img/skills.png);
+    background-image:  linear-gradient(to bottom,#000000 0%, rgba(22, 22, 22, .9) 75%, rgba(17, 17, 17, 0.8) 100%);
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: scroll;
@@ -319,7 +348,7 @@
     /* text-fill-color: transparent; */
     background-clip:text;
 
-    background: -webkit-linear-gradient(rgba(255, 255, 255, .9), rgba(255, 255, 255, 0));
+    background: -webkit-linear-gradient(rgba(255, 255, 255, .9) 0%, rgba(255, 255, 255, .5) 80%,rgba(255, 255, 255, 0) 100%);
     -webkit-text-fill-color: transparent;
     -webkit-background-clip:text;
 
