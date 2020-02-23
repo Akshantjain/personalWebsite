@@ -43,8 +43,7 @@
     padding:.9rem 0;
     text-transform: capitalize;
 }
-
-#mainNav .navbar-nav .nav-item:hover {
+ #mainNav .navbar-nav .nav-item:hover {
     color: fade(white, 80%);
     outline: 0;
     background-color:transparent;
@@ -550,7 +549,14 @@
 body {
     font-family: Nunito;
     letter-spacing:.0625em;
+    overflow-y: scroll;
+    overflow-x: scroll;
+    -ms-overflow-style: none;
     /* background-color: #000000; */
+}
+
+body::-webkit-scrollbar {
+  display: none;
 }
 
 a {
