@@ -381,8 +381,9 @@
     display: block;
     width: 100%;
     height: auto;
-    opacity: 1;
+    opacity: 0.5;
     transition: .5s ease-in-out;
+    background-color: black;
 }
 
 .project-overlay    {
@@ -435,18 +436,22 @@ div.project-description ul   {
     list-style-type: square;
 }
 
-.container:hover .project-overlay {
+.container:hover .featured-image-HS1  {
+    opacity: 1;
+}
+
+.project-overlay:hover {
     height: 98%;
     background-color: rgba(0, 0, 0, 0.712);
     border-top: none;
 }
 
-.container:hover .project-description    {
+.project-overlay:hover .project-description    {
     opacity: 1 !important;
     display: block;
 }
 
-.container:hover .repo-button   {
+.project-overlay:hover .repo-button   {
     opacity: 1;
 }
 
