@@ -51,7 +51,7 @@
 
 #mainNav .navbar-nav .nav-item:active, #mainNav .navbar-nav .nav-item:focus {
     outline: 0;
-    background-color:transparent
+    background-color:transparent;
 }
 
 .about-section .headshot {
@@ -253,6 +253,9 @@
     background-color:black
 }
 
+#scroll a   {
+    background-color: transparent;
+}
 
 #scroll a span{
     margin-top: 12px;
@@ -266,12 +269,12 @@
     border-bottom: 1px solid #fff;
     -webkit-transform: rotateZ(-45deg);
     transform: rotateZ(-45deg);
-    -webkit-animation: sdb05 1.5s infinite;
-    animation: sdb05 1.5s infinite;
+    -webkit-animation: arrow 1.5s infinite;
+    animation: arrow 1.5s infinite;
     /* box-sizing: border-box; */
 }
 
-@-webkit-keyframes sdb05 {
+@-webkit-keyframes arrow {
   0% {
     -webkit-transform: rotate(-45deg) translate(0, 0);
     opacity: 0;
@@ -284,7 +287,7 @@
     opacity: 0;
   }
 }
-@keyframes sdb05 {
+@keyframes arrow {
   0% {
     transform: rotate(-45deg) translate(0, 0);
     opacity: 0;
@@ -344,7 +347,7 @@
     background-attachment: scroll;
     background-size:cover;
     padding-bottom: 5rem;
-    display: none;
+    /* display: none; */
 }
 
 .heads   {
@@ -679,3 +682,28 @@ a:focus, a:hover {
 footer {
     padding: 5rem 0
 }
+
+p.shining   {
+position: relative;
+  font-family: sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  overflow: hidden;
+  background: linear-gradient(45deg, rgb(31, 31, 31), #fff, rgb(31, 31, 31));
+  background-repeat: no-repeat;
+  background-size: 80%;
+  animation: shining 3s linear infinite;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: rgba(255, 255, 255, 0);
+}
+
+
+@keyframes shining {
+  0% {
+    background-position: -450%;
+  }
+  100% {
+    background-position: 450%;
+  }
+}
+

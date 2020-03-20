@@ -37,7 +37,7 @@
 
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
-        <div class="container">
+        <div class="container-fluid mx-5">
             <a class="navbar-brand js-scroll-trigger" href="#page-top">Akshant Jain</a>
             <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
                 data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
@@ -80,7 +80,7 @@
             <div class="mx-auto text-center" id="scroll">
                 <a href="#about" class="btn btn-primary js-scroll-trigger">
                     <span></span>
-                    about me
+                    <p class="shining">about me</p>
                 </a>
             </div>
         </div>
@@ -88,7 +88,7 @@
 
     <!-- About Section -->
     <section id="about" class="about-section contents">
-        <div class="container-fluid">
+        <div id="about_container" class="container-fluid">
             <h1 class="mx-5 text-left text-uppercase heads">About Me</h1>
             <div class="row m-4">
                 <div class="about-intro pt-2">
@@ -125,7 +125,7 @@
             <div class="mx-auto text-center skills mt-1 p-5" id="scroll">
                 <a href="#skills" class="btn btn-primary bg-transparent js-scroll-trigger">
                     <span></span>
-                    Coursework & Skills
+                    <p class="shining">Coursework & Skills</p>
                 </a>
             </div>
         </div>
@@ -133,24 +133,24 @@
 
     <!-- Coursework & Skills Section -->
     <section id="skills" class="skill-section contents">
-        <!-- <div class="container-fluid px-5">
+        <div class="container-fluid px-5">
             <h1 class=" text-right text-uppercase heads mx-5">Courserowk and Skills</h1>
             <div class="row m-5">
                 <div class="col" id="works">
-                    <h3 class="text-white mb-2 text-left"><span class="far fa-book-open px-1"></span>Coursework</h2> -->
-                    <!-- <span class="line mt-0 mb-4 w-50"></span> -->
-                <!-- </div>
+                    <h3 class="text-white mb-2 text-left"><span class="far fa-book-open px-1"></span>Coursework</h2>
+                    <span class="line mt-0 mb-4 w-50"></span>
+                </div>
                 <div class="col">
                     <div class="row" id="skills">
-                        <h3 class="text-white mb-2 pl-2 text-left"><span class="fa fa-cogs px-1"></span>Tools</h2> -->
-                        <!-- <span class="line mt-0 mb-4 ml-2 w-75"></span> -->
-                    <!-- </div>
+                        <h3 class="text-white mb-2 pl-2 text-left"><span class="fa fa-cogs px-1"></span>Tools</h2>
+                        <span class="line mt-0 mb-4 ml-2 w-75"></span>
+                    </div>
                     <div class="row" id="skills">
-                        <h3 class="text-white mb-2 pl-2 text-left"><i class="far fa-globe px-1"></i>Technologies</h2> -->
-                        <!-- <span class="line mt-0 mb-4 ml-2 w-75"></span> -->
-                    <!-- </div>
+                        <h3 class="text-white mb-2 pl-2 text-left"><i class="far fa-globe px-1"></i>Technologies</h2>
+                         <span class="line mt-0 mb-4 ml-2 w-75"></span>
+                    </div>
                 </div>
-            </div> -->
+            </div>
             <!-- <div class="row">
                 <div class="mx-auto col">
                     <h2 class="text-white">Coursework</h2>
@@ -164,8 +164,8 @@
                         <li>Web and Multimedia Technology</li>
                     </ul>
                 </div>
-            </div> -->
-            <!-- <div class="row">
+            </div>
+            <div class="row">
                 <div class="mx-auto col">
                     <h2 class="text-white">Skills</h2>
                     <ul class="text-white-50">
@@ -202,16 +202,16 @@
                         </li>
                     </ul>
                 </div>
-            </div> -->
-        <!-- </div>
+            </div>
+        </div> -->
         <div class="container d-flex h-25 align-items-end">
             <div class="mx-auto text-center skills mt-1 pt-4" id="scroll">
                 <a href="#projects" class="btn btn-primary bg-transparent js-scroll-trigger">
                     <span></span>
-                    Projects
+                    <p class="shining">Projects</p>
                 </a>
             </div>
-        </div> -->
+        </div>
     </section>
 
     <!-- Projects Section -->
@@ -622,11 +622,12 @@
                 $(".masthead h2").css({visibility: 'visible'});
                 $(".masthead h1").animate({ height: '16rem' }, 600);
                 setTimeout(() => {
-                    $("#mainNav").animate({ marginTop: '0px' });
                     $("#button-container").animate({ marginTop: '0px' });
-                    // $(".contents").css({ display: 'inherit' });
-                }, 900)
-            } , 600);
+                    setTimeout(() => {
+                        $("#mainNav").animate({ marginTop: '0px' });
+                    }, 1000);
+                }, 1200);
+            } , 500);
             
         })
     </script>
