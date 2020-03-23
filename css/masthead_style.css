@@ -1,0 +1,98 @@
+.divider    {
+    /* transition: height 0.5s ease-in-out; */
+    animation-duration: .8s;
+    animation-delay: .3s;
+    animation-fill-mode: forwards;
+}
+
+.masthead {
+    position: relative;
+    width: 100%;
+    height: auto;
+    min-height: 35rem;
+    padding: 15rem 0;
+    /* background: linear-gradient(to bottom, rgba(22, 22, 22, .3) 0, rgba(22, 22, 22, .7) 75%, #161616 100%), url(../img/bg-masthead.jpg); */
+    background-image: url(../img/header3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size:cover;
+    /* float: right; */
+}
+
+.masthead h1 {
+    height: 0px;
+    font-family: 'Varela Round';
+    font-size: 2.5rem;
+    line-height: 2.5rem;
+    letter-spacing: .8rem;
+    background: -webkit-linear-gradient(rgba(255, 255, 255, 1), rgba(255, 255, 255, 0));
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip:text;
+    background-clip: text;
+    animation-duration: 1.5s;
+    animation-delay: .5s;
+    animation-fill-mode: forwards;
+}
+
+
+.masthead h2 {
+    visibility: hidden;
+    max-width: 20rem;
+    font-size:0rem;
+    animation-duration: 1.5s;
+    animation-delay: 2s;
+    animation-fill-mode: forwards;
+
+    background-clip: text;
+}
+
+@media (max-width: 549px) {
+    .masthead h1 {
+        font-size: 1.5em;
+        letter-spacing: 0.4rem;
+        /* padding-bottom: 80px; */
+        /* line-height:4rem; */
+    }
+}
+
+@media (min-width: 550px) {
+    .masthead h1 {
+        font-size: 3.5em;
+        letter-spacing: 0.4rem;
+        /* padding-bottom: 80px; */
+        /* line-height:4rem; */
+    }
+    
+    .btn-primary   {
+        height: auto;
+        width: auto;
+    }
+}
+
+@media (min-width: 768px) {
+    .masthead h1 {
+        font-size: 3rem;
+        line-height:4rem;
+        /* padding-bottom: 90px; */
+    }
+
+}
+
+@media (min-width: 999px) {
+    .masthead {
+        height: 100vh;
+        padding:0
+    }
+
+    .masthead h1 {
+        font-size: 6rem;
+        line-height: 6.5rem;
+        letter-spacing:.8rem
+    }
+
+    .masthead h2 {
+        max-width: 30rem;
+        font-size:1.25rem
+    }
+}
