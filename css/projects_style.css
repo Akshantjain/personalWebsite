@@ -149,7 +149,7 @@ div.horizontal-menu .sections   {
 .repo-button    {
     background-color: transparent;
     font-size: 15px;
-    display: inline-block;
+    display: block;
     border: 0.1rem solid #64a19d;
     color: #64a19d;
     text-align: center;
