@@ -15,7 +15,11 @@
     display: none;
 }
 
-.projects-section .featured-image-HS1   {
+.horizontal-scroll::-webkit-scrollbar    {
+    display: none;
+}
+
+/* .projects-section .featured-image-HS1   {
     display: block;
     width: 88%;
     height: auto;
@@ -23,20 +27,17 @@
     transition: .5s ease-in-out;
     background-color: black;
     box-sizing: border-box;
-    /* -webkit-box-sizing: border-box; */
+    -webkit-box-sizing: border-box;
     content: url("../img/HS_pic2.JPG");
-    animation-name: change;
-    animation-duration: 4s;
-    animation-iteration-count: infinite;
-}
-
-@keyframes change   {
-    from {content: url("../img/HS_pic1.JPG");}
-    to {content: url("../img/HS_pic2.JPG");}
-}
+} */
 
 .project-overlay    {
-    position: absolute;
+    box-sizing: content-box;
+    background: url("../img/HS_pic2.JPG");
+    background-position-y: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: color;
     left: 0;
     right: 0;
     bottom: 0;
@@ -44,6 +45,8 @@
     overflow: hidden;
     width: 100%;
     height: 99%;
+    min-width: 1000px;
+    min-height: 600px;
     transition: .5s ease-in-out;
     border-bottom: solid 0.2rem #64a19d;
     padding-top: 5px;
@@ -109,9 +112,9 @@ div.project-description ul   {
     list-style-type: square;
 }
 
-.container:hover .featured-image-HS1  {
+/* .container:hover .featured-image-HS1  {
     opacity: 1;
-}
+} */
 
 div.horizontal-scroll   {
     background-color: transparent;
@@ -134,11 +137,13 @@ div.horizontal-scroll a  {
     border-radius: 0.3rem;
     margin-right: 5px;
     transition: .5s ease-in-out;
+    overflow: scroll;
 }
 
 div.horizontal-menu {
     overflow: scroll;
     white-space: nowrap;
+    align-content: center;
 }
 
 div.horizontal-menu .sections   {
