@@ -4,12 +4,6 @@
     background:linear-gradient(to bottom, #000000 0%, rgba(22, 22, 22, .9) 75%, rgba(17, 17, 17, 0.8) 100%);
 }
 
-.projects-section .sections  {
-    position: relative;
-    width: 70%;
-    height: auto;
-    padding: 0%;
-}
 
 .horizontal-menu::-webkit-scrollbar    {
     display: none;
@@ -19,30 +13,15 @@
     display: none;
 }
 
-/* .projects-section .featured-image-HS1   {
-    display: block;
-    width: 88%;
-    height: auto;
-    opacity: 0.5;
-    transition: .5s ease-in-out;
-    background-color: black;
-    box-sizing: border-box;
-    -webkit-box-sizing: border-box;
-    content: url("../img/HS_pic2.JPG");
-} */
-
 .project-overlay    {
     box-sizing: content-box;
+    position: relative;
     background: url("../img/HS_pic2.JPG");
     background-position-y: bottom;
     background-repeat: no-repeat;
     background-size: cover;
     background-blend-mode: color;
-    left: 0;
-    right: 0;
-    bottom: 0;
     background-color: rgba(0, 0, 0, 0.712);
-    overflow: hidden;
     width: 100%;
     height: 99%;
     min-width: 1000px;
@@ -112,10 +91,6 @@ div.project-description ul   {
     list-style-type: square;
 }
 
-/* .container:hover .featured-image-HS1  {
-    opacity: 1;
-} */
-
 div.horizontal-scroll   {
     background-color: transparent;
     overflow: scroll;
@@ -143,12 +118,10 @@ div.horizontal-scroll a  {
 div.horizontal-menu {
     overflow: scroll;
     white-space: nowrap;
-    align-content: center;
 }
 
 div.horizontal-menu .sections   {
     display: inline-block;
-    margin-right: 40px;
 }
 
 .repo-button    {
