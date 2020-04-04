@@ -46,7 +46,7 @@
 <body id="page-top">
 
     <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-light fixed-top d-none" id="mainNav">
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
         <div class="container-fluid mx-5">
             <a class="navbar-brand js-scroll-trigger" href="#page-top">Akshant Jain</a>
             <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
@@ -78,7 +78,7 @@
     </nav>
 
     <!-- Header -->
-    <header class="masthead d-none">
+    <header class="masthead">
         <div class="container d-flex h-75 align-items-center pt-5">
             <div class="mx-auto text-center pb-1">
                 <h1 class="mx-auto text-uppercase text-white">Akshant Jain</h1>
@@ -97,7 +97,7 @@
     </header>
 
     <!-- About Section -->
-    <section id="about" class="about-section contents d-none">
+    <section id="about" class="about-section contents">
         <div id="about_container" class="container-fluid">
             <h1 class="mx-5 text-left text-uppercase heads">About Me</h1>
             <div class="row m-4">
@@ -142,79 +142,10 @@
     </section>
 
     <!-- Coursework & Skills Section -->
-    <section id="skills" class="skill-section contents d-none">
-        <div class="container-fluid px-5">
-            <h1 class=" text-right text-uppercase heads mx-5">Courserowk and Skills</h1>
-            <div class="row m-5">
-                <div class="col" id="works">
-                    <h3 class="text-white mb-2 text-left"><span class="far fa-book-open px-1"></span>Coursework</h2>
-                    <span class="line mt-0 mb-4 w-50"></span>
-                </div>
-                <div class="col">
-                    <div class="row" id="skills">
-                        <h3 class="text-white mb-2 pl-2 text-left"><span class="fa fa-cogs px-1"></span>Tools</h2>
-                        <span class="line mt-0 mb-4 ml-2 w-75"></span>
-                    </div>
-                    <div class="row" id="skills">
-                        <h3 class="text-white mb-2 pl-2 text-left"><i class="far fa-globe px-1"></i>Technologies</h2>
-                         <span class="line mt-0 mb-4 ml-2 w-75"></span>
-                    </div>
-                </div>
-            </div>
-            <!-- <div class="row">
-                <div class="mx-auto col">
-                    <h2 class="text-white">Coursework</h2>
-                    <ul class="text-white-50 coursework">
-                        <li>Program Design</li>
-                        <li>Data Structures</li>
-                        <li>Software Design</li>
-                        <li>Programming Languages and Its Implementations</li>
-                        <li>Computer Design</li>
-                        <li>Software Development for Mobile Platforms</li>
-                        <li>Web and Multimedia Technology</li>
-                    </ul>
-                </div>
-            </div>
-            <div class="row">
-                <div class="mx-auto col">
-                    <h2 class="text-white">Skills</h2>
-                    <ul class="text-white-50">
-                        <li>
-                            <h3>Programming Languages</h3>
-                            <ul class="prog">
-                                <li>Java</li>
-                                <li>C++</li>
-                                <li>C</li>
-                                <li>Python</li>
-                                <li>SQL</li>
-                                <li>F#</li>
-                            </ul>
-                        </li>
-                        <li>
-                            <h3>Web Development</h3>
-                            <ul class="web">
-                                <li>HTML</li>
-                                <li>CSS</li>
-                                <li>JavaScript</li>
-                                <li>Bootstrap</li>
-                                <li>API</li>
-                            </ul>
-                        </li>
-                        <li>
-                            <h3>Tools and Technologies</h3>
-                            <ul class="tools">
-                                <li>Github, Git</li>
-                                <li>Chrome Dev Tools</li>
-                                <li>Android Studio</li>
-                                <li>Arduino</li>
-                                <li>Command Line</li>
-                            </ul>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div> -->
-        <div class="container d-flex h-25 align-items-end">
+    <section id="skills" class="skill-section contents ">
+        <div class="container-fluid">
+            <h1 class=" text-left text-uppercase heads mx-5">Courserowk and Skills</h1>
+            <div class="container d-flex h-25 align-items-end">
             <div class="mx-auto text-center skills mt-1 pt-4" id="scroll">
                 <a href="#projects" class="btn btn-primary bg-transparent js-scroll-trigger">
                     <span></span>
@@ -225,19 +156,121 @@
     </section>
 
     <!-- Projects Section -->
-    <section id="projects" class="projects-section bg-light contents">
-        <div class="container-fluid">
-            <h1 class="mx-5 text-left text-uppercase heads mb-3">Projects</h1>
-            
-            
+    <section id="projects" class="projects-section contents">
+        <h1 class="mx-5 text-left text-uppercase heads mb-3">Projects</h1>
+        <div class="my-4">
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="1" class=""></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="2" class=""></li>
+                </ol>
+                <div class="carousel-inner" role="listbox">
+                    <!-- Slide One - Set the background image for this slide in the line below -->
+                    <div class="carousel-item active" id="home_security">
+                        <div class="carousel-caption d-none d-md-block"  style="top: 0;">
+                            <div class="container">
+                                <a class="repo-button" href="https://github.com/Akshantjain/Home-Security-System/tree/master/code" target="_blank">
+                                    <span class="fa fa-code pr-2 py-2 mr-1" style="border-right: 0.1rem solid #64a19d;"></span>
+                                    CODE
+                                </a>
+                                <a class="repo-button mr-3" href="https://github.com/Akshantjain/Home-Security-System/tree/master/code" target="_blank">
+                                    <span class="fa fa-shopping-cart pr-2 py-2 mr-1" style="border-right: 0.1rem solid #64a19d;"></span>
+                                    ARDUINO KIT
+                                </a>
+                            </div>
+                            <h3 class="titles">Home Security System</h3>
+                            <p class="duration pr-5 mr-4">September - December 2019</p>
+                            <div class="description text-justify">
+                                <ul>
+                                    <li>This project is a part of <em>Computer Design Course</em> (CS 362) of UIC from <em>Fall 2019</em> Semester.</li>
+                                    <li>This was a group project of three members. </li>
+                                    <li>The main idea of the project was to design and create a prototype of home security system.</li>
+                                    <li>The prototype is able to detect threats which could take place in a house in your absence.</li>
+                                    <li>Potential threats which system could detect includes theft, invade, smoke, fire, gas andlights.</li>
+                                    <li>The system is protected by a password which is you need to set every time you enable the system.</li>
+                                    <li>The security system is coded in C++ on Arduino and other hardwares.</li>
+                                </ul>
+                            </div>
 
-            <div class="container d-flex h-25 align-items-end" id="">
-                <div class="mx-auto text-center skills mt-1" id="scroll">
-                    <a href="#experience" class="btn btn-primary bg-transparent js-scroll-trigger">
-                        <span></span>
-                        <p class="shining">Experience</p>
-                    </a>
+                            <div class="mb-4 ml-3">
+                                <p class="m-0 mb-1 p-0 text-left"><span class="fa fa-tools px-1 "></span>Hardware and Concepts used:</p>
+                                <div class="horizontal-scroll px-2">
+                                    <a target="_blank" href="https://learn.sparkfun.com/tutorials/what-is-an-arduino/all">Arduino UNO (3)</a>
+                                    <a target="_blank" href="https://www.arduino.cc/en/Tutorial/MasterWriter">I2C
+                                        Communication</a>
+                                    <a target="_blank" href="https://learn.adafruit.com/lesson-0-getting-started/breadboard">
+                                        BreadBoard (3)</a>
+                                    <a target="_blank" href="https://learn.pimoroni.com/tutorial/170pt-projects/anatomy-of-a-mini-breadboard">
+                                        Mini BreadBoard (1)</a>
+                                    <a target="_blank" href="https://en.wikipedia.org/wiki/Nine-volt_battery"> Batteries (3)</a>
+                                    <a target="_blank" href="https://www.arduino.cc/en/Tutorial/HelloWorld"> 16x2 LCD Display
+                                        (3)</a>
+                                    <a target="_blank" href="https://www.arduino.cc/en/tutorial/blink"> LED Lights (4)</a>
+                                    <a target="_blank" href="https://www.instructables.com/id/How-to-use-a-photoresistor-or-photocell-Arduino-Tu/">
+                                        Photoresistor (1)</a>
+                                    <a target="_blank" href="https://www.arduino.cc/en/tutorial/potentiometer"> Potentiometer
+                                        (3)</a>
+                                    <a target="_blank" href="https://www.arduino.cc/en/tutorial/button"> Pin Buttons (2)</a>
+                                    <a target="_blank" href="https://www.tutorialspoint.com/arduino/arduino_ultrasonic_sensor.htm">Ultrasonic
+                                        Sensor (1)</a>
+                                    <a target="_blank" href="https://playground.arduino.cc/Code/Keypad/">4x4 Keypad (1)</a>
+                                    <a target="_blank"
+                                        href="https://create.arduino.cc/projecthub/Aritro/smoke-detection-using-mq-2-gas-sensor-79c54a">Smoke
+                                        Sensor (1)</a>
+                                    <a target="_blank"
+                                        href="https://create.arduino.cc/projecthub/SURYATEJA/use-a-buzzer-module-piezo-speaker-using-arduino-uno-89df45">
+                                        Buzzers (3)</a>
+                                    <a target="_blank" href="https://www.arduino.cc/en/reference/wire"> Connecting Wires
+                                        (~40)</a>
+                                    <a target="_blank" href="https://learn.adafruit.com/adafruit-arduino-lesson-2-leds/resistors"> Resistors
+                                        (8)</a>
+                                </div>
+                            </div>
+                            <div class="mb-4 ml-3">
+                                <p class="m-0 mb-1 p-0 text-left"><span class="px-1 fa fa-file-alt"></span>Project Documents:</p>
+                                <div class="horizontal-scroll px-2">
+                                    <a href="http://bit.ly/2SZ3C83" target="_blank">Initial Team and Idea</a>
+                                    <a href="http://bit.ly/3c8AoeG" target="_blank">Team and Project Contract</a>
+                                    <a href="http://bit.ly/2wIGSAx" target="_blank">Updated Design Document</a>
+                                    <a href="http://bit.ly/2SY0FEQ" target="_blank">Project Presentation</a>
+                                    <a href="http://bit.ly/2PrJo4V" target="_blank">Final Design Document</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Slide Two - Set the background image for this slide in the line below -->
+                    <div class="carousel-item" id="home_security">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h3>Second Slide</h3>
+                            <p class="duration">This is a description for the second slide.</p>
+                        </div>
+                    </div>
+                    <!-- Slide Three - Set the background image for this slide in the line below -->
+                    <div class="carousel-item" id="home_security">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h3>Third Slide</h3>
+                            <p>This is a description for the third slide.</p>
+                        </div>
+                    </div>
                 </div>
+                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </div>
+
+        <div class="container d-flex h-25 align-items-end" id="">
+            <div class="mx-auto text-center skills mt-1" id="scroll">
+                <a href="#experience" class="btn btn-primary bg-transparent js-scroll-trigger">
+                    <span></span>
+                    <p class="shining">Experience</p>
+                </a>
             </div>
         </div>
     </section>
@@ -266,7 +299,7 @@
     </section> -->
 
     <!-- Contact Section -->
-    <section class="contact-section bg-black contents d-none" id="contact">
+    <section class="contact-section bg-black contents" id="contact">
         <div class="container">
             <div class="row">
                 <div class="col-md-4 mb-3 mb-md-0">
@@ -371,7 +404,7 @@
     </section>
 
     <!-- Footer -->
-    <footer class="bg-black small text-center contents text-white-50 d-none" style="padding-top: 30px;">
+    <footer class="bg-black small text-center contents text-white-50" style="padding-top: 30px;">
         <div class="container">
             <a class="text-white-50" href="http://bit.ly/2VmnVhn" target="_blank">Re-Designed by Akshant Jain <br>
             Copyright &copy; Akshant Jain 2020</a>
