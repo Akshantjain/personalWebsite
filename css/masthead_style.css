@@ -23,7 +23,7 @@
 .masthead h1 {
     height: 0px;
     font-family: 'Varela Round';
-    font-size: 2.5rem;
+    font-size: 4rem;
     line-height: 2.5rem;
     letter-spacing: .8rem;
     background: linear-gradient(rgba(255, 255, 255, 1), rgba(255, 255, 255, 0));
@@ -37,19 +37,17 @@
 
 
 .masthead h2 {
-    visibility: hidden;
     max-width: 20rem;
     font-size:0rem;
     animation-duration: 1.5s;
     animation-delay: 2s;
     animation-fill-mode: forwards;
 
-    background-clip: text;
 }
 
 @media (max-width: 549px) {
     .masthead h1 {
-        font-size: 1.5em;
+        font-size: 2.5em;
         letter-spacing: 0.4rem;
         /* padding-bottom: 80px; */
         /* line-height:4rem; */
@@ -61,7 +59,7 @@
         font-size: 3.5em;
         letter-spacing: 0.4rem;
         /* padding-bottom: 80px; */
-        /* line-height:4rem; */
+        line-height:4rem;
     }
     
     .btn-primary   {
@@ -72,9 +70,16 @@
 
 @media (min-width: 768px) {
     .masthead h1 {
-        font-size: 3rem;
+        font-size: 5rem;
         line-height:4rem;
-        /* padding-bottom: 90px; */
+        margin-bottom: 2.4rem;
+    }
+
+}
+
+@media (max-width: 408px) {
+    .masthead h1 {
+        font-size: 1.5rem;
     }
 
 }

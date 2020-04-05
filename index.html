@@ -47,7 +47,7 @@
 
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
-        <div class="container-fluid mx-5">
+        <div class="container-fluid mx-3">
             <a class="navbar-brand js-scroll-trigger" href="#page-top">Akshant Jain</a>
             <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
                 data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
@@ -98,13 +98,13 @@
 
     <!-- About Section -->
     <section id="about" class="about-section contents">
-        <div id="about_container" class="container-fluid">
-            <h1 class="mx-5 text-left text-uppercase heads">About Me</h1>
-            <div class="row m-4">
+        <div id="container" class="container-fluid">
+            <h1 class=" text-left text-uppercase heads">About Me</h1>
+            <div class="row m-3">
                 <div class="about-intro pt-2">
-                    <img src="img/my_image.jpg" class="headshot container">
-                    <h2 class="text-white mb-2 text-left" style=" font-family: 'Source Sans Pro', sans-serif;">Hi! I'm Akshant Jain!</h2>
+                    <p class="name text-white mb-2" style=" font-family: 'Source Sans Pro', sans-serif;">Hi! I'm Akshant Jain!</h2>
                     <span class="line mt-0 mb-4"></span>
+                    <img src="img/my_image.jpg" class="headshot">
                     <p class="text-white-50 mb-3 text-justify">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed hendrerit tortor a lacus maximus, ac maximus purus
                     eleifend. Praesent sagittis, purus nec auctor convallis, urna est rutrum augue, nec congue purus leo id ipsum. Integer
@@ -132,10 +132,10 @@
             </div>
         </div>
         <div class="container d-flex h-25 align-items-end">
-            <div class="mx-auto text-center skills mt-1 p-5" id="scroll">
+            <div class="mx-auto text-center skills mt-1" id="scroll">
                 <a href="#skills" class="btn btn-primary bg-transparent js-scroll-trigger">
                     <span></span>
-                    <p class="shining">Coursework & Skills</p>
+                    <p class="shining mb-3">Coursework & Skills</p>
                 </a>
             </div>
         </div>
@@ -143,10 +143,11 @@
 
     <!-- Coursework & Skills Section -->
     <section id="skills" class="skill-section contents ">
-        <div class="container-fluid">
-            <h1 class=" text-left text-uppercase heads mx-5">Courserowk and Skills</h1>
-            <div class="container d-flex h-25 align-items-end">
-            <div class="mx-auto text-center skills mt-1 pt-4" id="scroll">
+        <div id="container" class="container-fluid">
+            <h1 class="text-left text-uppercase heads mb-3">Courserowk and Skills</h1>
+        </div>
+        <div class="container d-flex h-25 align-items-end">
+            <div class="mx-auto text-center skills mt-1" id="scroll">
                 <a href="#projects" class="btn btn-primary bg-transparent js-scroll-trigger">
                     <span></span>
                     <p class="shining">Projects</p>
@@ -157,8 +158,10 @@
 
     <!-- Projects Section -->
     <section id="projects" class="projects-section contents">
-        <h1 class="mx-5 text-left text-uppercase heads mb-3">Projects</h1>
-        <div class="my-4">
+        <div id="container" class="container-fluid">
+            <h1 class="text-left text-uppercase heads mb-3">Projects</h1>
+        </div>
+        <!-- <div class="my-4">
             <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
                 <ol class="carousel-indicators">
                     <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -166,7 +169,6 @@
                     <li data-target="#carouselExampleIndicators" data-slide-to="2" class=""></li>
                 </ol>
                 <div class="carousel-inner" role="listbox">
-                    <!-- Slide One - Set the background image for this slide in the line below -->
                     <div class="carousel-item active" id="home_security">
                         <div class="carousel-caption d-none d-md-block"  style="top: 0;">
                             <div class="container">
@@ -239,14 +241,12 @@
                             </div>
                         </div>
                     </div>
-                    <!-- Slide Two - Set the background image for this slide in the line below -->
                     <div class="carousel-item" id="home_security">
                         <div class="carousel-caption d-none d-md-block">
                             <h3>Second Slide</h3>
                             <p class="duration">This is a description for the second slide.</p>
                         </div>
                     </div>
-                    <!-- Slide Three - Set the background image for this slide in the line below -->
                     <div class="carousel-item" id="home_security">
                         <div class="carousel-caption d-none d-md-block">
                             <h3>Third Slide</h3>
@@ -263,7 +263,7 @@
                     <span class="sr-only">Next</span>
                 </a>
             </div>
-        </div>
+        </div>   -->
 
         <div class="container d-flex h-25 align-items-end" id="">
             <div class="mx-auto text-center skills mt-1" id="scroll">
@@ -276,7 +276,19 @@
     </section>
 
     <!-- Experience Section -->
-    <section id="experience" class="contents"></section>
+    <section id="experience" class="skill-section contents ">
+        <div id="container" class="container-fluid">
+            <h1 class="text-left text-uppercase heads mb-3">Experience</h1>
+        </div>
+        <div class="container d-flex h-25 align-items-end">
+            <div class="mx-auto text-center skills mt-1" id="scroll">
+                <a href="#resume" class="btn btn-primary bg-transparent js-scroll-trigger">
+                    <span></span>
+                    <p class="shining">Resume</p>
+                </a>
+            </div>
+        </div>
+    </section>
 
     <!-- Signup Section -->
     <!-- <section id="signup" class="signup-section">

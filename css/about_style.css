@@ -1,6 +1,6 @@
 .about-section {
-    padding-top: 4.5%;
-    padding-bottom: 5%;
+    padding-top: 4%;
+    padding-bottom: 3%;
     background:linear-gradient(to bottom, #000000 0%, rgba(22, 22, 22, .9) 75%, rgba(17, 17, 17, 0.8) 100%), url("../img/about.png");
     /* background-attachment: fixed; */
     background-repeat: no-repeat;
@@ -18,21 +18,49 @@
     margin: auto;
 }
 
+.about-intro .name {
+    font-size: 2rem;
+}
+
 .about-intro p  {
     font-family: 'Sura', serif;
 }
 
 .about-section .headshot {
-    display: block;
-    width: auto;
-    height: 10%;
     float: right;
     border-radius: 50%;
-    margin-top: 1%;
-    margin-left: 2%;
-    /* max-width:450px; */
-    max-width: 450px;
-    max-height: 450px;
+    margin-top: -4%;
+    margin-left: 3%;
+    margin-bottom: 1%;
+    height: auto;
+    width: 390px; 
 }
 
+@media (max-width: 942px)  {
+    .about-section .headshot {
+        width: 350px;
+        margin-left: 2%;
+    }
+}
 
+@media (max-width: 750px)  {
+    .about-section .headshot {
+        float: none;
+        margin-bottom: 5%;
+        /* align-self: center; */
+        width: 300px;
+        border-radius: 5%;
+        margin-left: 0px;
+    }
+}
+
+@media (max-width: 450px)  {
+    .about-section .headshot {
+        width: 70%;
+    }
+
+    .about-intro .name {
+        font-size: 1.4rem;
+    }
+
+}
