@@ -8,3 +8,14 @@
     padding-bottom: 3%;
     /* display: none; */
 }
+
+.skill-section .name    {
+    font-size: 2rem;
+}
+
+.wrapper    {
+    padding-top: 1rem;
+    width: 90%;
+    margin: auto;
+    display: inline-block;
+}
