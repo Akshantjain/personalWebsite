@@ -14,7 +14,7 @@
             if ((a = a.length ? a : e("[name=" + this.hash.slice(1) + "]")).length)
                 return e("html, body").animate({
                     scrollTop: a.offset().top - 70
-                }, 1e3, "easeInOutExpo"), !1
+                }, 1e3, "easeOutExpo"), !1
         }
     }), e(".js-scroll-trigger").click(function () {
         e(".navbar-collapse").collapse("hide")

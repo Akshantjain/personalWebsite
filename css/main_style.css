@@ -7,6 +7,10 @@ body {
     /* background-color: #000000; */
 }
 
+html  {
+  scroll-behavior: smooth;
+}
+
 body::-webkit-scrollbar {
   display: none;
 }
@@ -34,6 +38,7 @@ a:focus, a:hover {
     -webkit-text-fill-color: transparent;
     -webkit-background-clip:text;
     margin: 0rem 3rem 0rem 3rem;
+    padding-bottom: 0.4rem;
 
     border-bottom: .2rem solid #64a19d;
 }
@@ -95,6 +100,11 @@ a:focus, a:hover {
     height: 2px;
     width: 20%;
 }
+
+.line2 {
+    background: rgba(255, 255, 255, .4);
+    background: rgba(255, 255, 255, .4);
+  }
 
 #button-container   {
     margin-top: 20%;
