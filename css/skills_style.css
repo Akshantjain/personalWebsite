@@ -103,7 +103,7 @@
 }
 
 .css:hover {
-    color: rgb(51, 114, 177);
+    color: rgb(43, 94, 146);
     transition: color .3s ease-in;
 }
 
@@ -113,7 +113,7 @@
 }
 
 .bootstrap:hover {
-    color: rgb(85, 66, 123);
+    color: rgb(57, 45, 83);
     transition: color .3s ease-in;
 }
 
