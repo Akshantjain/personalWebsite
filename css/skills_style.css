@@ -1,10 +1,10 @@
 .skill-section {
     padding-top: 4.5%;
-    background-image:  linear-gradient(to bottom,#000000 0%, rgba(22, 22, 22, .5) 50%, rgba(17, 17, 17, 0.8) 100%), url("../img/skills_section.png");
-    background-position-y: bottom;
+    background: url("../img/skills_section.png");
+    background-color: rgba(17, 17, 17, 0.7);
+    background-blend-mode: darken;
     background-repeat: no-repeat;
-    background-attachment: scroll;
-    background-size:cover;
+    background-size: cover;
     padding-bottom: 3%;
 }
 

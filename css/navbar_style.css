@@ -41,6 +41,18 @@
     background-color:transparent;
 }
 
+.main-logo {
+    width: 40px;
+    height: 40px;
+    margin-right: 11px;
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100%;
+}
+
 @media (min-width: 992px) {
     #mainNav {
         padding-top: 0;
