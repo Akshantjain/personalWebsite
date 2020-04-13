@@ -132,7 +132,7 @@
 
 .do_center::before{
   content:"";
-  margin-left:calc(100% - 87%);
+  margin-left:calc(100% - 90%);
 } 
 
 .line-center {
