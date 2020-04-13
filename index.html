@@ -152,16 +152,17 @@
                     <div class="row mt-4 mb-3 pl-3 container-fluid do_center">
                         <div class="img idea"></div>
                         <h4 class="text-uppercase d-inline-block text-white">knowledge: <span class="line" style="width: 80%;"></span></h4>
-                        <i class="devicon-java-plain-wordmark java"></i>
-                        <i class="devicon-cplusplus-plain cplusplus"></i>
-                        <i class="fab fa-python python"></i>
-                        <i class="devicon-mysql-plain-wordmark mysql"></i>
-                        <i class="devicon-android-plain-wordmark android"></i>
-                        <i class="fab fa-html5 html"></i>
-                        <i class="fab fa-css3-alt css"></i>
-                        <i class="fab fa-js javascript"></i>
-                        <i class="fab fa-bootstrap bootstrap"></i>
-                        <i class="devicon-github-plain-wordmark git"></i>
+                        <i id="java"    onmouseenter="changejavain()"    onmouseout="changejavaout()"     class="devicon-java-plain java"></i>
+                        <i id="cpp"     onmouseenter="changecppin()"     onmouseout="changecppout()"      class="devicon-cplusplus-plain cplusplus"></i>
+                        <i id="python"  onmouseenter="changepythonin()"  onmouseout="changepythonout()"   class="devicon-python-plain python"></i>
+                        <i id="mysql"   onmouseenter="changesqlin()"     onmouseout="changesqlout()"      class="devicon-mysql-plain mysql"></i>
+                        <i id="android" onmouseenter="changeandroidin()" onmouseout="changeandroidout()"  class="devicon-android-plain android"></i>
+                        <i id="html"    onmouseenter="changehtmlin()"    onmouseout="changehtmlout()"     class="devicon-html5-plain html"></i>
+                        <i id="css"     onmouseenter="changecssin()"     onmouseout="changecssout()"      class="devicon-css3-plain css"></i>
+                        <i id="jscript" class="devicon-javascript-plain javascript"></i>
+                        <i id="boot"    onmouseenter="changebootin()"    onmouseout="changebootout()"     class="devicon-bootstrap-plain bootstrap"></i>
+                        <i id="react"   onmouseenter="changereactin()"   onmouseout="changereactout()"    class="devicon-react-original react"></i>
+                        <i id="gitlogo" onmouseenter="changegitlogoin()" onmouseout="changegitlogoout()"  class="devicon-github-plain git"></i>
                     </div>
                     <span class="line line-center line2" style="width: 80%; height: 1px;"></span>
                     <div class=" mt-5 row">
@@ -1006,6 +1007,7 @@
         </script>
 
         <script src="js/projects.js"></script>
+        <script src="js/logochange.js"></script>
 
     </section>
 
