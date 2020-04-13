@@ -6,6 +6,8 @@
     background-repeat: no-repeat;
     background-size: cover;
     padding-bottom: 3%;
+    /* height: 95vh;
+    min-height: 500px; */
 }
 
 .skill-section .name    {

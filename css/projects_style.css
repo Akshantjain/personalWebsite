@@ -1,81 +1,19 @@
-.carousel-item {
-  height: 65vh;
-  min-height: 500px;
-  background: no-repeat center center scroll;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
-
 .projects-section {
     padding-top: 4.5%;
     padding-bottom: 3%;
-    background:linear-gradient(to bottom, #000000 0%, rgba(22, 22, 22, .9) 75%, rgba(17, 17, 17, 0.8) 100%);
-}
-
-#home_security {
-    background: url("../img/HS_pic2.JPG");
-    background-blend-mode: soft-light;
-    background-size: cover;
-    background-color: rgba(17, 17, 17, 0.6);
-    background-position-y: bottom;
+    background: url("../img/project_section.png");
+    background-color: rgba(17, 17, 17, 0.582);
+    background-blend-mode: darken;
     background-repeat: no-repeat;
-    box-shadow: inset 0px 0px 150px 60px black;
-}
-
-.carousel-control-prev-icon {
-    animation: prev 1.5s infinite;
-    height: 30px;
-    width: 30px;
-}
-.carousel-control-next-icon    {
-    animation: next 1.5s infinite;
-    height: 30px;
-    width: 30px;
-}
-
-@keyframes prev {
-    0% {
-        transform:translate(0, 0);
-        opacity: 0;
-    }
-    50% {
-        opacity: 1;
-    }
-    100% {
-        transform: translate(-40px, 0);
-        opacity: 0;
-    }
-}
-
-@keyframes next {
-    0% {
-        transform:translate(0, 0);
-        opacity: 0;
-    }
-    50% {
-        opacity: 1;
-    }
-    100% {
-        transform: translate(40px, 0);
-        opacity: 0;
-    }
-}
-
-.titles {
-    font-size: 30px;
-    font-weight: 800;
-    text-transform: uppercase;
-    letter-spacing: 0.25rem;
-    display: block;
+    background-size: cover;
 }
 
 .duration   {
-    font-size: 16px;
+    font-size: 15px;
     color: rgb(184, 184, 184);
     padding: 0%;
     margin: 0%;
+    display: inline-block;
 }
 
 div.description  {
@@ -85,7 +23,21 @@ div.description  {
     transition: .5s ease-in-out;
     opacity: 1 !important;
     display: block;
-    padding-top: 25px;
+    padding-top: 10px;
+}
+
+div.project-description {
+    overflow: hidden;
+    /* height: 0px; */
+    transition: height 0.5s;
+}
+
+.minimize {
+    height: 0px;
+}
+
+.expand {
+    height: 400px;
 }
 
 div.description ul   {
@@ -121,19 +73,73 @@ div.horizontal-scroll a  {
     display: none;
 }
 
-.repo-button    {
-    background-color: transparent;
-    font-size: 15px;
-    /* display: block; */
-    border: 0.1rem solid #64a19d;
-    color: #64a19d;
-    text-align: center;
-    padding-left: 10px;
-    padding-right: 10px;
-    border-radius: 0.3rem;
-    margin-top: -5px;
-    font-weight: bold;
-    transition: .5s ease-in-out;
+.each {
+    background-color: rgba(0, 0, 0, 0.322);
+    border-radius: 4px;
+    box-shadow: 0 5px 5px 0 rgba(0,0,0,.75);
+    margin-bottom: 10px;
+    transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1) 0s;
+}
+
+.project-headings {
+    cursor: pointer;
+}
+
+.each:hover {
+    transform: translate(0px, -1.5px);
+}
+
+.each h4    {
+    color: rgba(235, 235, 235, 0.6);
+}
+
+.projects-section .img {
+    width: 40px;
+    height: 40px;
+    margin-right: 15px;
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    top: -3px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100%;
+}
+
+.webapp {
+    background-image: url("../img/webapp.png");
+}
+
+.security {
+    background-image: url("../img/shield.png");
+}
+
+.game {
+    background-image: url("../img/game.png");
+}
+
+.folder {
+    background-image: url("../img/folder.png");
+}
+
+.each .fa-github {
+    font-size: 30px;
+    color: ghostwhite;
     float: right;
-    opacity: 1;
+}
+
+.projects-section .img2 {
+    width: 30px;
+    height: 30px;
+    vertical-align: middle;
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100%;
+    float: right;
+    margin-right: 20px;
+}
+
+.external {
+    background-image: url("../img/external.png");
 }
