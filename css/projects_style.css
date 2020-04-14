@@ -36,8 +36,32 @@ div.project-description {
     height: 0px;
 }
 
-.expand {
+.encyption_project {
+    height: 150px;
+}
+
+.covid_tracker {
+    height: 150px;
+}
+
+.home_security {
     height: 400px;
+}
+
+.personal_v1 {
+    height: 150px;
+}
+
+.tic_tac_toe {
+    height: 150px;
+}
+
+.baccarat_game {
+    height: 90px;
+}
+
+.more_projects {
+    height: 500px;
 }
 
 div.description ul   {
@@ -86,7 +110,7 @@ div.horizontal-scroll a  {
 }
 
 .each:hover {
-    transform: translate(0px, -1.5px);
+    transform: translate(0px, -2.5px);
 }
 
 .each h4    {
@@ -122,6 +146,10 @@ div.horizontal-scroll a  {
     background-image: url("../img/folder.png");
 }
 
+.web {
+    background-image: url("../img/web.png");
+}
+
 .each .fa-github {
     font-size: 30px;
     color: ghostwhite;
@@ -142,4 +170,8 @@ div.horizontal-scroll a  {
 
 .external {
     background-image: url("../img/external.png");
+}
+
+.paper {
+    background-image: url("../img/paper.png");
 }
