@@ -37,13 +37,11 @@
 
 .contact-section .social .fb {
     transition: background-color .3s ease-out;
-    /* transition: color .5s ease-out; */
     color: #4267B2;
 }
 
 .contact-section .social .fb:hover{
     transition:background-color .3s ease-in;
-    /* transition: color .5s ease-in; */
     background-color: #4267B2;
     color: white;
 }
@@ -55,13 +53,11 @@
 
 .contact-section .social .linkedin {
     transition: background-color .3s ease-out;
-    /* transition: color .5s ease-out; */
     color: #2867B2;
 }
 
 .contact-section .social .linkedin:hover{
     transition:background-color .3s ease-in;
-    /* transition: color .5s ease-in; */
     background-color: #2867B2;
     color: white;
 }
@@ -72,14 +68,11 @@
 }
 
 .contact-section .social .google    {
-    /* content: '<i class="fab fa-"></i>'; */
     transition: background-color .3s ease-out;
-    /* transition: color .5s ease-out; */
 }
 
 .contact-section .social .google:hover{
     transition:background-color .3s ease-in;
-    /* transition: color .5s ease-in; */
     background-color: white;
     color: #DB4437;
 }
@@ -91,13 +84,11 @@
 
 .contact-section .social .whatsapp {
     transition: background-color .3s ease-out;
-    /* transition: color .5s ease-out; */
     color: #4AC959;
 }
 
 .contact-section .social .whatsapp:hover{
     transition:background-color .3s ease-in;
-    /* transition: color .5s ease-in; */
     background-color: #4AC959;
     color: white;
 }
@@ -109,13 +100,11 @@
 
 .contact-section .social .github {
     transition: background-color .3s ease-out;
-    /* transition: color .5s ease-out; */
     color: white;
 }
 
 .contact-section .social .github:hover{
     transition:background-color .3s ease-in;
-    /* transition: color .5s ease-in; */
     background-color: white;
     color: #333;
 }

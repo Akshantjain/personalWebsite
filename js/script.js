@@ -1,7 +1,3 @@
-// skrollr.init({
-//     forceHeight: false
-// });
-
 $(window).on("load", function name() {
 
     setTimeout(() => {
