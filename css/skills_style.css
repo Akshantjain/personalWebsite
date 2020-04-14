@@ -1,11 +1,11 @@
 .skill-section {
-    padding-top: 4.5%;
+    padding-top: 5%;
     background: url("../img/skills_section.png");
     background-color: rgba(17, 17, 17, 0.7);
     background-blend-mode: darken;
     background-repeat: no-repeat;
     background-size: cover;
-    padding-bottom: 3%;
+    padding-bottom: 5%;
     /* height: 95vh;
     min-height: 500px; */
 }
@@ -116,7 +116,7 @@
 }
 
 .bootstrap:hover {
-    color: rgb(33, 26, 49);
+    color: rgb(46, 27, 87);
     transition: color .3s ease-in;
 }
 

@@ -4,7 +4,6 @@ body {
     overflow-y: scroll;
     overflow-x: scroll;
     -ms-overflow-style: none;
-    /* background-color: #000000; */
 }
 
 html  {
@@ -106,25 +105,24 @@ a:focus, a:hover {
     background: rgba(255, 255, 255, .4);
   }
 
-#button-container   {
+/* #button-container   {
     margin-top: 20%;
-}
+} */
 
-.btn {
-    /* position: inherit; */
+/* .btn {
     padding: 1.25rem 2rem;
     font-family: 'Varela Round';
     font-size: 80%;
     text-transform: uppercase;
     letter-spacing: .15rem;
     border:0;
-}
-
+} */
+/* 
 .btn-primary {
     background-color:black
-}
+} */
 
-p.shining   {
+/* p.shining   {
 position: relative;
   font-family: sans-serif;
   text-transform: uppercase;
@@ -147,7 +145,7 @@ position: relative;
   100% {
     background-position: 450%;
   }
-}
+} */
 
 
 .bg-black {
@@ -162,18 +160,17 @@ position: relative;
     color:#64a19d !important
 }
 
-#scroll a   {
+/* #scroll a   {
     background-color: transparent;
-}
+} */
 
 #negative {
     margin-top: -40px;
 }
 
-#scroll a span{
+/* #scroll a span{
     margin-top: 12px;
     position: absolute;
-    /* bottom: 0; */
     left: 50%;
     width: 16px;
     height: 16px;
@@ -184,10 +181,9 @@ position: relative;
     transform: rotateZ(-45deg);
     -webkit-animation: arrow 1.5s infinite;
     animation: arrow 1.5s infinite;
-    /* box-sizing: border-box; */
-}
+} */
 
-@-webkit-keyframes arrow {
+/* @-webkit-keyframes arrow {
   0% {
     -webkit-transform: rotate(-45deg) translate(0, 0);
     opacity: 0;
@@ -212,7 +208,7 @@ position: relative;
     transform: rotate(-45deg) translate(-20px, 20px);
     opacity: 0;
   }
-}
+} */
 
 .about-section {
     box-shadow: 0 5px 5px 0 rgba(0,0,0,.75);
