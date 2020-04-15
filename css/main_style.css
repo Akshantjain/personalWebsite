@@ -23,6 +23,14 @@ a:focus, a:hover {
     color:#3c6360
 }
 
+.wrapper    {
+    padding-top: 1rem;
+    width: 90%;
+    margin: auto;
+    /* display: inline-block; */
+    font-family: Gotham,Helvetica,Arial,sans-serif;
+}
+
 .heads   {
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 2.8rem;
@@ -125,7 +133,7 @@ a:focus, a:hover {
     box-shadow: 0 5px 5px 0 rgba(0,0,0,.75);
 }
 .skill-section {
-    box-shadow: 0 5px 5px 0 rgb(0, 0, 0);
+    box-shadow: 0 5px 5px 0 rgb(0,0,0,.75);
 }
 .projects-section {
     box-shadow: 0 5px 5px 0 rgba(0,0,0,.75);

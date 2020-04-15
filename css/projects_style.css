@@ -97,7 +97,7 @@ div.horizontal-scroll a  {
     display: none;
 }
 
-.each {
+.projects-section .each {
     background-color: rgba(0, 0, 0, 0.322);
     border-radius: 4px;
     box-shadow: 0 5px 5px 0 rgba(0,0,0,.75);
@@ -105,15 +105,15 @@ div.horizontal-scroll a  {
     transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1) 0s;
 }
 
-.clickable-section {
+.projects-section .clickable-section {
     cursor: pointer;
 }
 
-.each:hover {
+.projects-section .each:hover {
     transform: translate(0px, -2.5px);
 }
 
-.each h4    {
+.projects-section .each h4    {
     color: rgba(235, 235, 235, 0.6);
 }
 

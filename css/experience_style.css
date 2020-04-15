@@ -1,9 +1,54 @@
 .experience-section {
     padding-top: 4.5%;
-    background: rgba(17, 17, 17, 0.8);
-    background-position-y: bottom;
+    background: url("../img/experience.png");
+    background-color: rgba(17, 17, 17, 0.582);
+    background-blend-mode: darken;
     background-repeat: no-repeat;
-    background-attachment: scroll;
-    background-size:cover;
-    padding-bottom: 3%;
+    background-size: cover;
+    background-position: center;
+    padding-bottom: 5%;
+}
+
+.college {
+    background-image: url("../img/university.png");
+}
+
+.course {
+    background-image: url("../img/course.png");
+}
+
+.connect {
+    background-image: url("../img/networking.png");
+}
+
+.experience-section .each {
+    /* height: 300px; */
+    background-color: rgba(0, 0, 0, 0.144);
+    border-radius: 5px;
+    box-shadow: 3px 3px 3px 3px rgba(0,0,0,.75);
+}
+
+.experience-section .img {
+    width: 40px;
+    height: 40px;
+    margin-right: 15px;
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    top: -3px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100%;
+}
+
+.education {
+    height: 120px;;
+}
+
+.coursework {
+    height: 330px;
+}
+
+.connections {
+    height: 50px;
 }

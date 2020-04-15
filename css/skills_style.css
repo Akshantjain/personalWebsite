@@ -1,6 +1,7 @@
 .skill-section {
     padding-top: 5%;
     background: url("../img/skills_section.png");
+    /* filter: grayscale(10%); */
     background-color: rgba(17, 17, 17, 0.7);
     background-blend-mode: darken;
     background-repeat: no-repeat;
@@ -11,14 +12,6 @@
 
 .skill-section .name    {
     font-size: 2rem;
-}
-
-.wrapper    {
-    padding-top: 1rem;
-    width: 90%;
-    margin: auto;
-    display: inline-block;
-    font-family: Gotham,Helvetica,Arial,sans-serif;
 }
 
 .skill-section .img {
@@ -60,12 +53,12 @@
 }
 
 .skill-section i {
-    height: 50px;
-    width: 50px;
+    height: 40px;
+    width: 40px;
     font-size: 50px;
-    margin-left: 0.6rem;
+    margin-left: 0.9rem;
     margin-top: -0.8rem;
-    margin-right: 0.6rem;
+    margin-right: 0.9rem;
     color: rgba(255, 255, 255, 0.3);
 }
 

@@ -82,10 +82,10 @@
                         <a class="nav-link js-scroll-trigger" href="#skills">Coursework & Skills</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link js-scroll-trigger" href="#projects">Projects</a>
+                        <a class="nav-link js-scroll-trigger" href="#experience">Experience</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link js-scroll-trigger" href="#experience">Experience</a>
+                        <a class="nav-link js-scroll-trigger" href="#projects">Projects</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
@@ -109,7 +109,7 @@
     <!-- About Section -->
     <section id="about" class="about-section contents">
         <div id="container" class="container-fluid">
-            <h1 class=" text-left text-uppercase heads">About Me</h1>
+            <h1 class=" text-left text-uppercase heads">About Me <span style="font-size: 0.8rem;">Who am I</span></h1>
             <div class="row m-3">
                 <div class="about-intro pt-2">
                     <p class="name text-white mb-2" style=" font-family: 'Source Sans Pro', sans-serif;">Hi! I'm Akshant Jain!</h2>
@@ -141,23 +141,23 @@
     <!-- Coursework & Skills Section -->
     <section id="skills" class="skill-section contents">
         <div class="container-fluid">
-            <h1 class="text-left text-uppercase heads mb-2">Courserowk and Skills</h1>
+            <h1 class="text-left text-uppercase heads mb-2">Coursework and Skills <span style="font-size: 0.8rem;">What I Know</span></h1>
             <div class="row m-auto">
                 <div class="wrapper mb-4 mt-3">
                     <div class="row mt-4 mb-3 pl-3 container-fluid do_center">
                         <div class="img idea"></div>
                         <h4 class="text-uppercase d-inline-block text-white">knowledge: <span class="line" style="width: 80%;"></span></h4>
-                        <i id="java"    onmouseenter="changejavain()"    onmouseout="changejavaout()"     class="devicon-java-plain java"></i>
-                        <i id="cpp"     onmouseenter="changecppin()"     onmouseout="changecppout()"      class="devicon-cplusplus-plain cplusplus"></i>
-                        <i id="python"  onmouseenter="changepythonin()"  onmouseout="changepythonout()"   class="devicon-python-plain python"></i>
-                        <i id="mysql"   onmouseenter="changesqlin()"     onmouseout="changesqlout()"      class="devicon-mysql-plain mysql"></i>
-                        <i id="android" onmouseenter="changeandroidin()" onmouseout="changeandroidout()"  class="devicon-android-plain android"></i>
-                        <i id="html"    onmouseenter="changehtmlin()"    onmouseout="changehtmlout()"     class="devicon-html5-plain html"></i>
-                        <i id="css"     onmouseenter="changecssin()"     onmouseout="changecssout()"      class="devicon-css3-plain css"></i>
+                        <i id="java"    onmouseenter="colorin(0)" onmouseout="colorout(0)" class="devicon-java-plain-wordmark java"></i>
+                        <i id="cpp"     onmouseenter="colorin(1)" onmouseout="colorout(1)" class="devicon-cplusplus-line cplusplus"></i>
+                        <i id="python"  onmouseenter="colorin(2)" onmouseout="colorout(2)" class="devicon-python-plain-wordmark python"></i>
+                        <i id="mysql"   class="devicon-mysql-plain-wordmark mysql"></i>
+                        <i id="android" onmouseenter="colorin(3)" onmouseout="colorout(3)" class="devicon-android-plain-wordmark android"></i>
+                        <i id="html"    onmouseenter="colorin(4)" onmouseout="colorout(4)" class="devicon-html5-plain-wordmark html"></i>
+                        <i id="css"     onmouseenter="colorin(5)" onmouseout="colorout(5)" class="devicon-css3-plain-wordmark css"></i>
                         <i id="jscript" class="devicon-javascript-plain javascript"></i>
-                        <i id="boot"    onmouseenter="changebootin()"    onmouseout="changebootout()"     class="devicon-bootstrap-plain bootstrap"></i>
-                        <i id="react"   onmouseenter="changereactin()"   onmouseout="changereactout()"    class="devicon-react-original react"></i>
-                        <i id="gitlogo" onmouseenter="changegitlogoin()" onmouseout="changegitlogoout()"  class="devicon-github-plain git"></i>
+                        <i id="boot"    class="devicon-bootstrap-plain-wordmark bootstrap"></i>
+                        <i id="react"   onmouseenter="colorin(6)" onmouseout="colorout(6)" class="devicon-react-original-wordmark react"></i>
+                        <i id="gitlogo" onmouseenter="colorin(7)" onmouseout="colorout(7)" class="devicon-github-plain-wordmark git"></i>
                     </div>
                     <span class="line line-center line2" style="width: 80%; height: 1px;"></span>
                     <div class=" mt-5 row">
@@ -180,7 +180,7 @@
                         </div>
                     </div>
                     <div class="row">
-                        <div class="col pb-2 pl-5 pr-3 pt-5 text-white border-right border-secondary">
+                        <div class="col pt-5 pl-5 pr-3 pb-2 text-white border-right border-secondary">
                             <div class="img math"></div>
                             <h4 class="text-uppercase d-inline-block">Mathematics<span class="line" style="width: 80%;"></span></h4>
                             <p class="para pt-2 pl-2 pr-2 text-white-50">
@@ -203,10 +203,101 @@
         </div>
     </section>
 
+    <!-- Experience Section -->
+    <section id="experience" class="experience-section contents ">
+        <div class="container-fluid">
+            <h1 class="text-left text-uppercase heads mb-2">Experience <span style="font-size: 0.8rem;">What I Have learned</span></h1>
+            <div class="row">
+                <div class="wrapper mb-2 mt-1">
+                    <div class="container each">
+                        <div class="row py-3 mx-3">
+                            <div class="col-5">
+                                <div class="img college"></div>
+                                <h5 class="text-uppercase d-inline-block text-white">Education<span class="line" style="width: 80%;"></span></h5>
+                            </div>
+                            <div class="col-7 mt-1 education">
+                                <h5 class="text-white mb-0">University of Illinois at Chicago (UIC)</h5>
+                                <span class="line" style="width: 50%; height: 1px;"></span>
+                                <p class="text-white ml-1 mb-0">
+                                    Bachelor of Science in Computer Science with Minor in Mathematics
+                                </p>
+                                <p class="text-white-50 ml-3">
+                                    Junior Year<br>
+                                    Graduation Expected: May 2021<br>
+                                    Honors: Dean's List
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="wrapper">
+                    <div class="container each">
+                        <div class="row py-3 mx-3">
+                            <div class="col-5">
+                                <div class="img course"></div>
+                                <h5 class="text-uppercase d-inline-block text-white">Coursework<span class="line"
+                                        style="width: 80%;"></span></h5>
+                            </div>
+                            <div class="col-7 mt-1 coursework">
+                                <h5 class="text-white mb-0">University of Illinois at Chicago (UIC)</h5>
+                                <span class="line" style="width: 50%; height: 1px;"></span>
+                                <ul class="text-white-50" style="list-style-type: square;">
+                                    <li>Program Design I and Program Design II</li>
+                                    <li>Data Structures</li>
+                                    <li>Programming Design and Implementations</li>
+                                    <li>Software and Computer Design</li>
+                                    <li>Web and Multimedia Technology</li>
+                                    <li>Software Development for Mobile Platforms</li>
+                                </ul>
+
+                                <h5 class="text-white mb-0">Harvard University Online Course</h5>
+                                <span class="line" style="width: 40%; height: 1px;"></span>
+                                <ul class="text-white-50" style="list-style-type: square;">
+                                    <li>CS50: Introduction to Computer Science</li>
+                                    <li>CS50: Introduction to Artificial Intelligence with Python</li>
+                                </ul>
+
+                                <h5 class="text-white mb-0">Coursera Online Courses</h5>
+                                <span class="line" style="width: 30%; height: 1px;"></span>
+                                <ul class="text-white-50" style="list-style-type: square;">
+                                    <li>Front-End Web Development </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="wrapper">
+                        <div class="container each">
+                        <div class="row py-3 mx-3">
+                            <div class="col-5">
+                                <div class="img connect"></div>
+                                <h5 class="text-uppercase d-inline-block text-white">Professional Affiliations<span class="line"
+                                        style="width: 80%;"></span></h4>
+                            </div>
+                            <div class="col-7 mt-1 connections">
+                                <h5 class="text-white mb-0">Association for Computing Machinery (ACM)</h5>
+                                <span class="line" style="width: 50%; height: 1px;"></span>
+                                <p class="text-white-50 mt-1 ml-1 mb-0">
+                                    Member of ACM UIC and International since January 2020.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <!-- Projects Section -->
     <section id="projects" class="projects-section contents">
         <div class="container-fluid">
-            <h1 class="text-left text-uppercase heads mb-2">Projects</h1>
+            <h1 class="text-left text-uppercase heads mb-2">Projects <span style="font-size: 0.8rem;">What I have done</span></h1>
             <div class="row">
                 <div class="wrapper container mb-3 mt-3">
                     <div class="row container each pt-3 pb-2 px-5 clickable-section" onclick="expandFunction(0)">
@@ -453,13 +544,6 @@
         </div>
     </section>
 
-    <!-- Experience Section -->
-    <section id="experience" class="experience-section contents ">
-        <div id="container" class="container-fluid">
-            <h1 class="text-left text-uppercase heads mb-3">Education & Experience</h1>
-        </div>
-    </section>
-
     <section id="resume">
         <a class="block-btn" href="https://www.github.com/akshantjain" target="_blank"> <span class="text">View my full
                 resume</span>
@@ -604,9 +688,8 @@
     <section>
         <!-- Bootstrap core JavaScript -->
         <!-- <script src="vendor/jquery/jquery.min.js"></script> -->
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"
-            integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous">
-            </script>
+        <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+            crossorigin="anonymous"></script>
         
         <!-- <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script> -->
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
