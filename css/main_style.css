@@ -1,0 +1,143 @@
+body {
+    font-family: Nunito;
+    letter-spacing:.0625em;
+    overflow-y: scroll;
+    overflow-x: scroll;
+    -ms-overflow-style: none;
+}
+
+html  {
+  scroll-behavior: smooth;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+a {
+    color:#64a19d
+}
+
+a:focus, a:hover {
+    text-decoration: none;
+    color:#3c6360
+}
+
+.wrapper    {
+    padding-top: 1rem;
+    width: 90%;
+    margin: auto;
+    /* display: inline-block; */
+    font-family: Gotham,Helvetica,Arial,sans-serif;
+}
+
+.heads   {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 2.8rem;
+    line-height: 2.5rem;
+    letter-spacing: .2rem;
+    
+    background: linear-gradient(rgba(255, 255, 255, .9), rgba(255, 255, 255, 0));
+    /* text-fill-color: transparent; */
+    background-clip:text;
+
+    background: -webkit-linear-gradient(rgba(255, 255, 255, .9) 0%, rgba(255, 255, 255, .5) 80%,rgba(255, 255, 255, 0) 100%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip:text;
+    margin: 0rem 3rem 0rem 3rem;
+    padding-bottom: 0.4rem;
+
+    border-bottom: .2rem solid #64a19d;
+}
+
+@media (max-width: 1000px)  {
+  .heads {
+    font-size: 2rem;
+    line-height: 2.2rem;
+    border-bottom: 0.18rem solid #64a19d;
+    margin: 0rem 2.6rem 0rem 2.6rem;
+  }
+}
+
+@media (max-width: 780px) {
+  .heads {
+    font-size: 1.6rem;
+    line-height: 2rem;
+    border-bottom: 0.15rem solid #64a19d;
+    margin: 0rem 2rem 0rem 2rem;
+  }
+}
+
+@media (max-width: 550px) {
+  .heads {
+    font-size: 1.2rem;
+    line-height: 2rem;
+    border-bottom: 0.12rem solid #64a19d;
+    letter-spacing: 0.1rem;
+    margin: 0rem 1.2rem 0rem 1.2rem;
+  }
+}
+
+@media (max-width: 350px){
+  .heads {
+    font-size: 1.2rem;
+    line-height: 2rem;
+    border-bottom: 0.12rem solid #64a19d;
+    letter-spacing: 0.1rem;
+    margin: 0rem .3rem 0rem .2rem;
+  }
+}
+
+.btn-primary:focus  {
+    background-color:none;
+}
+
+.btn-primary:hover {
+    background-color:transparent
+}
+
+.btn-primary:active {
+    background-color: rgb(60, 60, 60) !important
+}
+
+.line {
+    display: block;
+    background: linear-gradient(rgba(255, 255, 255, .9), rgba(255, 255, 255, 0));
+    background: -webkit-linear-gradient(rgba(255, 255, 255, .9), rgba(255, 255, 255, 0));
+    height: 2px;
+    width: 20%;
+}
+
+.line2 {
+    background: rgba(255, 255, 255, .4);
+    background: rgba(255, 255, 255, .4);
+  }
+
+.bg-black {
+    background-color:#161616 !important
+}
+
+.bg-primary {
+    background-color:#64a19d !important
+}
+
+.text-primary {
+    color:#64a19d !important
+}
+
+#negative {
+    margin-top: -40px;
+}
+
+.about-section {
+    box-shadow: 0 5px 5px 0 rgba(0,0,0,.75);
+}
+.skill-section {
+    box-shadow: 0 5px 5px 0 rgb(0,0,0,.75);
+}
+.projects-section {
+    box-shadow: 0 5px 5px 0 rgba(0,0,0,.75);
+}
+.experience-section {
+    box-shadow: 0 5px 5px 0 rgba(0,0,0,.75);
+}
