@@ -39,7 +39,7 @@
     animation-duration: 1.5s;
     animation-delay: 2s;
     animation-fill-mode: forwards;
-    visibility: hidden;
+    /* visibility: hidden;  */
 
 }
 
@@ -94,4 +94,8 @@
         max-width: 30rem;
         font-size:1.25rem
     }
+}
+
+.appearonload {
+    opacity: 0;
 }

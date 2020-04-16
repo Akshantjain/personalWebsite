@@ -1,17 +1,9 @@
-$(window).on("load", function name() {
+$(document).ready(function () {
+        $(".masthead h1").animate({ height: '15rem' }, 800);
+        $(".appearonload").animate({opacity: '1'}, 1000);
+});
 
-    setTimeout(() => {
-        $(".masthead h2").css({ visibility: 'visible' });
-        $(".masthead h1").animate({ height: '16rem' }, 600);
-        setTimeout(() => {
-            $("#mainNav").animate({ marginTop: '0px' });
-        }, 100);
-    }, 200);
-
-})
-
-
-const classes = ["encyption_project", "covid_tracker", "home_security", "personal_v1", "tic_tac_toe", "baccarat_game", "more_projects"]
+const classes = ["encyption_project", "covid_tracker", "home_security", "personal_v1", "tic_tac_toe", "baccarat_game"]
 
 const each_description = document.querySelectorAll(".projects-section .each .project-description");
 let is_expanded = false;
