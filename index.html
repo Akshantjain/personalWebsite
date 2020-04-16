@@ -1,48 +1,675 @@
 <!--
-Start Bootstrap - Coming Soon v5.0.7 (https://startbootstrap.com/template-overviews/coming-soon)
-Copyright 2013-2019 Start Bootstrap
-Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-coming-soon/blob/master/LICENSE)
+    Initial Work done by Blackrock Digital LLC under MIT License
+        Copyright (c) 2013-2019 Blackrock Digital LLC
+
+    Re-designed and edited by Akshant Jain under MIT License
+        Copyright (c) 2019-2020 Akshant Jain
  -->
-
+<!DOCTYPE html>
 <html lang="en">
+
 <head>
+    <section>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="author" content="Akshant Jain">
+        <link rel="shortcut icon" type="image/png" href="img/favicon.png">
+        <meta name="google-site-verification" content="4NVr2JGiZTc1akpibiEpmsh9afnt5nRSaRHVdGnh2-k" />
 
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
+        <meta name="description"
+            content="Computer Science Student, Aspiring Software and Front End Developer">
+        <meta name="keywords" content="design, development, web, akshantjain, akshant, jain, software, student, senior">
 
-    <title>In Development</title>
+        <title>Akshant Jain | Developer</title>
 
-    <!-- Bootstrap core CSS -->
-    <!-- <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet"> -->
-    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/js/all.min.js" integrity="sha256-MAgcygDRahs+F/Nk5Vz387whB4kSK9NXlDN3w58LLq0=" crossorigin="anonymous"></script>
+        <!-- Bootstrap core CSS -->
+        <!-- <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet"> -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" 
+            integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
-    <!-- Custom styles for this template -->
-    <link href="css/coming-soon.min.css" rel="stylesheet">    
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-163496746-1"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag() { dataLayer.push(arguments); }
+            gtag('js', new Date());
 
+            gtag('config', 'UA-163496746-1');
+        </script>
+
+
+        <!-- Custom fonts for this template -->
+        <!-- <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet"> -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css" 
+            integrity="sha256-mmgLkCYLUQbXn0B1SRqzHar6dCnv9oZFPEC1g1cwlkk=" crossorigin="anonymous" />
+        <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+
+        <!-- Custom styles for this template -->
+        <link href="css/main_style.css" rel="stylesheet">
+        <link href="css/about_style.css" rel="stylesheet">
+        <link href="css/contact_style.css" rel="stylesheet">
+        <link href="css/experience_style.css" rel="stylesheet">
+        <link href="css/footer_style.css" rel="stylesheet">
+        <link href="css/masthead_style.css" rel="stylesheet">
+        <link href="css/navbar_style.css" rel="stylesheet">
+        <link href="css/projects_style.css" rel="stylesheet">
+        <link href="css/signup_style.css" rel="stylesheet">
+        <link href="css/skills_style.css" rel="stylesheet">
+        <link href="css/resume_style.css" rel="stylesheet">
+    </section>
 </head>
 
-<body>
+<body id="page-top">
 
-    <div class="overlay"></div>
-    <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
-        <source src="https://blackrockdigital.github.io/startbootstrap-coming-soon/mp4/bg.mp4" type="video/mp4">
-    </video>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+        <div class="container-fluid mx-3 appearonload">
+            <a class="navbar-brand js-scroll-trigger ml-1" href="#page-top"><img class="main-logo" src="img/favicon.png"></a>
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
+                data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
+                aria-label="Toggle navigation">
+                Menu
+                <i class="fas fa-bars"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="#about">About Me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="#skills">Coursework & Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="#experience">Experience</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="#projects">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
 
-    <div class="masthead">
-        <div class="masthead-bg"></div>
-        <div class="container h-100">
-            <div class="row h-100">
-                <div class="col-12 my-auto">
-                    <div class="masthead-content text-white py-5 py-md-0">
-                        <h1 class="mb-3">Coming Soon!</h1>
-                        <p class="mb-5">I'm working hard to finish the development of the new version of this site. Expected launch date is
-                            <strong>May 2020 or Sooner</strong>!
-                        </p>
+    <!-- Header -->
+    <header class="masthead">
+        <div class="container d-flex h-75 align-items-center pt-5 appearonload">
+            <div class="mx-auto text-center">
+                <h1 class="mx-auto text-uppercase text-white">Akshant Jain</h1>
+                <div class="divider" style="background-color: transparent;"></div>
+                <h2 class="text-white mx-auto">Aspiring Software and Front End Developer</h2>
+            </div>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="about-section contents">
+        <div id="container" class="container-fluid">
+            <h1 class=" text-left text-uppercase heads">About Me <span style="font-size: 0.8rem;">Who am I</span></h1>
+            <div class="row m-3">
+                <div class="about-intro pt-2">
+                    <p class="name text-white mb-2" style=" font-family: 'Source Sans Pro', sans-serif;">Hi! I'm Akshant Jain!</h2>
+                    <span class="line mt-0 mb-4"></span>
+                    <img src="img/my_image.jpg" class="headshot">
+                    <p class="text-white-50 mb-3">
+                        I'm a fourth year student at University of Illinois at Chicago studying Computer Science along with minor in mathematics. I have
+                        experience developing and designing both web software and computer software, from simple basic programs to progressive and responsice web applications. 
+                        I love to create software to enhance user experience and solve real world problems in a creative ways.
+                        <br><br>
+                        I love learning new development languages to create user experiences with clean, efficient, and scalable code. I
+                        consider work an ongoing education, and I'm always looking for opportunities to work with those who are willing to share
+                        their knowledge as much as I want to learn. At the end of the day, my primary goal is to learn and help people with their
+                        problems in a virtual and creative way through my skills and knowledge.
+                        <br><br>
+                        I am also interested in learning Artificial Intelligence and Machine Learning so that I could find a way to develop programs in a much easier and
+                        productive manner.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Coursework & Skills Section -->
+    <section id="skills" class="skill-section contents">
+        <div class="container-fluid">
+            <h1 class="text-left text-uppercase heads mb-2">Coursework and Skills <span style="font-size: 0.8rem;">What I Know</span></h1>
+            <div class="row m-auto">
+                <div class="wrapper mb-4 mt-3">
+                    <div class="row mt-4 mb-3 pl-3 container-fluid do_center">
+                        <div class="img idea"></div>
+                        <h4 class="text-uppercase d-inline-block text-white">knowledge: <span class="line" style="width: 80%;"></span></h4>
+                        <i id="java"    onmouseenter="colorin(0)" onmouseout="colorout(0)" class="devicon-java-plain-wordmark java"></i>
+                        <i id="cpp"     onmouseenter="colorin(1)" onmouseout="colorout(1)" class="devicon-cplusplus-line cplusplus"></i>
+                        <i id="python"  onmouseenter="colorin(2)" onmouseout="colorout(2)" class="devicon-python-plain-wordmark python"></i>
+                        <i id="mysql"   class="devicon-mysql-plain-wordmark mysql"></i>
+                        <i id="android" onmouseenter="colorin(3)" onmouseout="colorout(3)" class="devicon-android-plain-wordmark android"></i>
+                        <i id="html"    onmouseenter="colorin(4)" onmouseout="colorout(4)" class="devicon-html5-plain-wordmark html"></i>
+                        <i id="css"     onmouseenter="colorin(5)" onmouseout="colorout(5)" class="devicon-css3-plain-wordmark css"></i>
+                        <i id="jscript" class="devicon-javascript-plain javascript"></i>
+                        <i id="boot"    class="devicon-bootstrap-plain-wordmark bootstrap"></i>
+                        <i id="react"   onmouseenter="colorin(6)" onmouseout="colorout(6)" class="devicon-react-original-wordmark react"></i>
+                        <i id="gitlogo" onmouseenter="colorin(7)" onmouseout="colorout(7)" class="devicon-github-plain-wordmark git"></i>
+                    </div>
+                    <span class="line line-center line2" style="width: 80%; height: 1px;"></span>
+                    <div class=" mt-5 row">
+                        <div class="col pt-4 pl-5 pr-3 pb-2 text-white border-right border-bottom border-secondary ">
+                            <div class="img code"></div>
+                            <h4 class="text-uppercase d-inline-block">computer science (UIC)<span class="line" style="width: 80%;"></span></h4>
+                            <p class="para pt-2 pl-2 pr-2 text-white-50">
+                                Using Programming languages like Java, C++, etc. along with web development, 
+                                I am passionate about combining these two different developments to develop new softwares and programs to enhance
+                                user experience and make provide more functionalities.
+                            </p>
+                        </div>
+                        <div class="col pt-4 pl-5 pr-3 pb-2 text-white border-bottom border-secondary">
+                            <div class="img skill"></div>
+                            <h4 class="text-uppercase d-inline-block">Skills<span class="line" style="width: 80%;"></span></h4>
+                            <p class="para pt-2 pl-2 pr-2 text-white-50">
+                                While pursiung my bachelor's degree, I have come acroos different programming languages as well as web languages.
+                                I have a good experience with programming languages namely JAVA, C++, Python, SQL, and web languages like HTML, CSS, JavaScript and Bootstrap.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col pt-5 pl-5 pr-3 pb-2 text-white border-right border-secondary">
+                            <div class="img math"></div>
+                            <h4 class="text-uppercase d-inline-block">Mathematics<span class="line" style="width: 80%;"></span></h4>
+                            <p class="para pt-2 pl-2 pr-2 text-white-50">
+                                Along with pursing my computer science degree, I also opted for mathematics as a minor. I love solving math problems in my free time and also love to help
+                                my peers and solve problems with them.
+                            </p>
+                        </div>
+                        <div class="col pb-2 pl-5 pr-3 pt-5 text-white">
+                            <div class="img tech"></div>
+                            <h4 class="text-uppercase d-inline-block">Tools and Technologies<span class="line" style="width: 80%;"></span></h4>
+                            <p class="para pt-2 pl-2 pr-2 text-white-50">
+                                Coming across the number of languages, I know some tools and technologies like Github, Git, Chrome Dev Tools, etc. 
+                                I am trying to know about some more technologies using which I could have some better programming experience
+                                and help my peers to use them as well. 
+                            </p>
+                        </div>
                     </div>
                 </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience-section contents ">
+        <div class="container-fluid">
+            <h1 class="text-left text-uppercase heads mb-2">Experience <span style="font-size: 0.8rem;">What I Have learned</span></h1>
+            
+            <div class="row">
+                <div class="wrapper mt-1">
+                    <div class="container each">
+                        <div class="row py-2 mx-3">
+                            <div class="col-5">
+                                <div class="img college"></div>
+                                <h5 class="text-uppercase d-inline-block text-white">Education<span class="line" style="width: 80%;"></span></h5>
+                            </div>
+                            <div class="col-7 mt-1 education">
+                                <h5 class="text-white mb-0">University of Illinois at Chicago (UIC)</h5>
+                                <span class="line" style="width: 50%; height: 1px;"></span>
+                                <p class="text-white ml-1 mb-0">
+                                    Bachelor of Science in Computer Science with Minor in Mathematics
+                                </p>
+                                <p class="text-white-50 ml-3">
+                                    Junior Year<br>
+                                    Graduation Expected: May 2021<br>
+                                    Honors: Dean's List
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="wrapper">
+                    <div class="container each">
+                        <div class="row py-2 mx-3">
+                            <div class="col-5">
+                                <div class="img course"></div>
+                                <h5 class="text-uppercase d-inline-block text-white">Coursework<span class="line"
+                                        style="width: 80%;"></span></h5>
+                            </div>
+                            <div class="col-7 mt-1 coursework">
+                                <h5 class="text-white mb-0">University of Illinois at Chicago (UIC)</h5>
+                                <span class="line" style="width: 50%; height: 1px;"></span>
+                                <ul class="text-white-50" style="list-style-type: square;">
+                                    <li>Program Design I and Program Design II</li>
+                                    <li>Data Structures</li>
+                                    <li>Programming Design and Implementations</li>
+                                    <li>Software and Computer Design</li>
+                                    <li>Web and Multimedia Technology</li>
+                                    <li>Software Development for Mobile Platforms</li>
+                                </ul>
+
+                                <h5 class="text-white mb-0">Harvard University Online Course</h5>
+                                <span class="line" style="width: 40%; height: 1px;"></span>
+                                <ul class="text-white-50" style="list-style-type: square;">
+                                    <li>CS50: Introduction to Computer Science</li>
+                                    <li>CS50: Introduction to Artificial Intelligence with Python</li>
+                                </ul>
+
+                                <h5 class="text-white mb-0">Coursera Online Courses</h5>
+                                <span class="line" style="width: 30%; height: 1px;"></span>
+                                <ul class="text-white-50" style="list-style-type: square;">
+                                    <li>Front-End Web Development with React</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="wrapper">
+                        <div class="container each">
+                        <div class="row py-2 mx-3">
+                            <div class="col-5">
+                                <div class="img connect"></div>
+                                <h5 class="text-uppercase d-inline-block text-white">Professional Affiliations<span class="line"
+                                        style="width: 80%;"></span></h4>
+                            </div>
+                            <div class="col-7 mt-1 connections">
+                                <h5 class="text-white mb-0">Association for Computing Machinery (ACM)</h5>
+                                <span class="line" style="width: 50%; height: 1px;"></span>
+                                <p class="text-white-50 ml-1 mb-0">
+                                    Member of ACM UIC and International since January 2020.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects-section contents">
+        <div class="container-fluid">
+            <h1 class="text-left text-uppercase heads mb-2">Projects <span style="font-size: 0.8rem;">What I have done</span></h1>
+            <div class="row">
+                <div class="wrapper container mb-3 mt-3">
+                    <div class="row container each pt-3 pb-2 px-5 clickable-section" onclick="expandFunction(0)">
+                        <div class="container">
+                            <div class="img webapp ml-4 mr-4"></div>
+                            <h4 class="font-weight-light pl-2 d-inline-block" style="margin: 0px;">Advanced Encryptor</h4>
+                            <p class="duration ml-3">April 2020 - Present</p>
+                            <a href="https://github.com/Akshantjain/AdvancedEncryptor" target="_blank"><i class="fab fa-github"></i></a>
+                            <a href="http://akshantjain.me/AdvancedEncryptor/" target="_blank"><div class="img2 external"></div></a>
+                            <a href="https://akshantjain.github.io" target="_blank"><div class="img2 paper"></div></a>
+                        </div>
+                        <div class="container project-description minimize">
+                            <div class="description text-justify">
+                                <ul>
+                                    <li>The product would be able to encrypt large amount of data which could be decrypted later when required.</li>
+                                    <li>The data could be encrypted in different security levels as specified by the user.</li>
+                                    <li>Working in a group of two members, where I am responsible for front end and some of back end development.</li>
+                                    <li>The project is in development stage and is expected to launch the first version by June 2020.</li>
+                                    <li>We are expecting to launch the product on cross platforms by the end of September 2020.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="row container each pt-3 pb-2 px-5 clickable-section" onclick="expandFunction(1)">
+                        <div class="container">
+                            <div class="img webapp ml-4 mr-4"></div>
+                            <h4 class="font-weight-light pl-2 d-inline-block" style="margin: 0px;">COVID-19 Tracker</h4>
+                            <p class="duration ml-3">April - May 2020</p>
+                            <a href="https://github.com/Akshantjain/it202-big-project" target="_blank"><i class="fab fa-github"></i></a>
+                            <a href="http://akshantjain.github.io/it202-big-project/" target="_blank"><div class="img2 external"></div></a>
+                        </div>
+                        <div class="container project-description minimize">
+                            <div class="description text-justify">
+                                <ul>
+                                    <li>The web app provides data about the COVID-19 cases worldwide.</li>
+                                    <li>The main idea of the project was provide the visitors with the number of cases for each country.</li>
+                                    <li>The data provides the data with graphical visualization to the visitors.</li>
+                                    <li>The app/website allows visitor to filter countries.</li>
+                                    <li>The project is expected to be launched by the start of May 2020.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row container each pt-3 pb-2 px-5 clickable-section" onclick="expandFunction(2)">
+                        <div class="container">
+                            <div class="img security ml-4 mr-4"></div>
+                            <h4 class="font-weight-light pl-2 d-inline-block" style="margin: 0px;">Home Security System</h4>
+                            <p class="duration ml-3">September - December 2019</p>
+                            <a href="https://github.com/Akshantjain/Home-Security-System" target="_blank"><i class="fab fa-github"></i></a>
+                        </div>
+                        <div class="container project-description minimize">
+                            <div class="description text-justify">
+                                <ul>
+                                    <li>The project was a part of <em>Computer Design Course</em> (CS 362) of UIC from <em>Fall 2019</em>
+                                        Semester.
+                                    </li>
+                                    <li>This was a group project of three members. </li>
+                                    <li>The main idea of the project was to design and create a prototype of home security system.</li>
+                                    <li>The prototype is able to detect threats which could take place in a house in your absence.</li>
+                                    <li>Potential threats which system could detect includes theft, invade, smoke, fire, gas andlights.</li>
+                                    <li>The system is protected by a password which is you need to set every time you enable the system.</li>
+                                    <li>The security system is coded in C++ on Arduino and other hardwares.</li>
+                                </ul>
+                            </div>
+                        
+                            <div class="mb-4 ml-3">
+                                <p class="m-0 mb-1 p-0 text-left text-white-50"><span class="fa fa-tools px-1 "></span>Hardware and Concepts used:</p>
+                                <div class="horizontal-scroll px-2">
+                                    <a target="_blank" href="https://learn.sparkfun.com/tutorials/what-is-an-arduino/all">Arduino UNO (3)</a>
+                                    <a target="_blank" href="https://www.arduino.cc/en/Tutorial/MasterWriter">I2C
+                                        Communication</a>
+                                    <a target="_blank" href="https://learn.adafruit.com/lesson-0-getting-started/breadboard">
+                                        BreadBoard (3)</a>
+                                    <a target="_blank" href="https://learn.pimoroni.com/tutorial/170pt-projects/anatomy-of-a-mini-breadboard">
+                                        Mini BreadBoard (1)</a>
+                                    <a target="_blank" href="https://en.wikipedia.org/wiki/Nine-volt_battery"> Batteries (3)</a>
+                                    <a target="_blank" href="https://www.arduino.cc/en/Tutorial/HelloWorld"> 16x2 LCD Display
+                                        (3)</a>
+                                    <a target="_blank" href="https://www.arduino.cc/en/tutorial/blink"> LED Lights (4)</a>
+                                    <a target="_blank"
+                                        href="https://www.instructables.com/id/How-to-use-a-photoresistor-or-photocell-Arduino-Tu/">
+                                        Photoresistor (1)</a>
+                                    <a target="_blank" href="https://www.arduino.cc/en/tutorial/potentiometer"> Potentiometer
+                                        (3)</a>
+                                    <a target="_blank" href="https://www.arduino.cc/en/tutorial/button"> Pin Buttons (2)</a>
+                                    <a target="_blank" href="https://www.tutorialspoint.com/arduino/arduino_ultrasonic_sensor.htm">Ultrasonic
+                                        Sensor (1)</a>
+                                    <a target="_blank" href="https://playground.arduino.cc/Code/Keypad/">4x4 Keypad (1)</a>
+                                    <a target="_blank"
+                                        href="https://create.arduino.cc/projecthub/Aritro/smoke-detection-using-mq-2-gas-sensor-79c54a">Smoke
+                                        Sensor (1)</a>
+                                    <a target="_blank"
+                                        href="https://create.arduino.cc/projecthub/SURYATEJA/use-a-buzzer-module-piezo-speaker-using-arduino-uno-89df45">
+                                        Buzzers (3)</a>
+                                    <a target="_blank" href="https://www.arduino.cc/en/reference/wire"> Connecting Wires
+                                        (~40)</a>
+                                    <a target="_blank" href="https://learn.adafruit.com/adafruit-arduino-lesson-2-leds/resistors"> Resistors
+                                        (8)</a>
+                                </div>
+                            </div>
+                            <div class="mb-4 ml-3">
+                                <p class="m-0 mb-1 p-0 text-left text-white-50"><span class="px-1 fa fa-file-alt"></span>Project Documents:</p>
+                                <div class="horizontal-scroll px-2">
+                                    <a href="http://bit.ly/2SZ3C83" target="_blank">Initial Team and Idea</a>
+                                    <a href="http://bit.ly/3c8AoeG" target="_blank">Team and Project Contract</a>
+                                    <a href="http://bit.ly/2wIGSAx" target="_blank">Updated Design Document</a>
+                                    <a href="http://bit.ly/2SY0FEQ" target="_blank">Project Presentation</a>
+                                    <a href="http://bit.ly/2PrJo4V" target="_blank">Final Design Document</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row container each pt-3 pb-2 px-5 clickable-section" onclick="expandFunction(3)">
+                        <div class="container">
+                            <div class="img web ml-4 mr-4"></div>
+                            <h4 class="font-weight-light pl-2 d-inline-block" style="margin: 0px;">Personal Website v1</h4>
+                            <p class="duration ml-3">July - August 2019</p>
+                            <a href="https://github.com/Akshantjain/v1" target="_blank"><i class="fab fa-github"></i></a>
+                            <a href="http://akshantjain.me/v1/" target="_blank"><div class="img2 external"></div></a>
+                        </div>
+                        <div class="container project-description minimize">
+                            <div class="description text-justify">
+                                <ul>
+                                    <li>The project is the first version of my personal website.</li>
+                                    <li>The wesite was my first step towards web development and web design.</li>
+                                    <li>The website was made using the HTML, CSS and a bit of JavaScript</li>
+                                    <li>The website was hosted and deployed using GitHub Pages.</li>
+                                    <li>The brand new version (current) of my website is now in public.</li>
+                                </ul>
+                            </div>
+                    
+                            <div class="mb-4 ml-3">
+                                <p class="m-0 mb-1 p-0 text-left"><span class="fa fa-tools px-1 "></span>Hardware and Concepts used:</p>
+                                <div class="horizontal-scroll px-2">
+                                    <a target="_blank" href="https://learn.sparkfun.com/tutorials/what-is-an-arduino/all">Arduino UNO
+                                        (3)</a>
+                                    <a target="_blank" href="https://www.arduino.cc/en/Tutorial/MasterWriter">I2C
+                                        Communication</a>
+                                    <a target="_blank" href="https://learn.adafruit.com/lesson-0-getting-started/breadboard">
+                                        BreadBoard (3)</a>
+                                    <a target="_blank"
+                                        href="https://learn.pimoroni.com/tutorial/170pt-projects/anatomy-of-a-mini-breadboard">
+                                        Mini BreadBoard (1)</a>
+                                    <a target="_blank" href="https://en.wikipedia.org/wiki/Nine-volt_battery"> Batteries (3)</a>
+                                    <a target="_blank" href="https://www.arduino.cc/en/Tutorial/HelloWorld"> 16x2 LCD Display
+                                        (3)</a>
+                                    <a target="_blank" href="https://www.arduino.cc/en/tutorial/blink"> LED Lights (4)</a>
+                                    <a target="_blank"
+                                        href="https://www.instructables.com/id/How-to-use-a-photoresistor-or-photocell-Arduino-Tu/">
+                                        Photoresistor (1)</a>
+                                    <a target="_blank" href="https://www.arduino.cc/en/tutorial/potentiometer"> Potentiometer
+                                        (3)</a>
+                                    <a target="_blank" href="https://www.arduino.cc/en/tutorial/button"> Pin Buttons (2)</a>
+                                    <a target="_blank"
+                                        href="https://www.tutorialspoint.com/arduino/arduino_ultrasonic_sensor.htm">Ultrasonic
+                                        Sensor (1)</a>
+                                    <a target="_blank" href="https://playground.arduino.cc/Code/Keypad/">4x4 Keypad (1)</a>
+                                    <a target="_blank"
+                                        href="https://create.arduino.cc/projecthub/Aritro/smoke-detection-using-mq-2-gas-sensor-79c54a">Smoke
+                                        Sensor (1)</a>
+                                    <a target="_blank"
+                                        href="https://create.arduino.cc/projecthub/SURYATEJA/use-a-buzzer-module-piezo-speaker-using-arduino-uno-89df45">
+                                        Buzzers (3)</a>
+                                    <a target="_blank" href="https://www.arduino.cc/en/reference/wire"> Connecting Wires
+                                        (~40)</a>
+                                    <a target="_blank" href="https://learn.adafruit.com/adafruit-arduino-lesson-2-leds/resistors"> Resistors
+                                        (8)</a>
+                                </div>
+                            </div>
+                            <div class="mb-4 ml-3">
+                                <p class="m-0 mb-1 p-0 text-left"><span class="px-1 fa fa-file-alt"></span>Project Documents:</p>
+                                <div class="horizontal-scroll px-2">
+                                    <a href="http://bit.ly/2SZ3C83" target="_blank">Initial Team and Idea</a>
+                                    <a href="http://bit.ly/3c8AoeG" target="_blank">Team and Project Contract</a>
+                                    <a href="http://bit.ly/2wIGSAx" target="_blank">Updated Design Document</a>
+                                    <a href="http://bit.ly/2SY0FEQ" target="_blank">Project Presentation</a>
+                                    <a href="http://bit.ly/2PrJo4V" target="_blank">Final Design Document</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row container each pt-3 pb-2 px-5 clickable-section" onclick="expandFunction(4)">
+                        <div class="container">
+                            <div class="img game ml-4 mr-4"></div>
+                            <h4 class="font-weight-light pl-2 d-inline-block" style="margin: 0px;">Tic Tac Toe Game</h4>
+                            <p class="duration ml-3">November 2019</p>
+                            <a href="https://github.com/Akshantjain/Tic-Tac-Toe-Game" target="_blank"><i class="fab fa-github"></i></a>
+                        </div>
+                        <div class="container project-description minimize">
+                            <div class="description text-justify">
+                                <ul>
+                                    <li>This project is a part of <em>Software Design Course</em> (CS 342) of UIC from <em>Fall 2019</em>Semester.</li>
+                                    <li>This was a group project of three members.</li>
+                                    <li>Coded the games in Java and JavaFX using server and client threads.</li>
+                                    <li>Coded the game in multiplayer mode where players play against an algorithm .</li>
+                                    <li>Worked on Front-end and client thread in the projects.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row container each pt-3 pb-2 px-5 clickable-section" onclick="expandFunction(5)">
+                        <div class="container">
+                            <div class="img game ml-4 mr-4"></div>
+                            <h4 class="font-weight-light pl-2 d-inline-block" style="margin: 0px;">Baccarat Game</h4>
+                            <p class="duration ml-3">September 2019</p>
+                            <a href="https://github.com/Akshantjain/Baccarat-Game" target="_blank"><i class="fab fa-github"></i></a>
+                        </div>
+                        <div class="container project-description minimize">
+                            <div class="description text-justify">
+                                <ul>
+                                    <li>This project is a part of <em>Computer Design Course</em> (CS 362) of UIC from <em>Fall 2019</em>
+                                        Semester.
+                                    </li>
+                                    <li>This was a group project of three members. </li>
+                                    <li>The main idea of the project was to design and create a prototype of home security system.</li>
+                                    <li>The prototype is able to detect threats which could take place in a house in your absence.</li>
+                                    <li>Potential threats which system could detect includes theft, invade, smoke, fire, gas andlights.</li>
+                                    <li>The system is protected by a password which is you need to set every time you enable the system.</li>
+                                    <li>The security system is coded in C++ on Arduino and other hardwares.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <a href="https://github.com/Akshantjain?tab=repositories" target="_blank">
+                        <div class="row container each pt-3 pb-2 px-5 clickable-section">
+                            <div class="container text-center">
+                                <div class="img folder ml-4 mr-3"></div>
+                                <h4 class="font-weight-light pl d-inline-block" style="margin: 0px;">More Projects</h4>
+                            </div>
+                            <!-- <div class="container project-description minimize">
+                                <div class="description text-justify">
+                                    <ul>
+                                    </ul>
+                                </div>
+                            </div> -->
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="resume">
+        <a class="block-btn" href="https://drive.google.com/file/d/18OM9oCFruBmdAovOkeMj5dj5D0y-SUPj/view" target="_blank"> <span class="text">View my full
+                resume</span>
+            <img class="icon" src="img/download.png" alt="download resume">
+        </a>
+    </section>
+    
+    <!-- Signup Section -->
+    <!-- <section id="signup" class="signup-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-10 col-lg-8 mx-auto text-center">
+
+                    <i class="far fa-paper-plane fa-2x mb-2 text-white"></i>
+                    <h2 class="text-white mb-5">Subscribe to receive updates!</h2>
+
+                    <form class="form-inline d-flex">
+                        <input type="email" class="form-control flex-fill mr-0 mr-sm-2 mb-3 mb-sm-0" id="inputEmail"
+                            placeholder="Enter email address...">
+                        <button type="submit" class="btn btn-primary mx-auto">Subscribe</button>
+                    </form>
+
+                </div>
+            </div>
+        </div>
+    </section> -->
+
+    <!-- Contact Section -->
+    <section class="contact-section bg-black contents" id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 mb-3 mb-md-0">
+                    <div class="card py-4 h-100">
+                        <div class="card-body text-center">
+                            <i class="fab fa-github text-primary mb-2"></i>
+                            <h4 class="text-uppercase m-0">GitHub</h4>
+                            <hr class="my-4">
+                            <div class="small text-black-50">
+                               <a href="https://github.com/Akshantjain" target="_blank">github.com/Akshantjain</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 mb-3 mb-md-0">
+                    <div class="card py-4 h-100">
+                        <div class="card-body text-center">
+                            <i class="text-primary mb-3">
+                                <!-- The Google logo code has been taken from "developers.google.com" website using Chrome Dev Tools -->
+                                <svg class="google-colored" version="1.1" xmlns="http://www.w3.org/2000/svg" width="15px" height="16px"
+                                    viewBox="0 0 48 48" class="abcRioButtonSvg">
+                                    <g>
+                                        <path fill="#EA4335"
+                                            d="M24 9.5c3.54 0 6.71 1.22 9.21 3.6l6.85-6.85C35.9 2.38 30.47 0 24 0 14.62 0 6.51 5.38 2.56 13.22l7.98 6.19C12.43 13.72 17.74 9.5 24 9.5z">
+                                        </path>
+                                        <path fill="#4285F4"
+                                            d="M46.98 24.55c0-1.57-.15-3.09-.38-4.55H24v9.02h12.94c-.58 2.96-2.26 5.48-4.78 7.18l7.73 6c4.51-4.18 7.09-10.36 7.09-17.65z">
+                                        </path>
+                                        <path fill="#FBBC05"
+                                            d="M10.53 28.59c-.48-1.45-.76-2.99-.76-4.59s.27-3.14.76-4.59l-7.98-6.19C.92 16.46 0 20.12 0 24c0 3.88.92 7.54 2.56 10.78l7.97-6.19z">
+                                        </path>
+                                        <path fill="#34A853"
+                                            d="M24 48c6.48 0 11.93-2.13 15.89-5.81l-7.73-6c-2.15 1.45-4.92 2.3-8.16 2.3-6.26 0-11.57-4.22-13.47-9.91l-7.98 6.19C6.51 42.62 14.62 48 24 48z">
+                                        </path>
+                                        <path fill="none" d="M0 0h48v48H0z"></path>
+                                    </g>
+                                </svg>
+                                <!-- The Google Logo code from "developers.google.com ends here" -->
+                            </i>
+                            <h4 class="text-uppercase mt-1">Gmail</h4>
+                            <hr class="my-4">
+                            <div class="small text-black-50">
+                                <a href="mailto:akshant.jain2@gmail.com" target="_blank">akshant.jain2@gmail.com</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 mb-3 mb-md-0">
+                    <div class="card py-4 h-100">
+                        <div class="card-body text-center">
+                            <i class="fab fa-linkedin text-primary mb-2"></i>
+                            <h4 class="text-uppercase m-0">LinkedIn</h4>
+                            <hr class="my-4">
+                            <div class="small text-black-50">
+                                <a href="https://www.linkedin.com/in/akshantjain/" target="_blank" >linkedin.com/in/akshantjain/</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="social d-flex justify-content-center">
+                <a href="mailto:akshant.jain2@gmail.com" target="_blank" class="mx-2 google">
+                    <!-- The Google logo code has been taken from "developers.google.com" website using Chrome Dev Tools -->
+                    <svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="15px" height="16px"viewBox="0 0 48 48">
+                        <g>
+                            <path fill="#EA4335"
+                                d="M24 9.5c3.54 0 6.71 1.22 9.21 3.6l6.85-6.85C35.9 2.38 30.47 0 24 0 14.62 0 6.51 5.38 2.56 13.22l7.98 6.19C12.43 13.72 17.74 9.5 24 9.5z">
+                            </path>
+                            <path fill="#4285F4"
+                                d="M46.98 24.55c0-1.57-.15-3.09-.38-4.55H24v9.02h12.94c-.58 2.96-2.26 5.48-4.78 7.18l7.73 6c4.51-4.18 7.09-10.36 7.09-17.65z">
+                            </path>
+                            <path fill="#FBBC05"
+                                d="M10.53 28.59c-.48-1.45-.76-2.99-.76-4.59s.27-3.14.76-4.59l-7.98-6.19C.92 16.46 0 20.12 0 24c0 3.88.92 7.54 2.56 10.78l7.97-6.19z">
+                            </path>
+                            <path fill="#34A853"
+                                d="M24 48c6.48 0 11.93-2.13 15.89-5.81l-7.73-6c-2.15 1.45-4.92 2.3-8.16 2.3-6.26 0-11.57-4.22-13.47-9.91l-7.98 6.19C6.51 42.62 14.62 48 24 48z">
+                            </path>
+                            <path fill="none" d="M0 0h48v48H0z"></path>
+                        </g>
+                    </svg>
+                    <!-- The Google Logo code from "developers..com ends here" -->
+                </a>
+
+                <a href="https://www.linkedin.com/in/akshantjain/" target="_blank" class="mx-2 linkedin">
+                    <i class="fab fa-linkedin-in"></i>
+                </a>
+                <a href="https://github.com/Akshantjain" target="_blank" class="mx-2 github">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="https://www.facebook.com/akshant.jain" target="_blank" class="mx-2 fb">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+                <a href="https://wa.me/13125610879?text=I'm%20interested%20in%20developing%20a%20site%20by%20you." target="_blank" class="mx-2 whatsapp">
+                    <i class="fab fa-whatsapp"></i>
+                </a>
             </div>
         </div>
     </div>

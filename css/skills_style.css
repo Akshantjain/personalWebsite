@@ -1,0 +1,132 @@
+.skill-section {
+    padding-top: 5%;
+    background: url("../img/skills_section.png");
+    /* filter: grayscale(10%); */
+    background-color: rgba(17, 17, 17, 0.7);
+    background-blend-mode: darken;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 5%;
+    background-position: center;
+}
+
+.skill-section .name    {
+    font-size: 2rem;
+}
+
+.skill-section .img {
+    width: 40px;
+    height: 40px;
+    margin-right: 15px;
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    top: -3px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100%;
+}
+
+.code {
+    background-image: url("../img/coding.png");
+}
+
+.math {
+    background-image: url("../img/formula.png");
+}
+
+.skill {
+    background-image: url("../img/skills_icon.png");
+}
+
+.tech {
+    background-image: url("../img/dashboard.png");
+}
+
+.skill-section .para    {
+    font-family: 'Sura', serif !important;
+    font-size: 1rem;
+}
+
+.idea {
+    background-image: url("../img/thought.png");
+}
+
+.skill-section i {
+    height: 40px;
+    width: 40px;
+    font-size: 50px;
+    margin-left: 0.9rem;
+    margin-top: -0.8rem;
+    margin-right: 0.9rem;
+    color: rgba(255, 255, 255, 0.3);
+}
+
+.java, .cplusplus, .python, .mysql, .android, .html, .css, .javascript, .bootstrap, .git {
+    transition: color .3s ease-out;
+}
+
+.java:hover {
+    color: rgb(216, 65, 57);
+    transition: color .3s ease-in;
+}
+
+.cplusplus:hover {
+    color: rgb(165, 32, 68);
+    transition: color .3s ease-in;
+}
+
+.python:hover {
+    color: rgb(249, 216, 98);
+    transition: color .3s ease-in;
+}
+
+.mysql:hover {
+    color: white;
+    transition:color .3s ease-in;
+}
+
+
+.android:hover {
+    color: rgb(171, 194, 82);
+    transition: color .3s ease-in;
+}
+
+.html:hover {
+    color: rgb(212, 87, 54);
+    transition: color .3s ease-in;
+}
+
+.css:hover {
+    color: rgb(54, 117, 180);
+    transition: color .3s ease-in;
+}
+
+.javascript:hover {
+    color: rgb(237, 218, 104);
+    transition: color.3s ease-in;
+}
+
+.bootstrap:hover {
+    color: rgb(46, 27, 87);
+    transition: color .3s ease-in;
+}
+
+.git:hover {
+    color: white;
+    transition: color .3s ease-in;
+}
+
+.react:hover {
+    color: rgb(140, 209, 247);
+    transition: color .3s ease-in;
+}
+
+.do_center::before{
+  content:"";
+  margin-left:calc(100% - 90%);
+} 
+
+.line-center {
+    margin-left: 7rem;
+}

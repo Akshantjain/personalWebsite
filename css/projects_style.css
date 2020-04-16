@@ -1,0 +1,177 @@
+.projects-section {
+    padding-top: 5%;
+    padding-bottom: 4%;
+    background: url("../img/project_section.png");
+    background-color: rgba(17, 17, 17, 0.582);
+    background-blend-mode: darken;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.duration   {
+    font-size: 15px;
+    color: rgb(184, 184, 184);
+    padding: 0%;
+    margin: 0%;
+    display: inline-block;
+}
+
+div.description  {
+    font-size: 17px;
+    color: rgb(185, 185, 185);
+    opacity: 0 !important;
+    transition: .5s ease-in-out;
+    opacity: 1 !important;
+    display: block;
+    padding-top: 10px;
+}
+
+div.project-description {
+    overflow: hidden;
+    transition: height 0.5s;
+}
+
+.minimize {
+    height: 0px;
+}
+
+.encyption_project {
+    height: 150px;
+}
+
+.covid_tracker {
+    height: 150px;
+}
+
+.home_security {
+    height: 400px;
+}
+
+.personal_v1 {
+    height: 150px;
+}
+
+.tic_tac_toe {
+    height: 150px;
+}
+
+.baccarat_game {
+    height: 90px;
+}
+
+.more_projects {
+    height: 500px;
+}
+
+div.description ul   {
+    list-style-type: square;
+}
+
+div.horizontal-scroll   {
+    background-color: transparent;
+    overflow: scroll;
+    white-space: nowrap;
+    transition: .5s ease-in-out;
+}
+
+div.horizontal-scroll a  {
+    background-color: transparent;
+    font-size: 15px;
+    display: inline-block;
+    border: 0.1rem solid #64a19d;
+    text-decoration-color: #64a19d;
+    color: #64a19d;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 0.3rem;
+    margin-right: 5px;
+    transition: .5s ease-in-out;
+    overflow: scroll;
+}
+
+.horizontal-scroll::-webkit-scrollbar    {
+    display: none;
+}
+
+.projects-section .each {
+    background-color: rgba(0, 0, 0, 0.322);
+    border-radius: 4px;
+    box-shadow: 0 5px 5px 0 rgba(0,0,0,.75);
+    margin-bottom: 10px;
+    transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1) 0s;
+}
+
+.projects-section .clickable-section {
+    cursor: pointer;
+}
+
+.projects-section .each:hover {
+    transform: translate(0px, -2.5px);
+}
+
+.projects-section .each h4    {
+    color: rgba(235, 235, 235, 0.6);
+}
+
+.projects-section .img {
+    width: 40px;
+    height: 40px;
+    margin-right: 15px;
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    top: -3px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100%;
+}
+
+.webapp {
+    background-image: url("../img/webapp.png");
+}
+
+.security {
+    background-image: url("../img/shield.png");
+}
+
+.game {
+    background-image: url("../img/game.png");
+}
+
+.folder {
+    background-image: url("../img/folder.png");
+}
+
+.web {
+    background-image: url("../img/web.png");
+}
+
+.each .fa-github {
+    font-size: 30px;
+    color: ghostwhite;
+    float: right;
+}
+
+.projects-section .img2 {
+    width: 30px;
+    height: 30px;
+    vertical-align: middle;
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100%;
+    float: right;
+    margin-right: 20px;
+}
+
+.external {
+    background-image: url("../img/external.png");
+}
+
+.paper {
+    background-image: url("../img/paper.png");
+}
