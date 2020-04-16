@@ -1,5 +1,5 @@
 $(document).ready(function () {
-        $(".masthead h1").animate({ height: '15rem' }, 800);
+        $(".masthead h1").animate({ height: '15rem' }, 650);
         $(".appearonload").animate({opacity: '1'}, 1000);
 });
 
