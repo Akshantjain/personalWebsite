@@ -64,7 +64,7 @@
 <body id="page-top">
 
     <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top d-none" id="mainNav">
         <div class="container-fluid mx-3 appearonload">
             <a class="navbar-brand js-scroll-trigger ml-1" href="#page-top"><img class="main-logo" src="img/favicon2.png"></a>
             <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
@@ -96,7 +96,7 @@
     </nav>
 
     <!-- Header -->
-    <header class="masthead">
+    <header class="masthead d-none">
         <div class="container d-flex h-75 align-items-center pt-5 appearonload">
             <div class="mx-auto text-center">
                 <h1 class="mx-auto text-uppercase text-white">Akshant Jain</h1>
@@ -107,7 +107,7 @@
     </header>
 
     <!-- About Section -->
-    <section id="about" class="about-section contents">
+    <section id="about" class="about-section contents d-none">
         <div id="container" class="container-fluid">
             <h1 class=" text-left text-uppercase heads">About Me <span style="font-size: 0.8rem;">Who am I</span></h1>
             <div class="row m-3">
@@ -134,59 +134,59 @@
     </section>
 
     <!-- Coursework & Skills Section -->
-    <section id="skills" class="skill-section contents">
+    <section id="skills" class="skill-section contents d-none">
         <div class="container-fluid">
             <h1 class="text-left text-uppercase heads mb-2">Coursework and Skills <span style="font-size: 0.8rem;">What I Know</span></h1>
             <div class="row m-auto">
-                <div class="wrapper mb-4 mt-3">
-                    <div class="row mt-4 mb-3 pl-3 container-fluid do_center">
-                        <div class="img idea"></div>
-                        <h4 class="text-uppercase d-inline-block text-white">knowledge: <span class="line" style="width: 80%;"></span></h4>
-                        <i id="java"    onmouseenter="colorin(0)" onmouseout="colorout(0)" class="devicon-java-plain-wordmark java"></i>
-                        <i id="cpp"     onmouseenter="colorin(1)" onmouseout="colorout(1)" class="devicon-cplusplus-line cplusplus"></i>
-                        <i id="python"  onmouseenter="colorin(2)" onmouseout="colorout(2)" class="devicon-python-plain-wordmark python"></i>
-                        <i id="mysql"   class="devicon-mysql-plain-wordmark mysql"></i>
+                <div class="wrapper mb-4 mt-1 pt-2">
+                    <div class="mb-2">
+                        <div class="img idea mb-3"></div>
+                        <p class="head_p text-uppercase d-inline-block text-white">knowledge: <span class="line" style="width: 80%;"></span></p>
+                        <i id="java" onmouseenter="colorin(0)" onmouseout="colorout(0)" class="devicon-java-plain-wordmark java"></i>
+                        <i id="cpp" onmouseenter="colorin(1)" onmouseout="colorout(1)" class="devicon-cplusplus-line cplusplus"></i>
+                        <i id="python" onmouseenter="colorin(2)" onmouseout="colorout(2)" class="devicon-python-plain-wordmark python"></i>
+                        <i id="mysql" class="devicon-mysql-plain-wordmark mysql"></i>
                         <i id="android" onmouseenter="colorin(3)" onmouseout="colorout(3)" class="devicon-android-plain-wordmark android"></i>
-                        <i id="html"    onmouseenter="colorin(4)" onmouseout="colorout(4)" class="devicon-html5-plain-wordmark html"></i>
-                        <i id="css"     onmouseenter="colorin(5)" onmouseout="colorout(5)" class="devicon-css3-plain-wordmark css"></i>
+                        <i id="html" onmouseenter="colorin(4)" onmouseout="colorout(4)" class="devicon-html5-plain-wordmark html"></i>
+                        <i id="css" onmouseenter="colorin(5)" onmouseout="colorout(5)" class="devicon-css3-plain-wordmark css"></i>
                         <i id="jscript" class="devicon-javascript-plain javascript"></i>
-                        <i id="boot"    class="devicon-bootstrap-plain-wordmark bootstrap"></i>
-                        <i id="react"   onmouseenter="colorin(6)" onmouseout="colorout(6)" class="devicon-react-original-wordmark react"></i>
+                        <i id="boot" class="devicon-bootstrap-plain-wordmark bootstrap"></i>
+                        <i id="react" onmouseenter="colorin(6)" onmouseout="colorout(6)" class="devicon-react-original-wordmark react"></i>
                         <i id="gitlogo" onmouseenter="colorin(7)" onmouseout="colorout(7)" class="devicon-github-plain-wordmark git"></i>
+                    <!-- <span class="line line-center line2 mt-2 line_knowledge" style="height: 1px;"></span> -->
                     </div>
-                    <span class="line line-center line2" style="width: 80%; height: 1px;"></span>
-                    <div class=" mt-5 row">
-                        <div class="col pt-4 pl-5 pr-3 pb-2 text-white border-right border-bottom border-secondary ">
+                    <div class=" pt-4 pb-3 row border-secondary border-top">
+                        <div class="col text-white border-secondary skill-row">
                             <div class="img code"></div>
-                            <h4 class="text-uppercase d-inline-block">computer science (UIC)<span class="line" style="width: 80%;"></span></h4>
-                            <p class="para pt-2 pl-2 pr-2 text-white-50">
+                            <p class="head_p text-uppercase d-inline-block">computer science (UIC)<span class="line" style="width: 80%;"></span></p>
+                            <p class="para text-white-50">
                                 Using Programming languages like Java, C++, etc. along with web development, 
                                 I am passionate about combining these two different developments to develop new softwares and programs to enhance
                                 user experience and make provide more functionalities.
                             </p>
                         </div>
-                        <div class="col pt-4 pl-5 pr-3 pb-2 text-white border-bottom border-secondary">
+                        <div class="col text-white border-secondary skill-row">
                             <div class="img skill"></div>
-                            <h4 class="text-uppercase d-inline-block">Skills<span class="line" style="width: 80%;"></span></h4>
-                            <p class="para pt-2 pl-2 pr-2 text-white-50">
+                            <p class="head_p text-uppercase d-inline-block">Skills<span class="line" style="width: 80%;"></span></p>
+                            <p class="para text-white-50">
                                 While pursiung my bachelor's degree, I have come acroos different programming languages as well as web languages.
                                 I have a good experience with programming languages namely JAVA, C++, Python, SQL, and web languages like HTML, CSS, JavaScript and Bootstrap.
                             </p>
                         </div>
                     </div>
-                    <div class="row">
-                        <div class="col pt-5 pl-5 pr-3 pb-2 text-white border-right border-secondary">
+                    <div class="row pt-4 pb-3 border-secondary border-top">
+                        <div class="col text-white border-secondary skill-row">
                             <div class="img math"></div>
-                            <h4 class="text-uppercase d-inline-block">Mathematics<span class="line" style="width: 80%;"></span></h4>
-                            <p class="para pt-2 pl-2 pr-2 text-white-50">
-                                Along with pursing my computer science degree, I also opted for mathematics as a minor. I love solving math problems in my free time and also love to help
-                                my peers and solve problems with them.
+                            <p class="head_p text-uppercase d-inline-block">Mathematics<span class="line" style="width: 80%;"></span></p>
+                            <p class="para text-white-50">
+                                Along with pursing my computer science degree, I also opted for mathematics as a minor. I love solving math problems 
+                                in my free time and also love to help my peers and solve problems with them.
                             </p>
                         </div>
-                        <div class="col pb-2 pl-5 pr-3 pt-5 text-white">
+                        <div class="col text-white skill-row">
                             <div class="img tech"></div>
-                            <h4 class="text-uppercase d-inline-block">Tools and Technologies<span class="line" style="width: 80%;"></span></h4>
-                            <p class="para pt-2 pl-2 pr-2 text-white-50">
+                            <p class="head_p text-uppercase d-inline-block">Tools and Technologies<span class="line" style="width: 80%;"></span></p>
+                            <p class="para text-white-50">
                                 Coming across the number of languages, I know some tools and technologies like Github, Git, Chrome Dev Tools, etc. 
                                 I am trying to know about some more technologies using which I could have some better programming experience
                                 and help my peers to use them as well. 
@@ -201,23 +201,23 @@
     <!-- Experience Section -->
     <section id="experience" class="experience-section contents ">
         <div class="container-fluid">
-            <h1 class="text-left text-uppercase heads mb-2">Experience <span style="font-size: 0.8rem;">What I Have learned</span></h1>
+            <h1 class="text-left text-uppercase heads mb-2">Experience <span style="font-size: 0.8rem; min-width: 176px;">What I Have learned</span></h1>
             
             <div class="row">
                 <div class="wrapper mt-1">
                     <div class="container each">
                         <div class="row py-2 mx-3">
-                            <div class="col-5">
+                            <div class="ex-heads">
                                 <div class="img college"></div>
-                                <h5 class="text-uppercase d-inline-block text-white">Education<span class="line" style="width: 80%;"></span></h5>
+                                <p class="text-uppercase d-inline-block text-white head_p">Education<span class="line" style="width: 80%;"></span></p>
                             </div>
-                            <div class="col-7 mt-1 education">
-                                <h5 class="text-white mb-0">University of Illinois at Chicago (UIC)</h5>
+                            <div class="mt-1 ex-para">
+                                <p class="text-white mb-0 head_p">University of Illinois at Chicago (UIC)</p>
                                 <span class="line" style="width: 50%; height: 1px;"></span>
-                                <p class="text-white ml-1 mb-0">
+                                <p class="text-white ml-1 mb-0 para-p">
                                     Bachelor of Science in Computer Science with Minor in Mathematics
                                 </p>
-                                <p class="text-white-50 ml-3">
+                                <p class="text-white-50 ml-3 para-p">
                                     Junior Year<br>
                                     Graduation Expected: May 2021<br>
                                     Honors: Dean's List
@@ -232,15 +232,15 @@
                 <div class="wrapper">
                     <div class="container each">
                         <div class="row py-2 mx-3">
-                            <div class="col-5">
+                            <div class="ex-heads">
                                 <div class="img course"></div>
-                                <h5 class="text-uppercase d-inline-block text-white">Coursework<span class="line"
-                                        style="width: 80%;"></span></h5>
+                                <p class="text-uppercase d-inline-block text-white head_p">Coursework<span class="line"
+                                        style="width: 80%;"></span></p>
                             </div>
-                            <div class="col-7 mt-1 coursework">
-                                <h5 class="text-white mb-0">University of Illinois at Chicago (UIC)</h5>
+                            <div class="mt-1 ex-para">
+                                <p class="text-white mb-0 head_p">University of Illinois at Chicago (UIC)</>
                                 <span class="line" style="width: 50%; height: 1px;"></span>
-                                <ul class="text-white-50" style="list-style-type: square;">
+                                <ul class="text-white-50 para-p" style="list-style-type: square;">
                                     <li>Program Design I and Program Design II</li>
                                     <li>Data Structures</li>
                                     <li>Programming Design and Implementations</li>
@@ -249,16 +249,16 @@
                                     <li>Software Development for Mobile Platforms</li>
                                 </ul>
 
-                                <h5 class="text-white mb-0">Harvard University Online Course</h5>
+                                <p class="text-white mb-0 head_p">Harvard University Online Course</p>
                                 <span class="line" style="width: 40%; height: 1px;"></span>
-                                <ul class="text-white-50" style="list-style-type: square;">
+                                <ul class="text-white-50 para-p" style="list-style-type: square;">
                                     <li>CS50: Introduction to Computer Science</li>
                                     <li>CS50: Introduction to Artificial Intelligence with Python</li>
                                 </ul>
 
-                                <h5 class="text-white mb-0">Coursera Online Courses</h5>
+                                <p class="text-white mb-0 head_p">Coursera Online Courses</p>
                                 <span class="line" style="width: 30%; height: 1px;"></span>
-                                <ul class="text-white-50" style="list-style-type: square;">
+                                <ul class="text-white-50 para-p" style="list-style-type: square;">
                                     <li>Front-End Web Development with React</li>
                                 </ul>
                             </div>
@@ -271,15 +271,15 @@
                 <div class="wrapper">
                         <div class="container each">
                         <div class="row py-2 mx-3">
-                            <div class="col-5">
+                            <div class="ex-heads">
                                 <div class="img connect"></div>
-                                <h5 class="text-uppercase d-inline-block text-white">Professional Affiliations<span class="line"
-                                        style="width: 80%;"></span></h4>
+                                <p class="text-uppercase d-inline-block text-white head_p">Professional Affiliations<span class="line"
+                                        style="width: 80%;"></span></p>
                             </div>
-                            <div class="col-7 mt-1 connections">
-                                <h5 class="text-white mb-0">Association for Computing Machinery (ACM)</h5>
+                            <div class="mt-1 ex-para ">
+                                <p class="text-white mb-0 head_p">Association for Computing Machinery (ACM)</p>
                                 <span class="line" style="width: 50%; height: 1px;"></span>
-                                <p class="text-white-50 ml-1 mb-0">
+                                <p class="text-white-50 ml-1 mb-0 para-p">
                                     Member of ACM UIC and International since January 2020.
                                 </p>
                             </div>
@@ -291,7 +291,7 @@
     </section>
 
     <!-- Projects Section -->
-    <section id="projects" class="projects-section contents">
+    <section id="projects" class="projects-section contents d-none">
         <div class="container-fluid">
             <h1 class="text-left text-uppercase heads mb-2">Projects <span style="font-size: 0.8rem;">What I have done</span></h1>
             <div class="row">
@@ -541,7 +541,7 @@
         </div>
     </section>
 
-    <section id="resume">
+    <section id="resume" class="d-none">
         <a class="block-btn" href="https://drive.google.com/file/d/18OM9oCFruBmdAovOkeMj5dj5D0y-SUPj/view" target="_blank"> <span class="text">View my full
                 resume</span>
             <img class="icon" src="img/download.png" alt="download resume">
@@ -569,7 +569,7 @@
     </section> -->
 
     <!-- Contact Section -->
-    <section class="contact-section bg-black contents" id="contact">
+    <section class="contact-section bg-black contents d-none" id="contact">
         <div class="container">
             <div class="row">
                 <div class="col-md-4 mb-3 mb-md-0">
