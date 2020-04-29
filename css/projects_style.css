@@ -36,7 +36,7 @@ div.project-description {
     height: 0px;
 }
 
-.encyption_project {
+.encryption_project {
     height: 150px;
 }
 
@@ -58,10 +58,6 @@ div.project-description {
 
 .baccarat_game {
     height: 90px;
-}
-
-.more_projects {
-    height: 500px;
 }
 
 div.description ul   {
@@ -111,10 +107,6 @@ div.horizontal-scroll a  {
 
 .projects-section .each:hover {
     transform: translate(0px, -2.5px);
-}
-
-.projects-section .each h4    {
-    color: rgba(235, 235, 235, 0.6);
 }
 
 .projects-section .img {
@@ -176,3 +168,67 @@ div.horizontal-scroll a  {
     background-image: url("../img/paper.png");
 }
 
+.projects-section .each .project-head {
+    font-size: 1.5rem;
+    color: rgba(235, 235, 235, 0.6);
+}
+
+@media (max-width: 1100px) {
+    .projects-section .img {
+        width: 33px;
+        height: 33px;
+        margin-right: 8px;
+        top: -2px;
+    }
+}
+
+@media (max-width: 1000px) {
+    .projects-section .each .project-head {
+        font-size: 1.2rem;
+    }
+
+    .projects-section .img {
+        width: 29px;
+        height: 29px;
+        margin-right: 6px;
+        top: -1px;
+    }
+}
+
+@media (max-width: 780px) {
+    .projects-section .each .project-head {
+        font-size: 1.1rem;
+    }
+
+    .projects-section .img {
+        width: 28px;
+        height: 28px;
+        margin-right: 4px;
+    }
+}
+
+@media (max-width: 550px) {
+    .projects-section .each .project-head {
+        font-size: 0.9rem;
+    }
+
+    .projects-section .img {
+        width: 26px;
+        height: 26px;
+        margin-right: 2px;
+    }
+}
+
+@media (max-width: 440px) {}
+
+@media (max-width: 350px) {
+    .projects-section .each .project-head {
+        font-size: 0.8rem;
+    }
+
+    .projects-section .img {
+        width: 18px;
+        height: 18px;
+        margin-right: 1px;
+    }
+}

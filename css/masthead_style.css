@@ -35,7 +35,7 @@
 
 .masthead h2 {
     max-width: 20rem;
-    font-size:0rem;
+    font-size: 1.25rem;
     animation-duration: 1.5s;
     animation-delay: 2s;
     animation-fill-mode: forwards;
@@ -47,6 +47,10 @@
     .masthead h1 {
         font-size: 2.5em;
         letter-spacing: 0.4rem;
+    }
+
+    .masthead h2 {
+        font-size: 1.15rem;
     }
 }
 
@@ -61,6 +65,10 @@
         height: auto;
         width: auto;
     }
+
+    .masthead h2 {
+        font-size: 0.985rem;
+    }
 }
 
 @media (min-width: 768px) {
@@ -69,11 +77,19 @@
         line-height:4rem;
     }
 
+    .masthead h2 {
+        font-size: 0.815rem;
+    }
+
 }
 
 @media (max-width: 408px) {
     .masthead h1 {
         font-size: 1.5rem;
+    }
+
+    .masthead h2 {
+        font-size: 0.715rem;
     }
 
 }

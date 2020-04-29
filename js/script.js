@@ -3,7 +3,7 @@ $(document).ready(function () {
         $(".appearonload").animate({opacity: '1'}, 1000);
 });
 
-const classes = ["enacyption_project", "covid_tracker", "home_security", "personal_v1", "tic_tac_toe", "baccarat_game"]
+const classes = ["encryption_project", "covid_tracker", "home_security", "personal_v1", "tic_tac_toe", "baccarat_game"]
 
 const each_description = document.querySelectorAll(".projects-section .each .project-description");
 let is_expanded = false;

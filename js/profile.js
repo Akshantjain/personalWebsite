@@ -7,7 +7,7 @@ let profile = {
     phone: "111-111-1111",
 
     skills: [
-
+        "Java", "C++", "Python", "MySQL", "Android", "HTML", "CSS", "JavaScript", "Bootstrap", "GitHub"
     ],
     projects : [
         {
