@@ -1,3 +1,5 @@
+response.setHeader("Set-Cookie", "HttpOnly;Secure;SameSite=Strict");
+
 $(document).ready(function () {
     setTimeout(() => {
         $(".pageTop").fadeIn('slow');
