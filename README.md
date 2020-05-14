@@ -1,5 +1,5 @@
 <div align="center">
-  <img alt="logo" height="150" width="150" src="imgs/favicon2.webp"></img>
+  <img alt="logo" height="150" width="150" src="img/favicon2.png"></img>
   <!--img alt="logo" height="300" width="250" hspace="55" src="images/qrcode.webp"></img-->
   <p>
     <h1> Akshantjain.github.io</h1>
