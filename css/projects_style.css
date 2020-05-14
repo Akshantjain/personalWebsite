@@ -1,7 +1,7 @@
 .projects-section {
     padding-top: 5%;
     padding-bottom: 4%;
-    background: url("../img/project_section.png");
+    background: url("../imgs/project_section.webp");
     background-color: rgba(17, 17, 17, 0.582);
     background-blend-mode: darken;
     background-repeat: no-repeat;
@@ -123,23 +123,23 @@ div.horizontal-scroll a  {
 }
 
 .webapp {
-    background-image: url("../img/webapp.png");
+    background-image: url("../imgs/webapp.webp");
 }
 
 .security {
-    background-image: url("../img/shield.png");
+    background-image: url("../imgs/shield.webp");
 }
 
 .game {
-    background-image: url("../img/game.png");
+    background-image: url("../imgs/game.webp");
 }
 
 .folder {
-    background-image: url("../img/folder.png");
+    background-image: url("../imgs/folder.webp");
 }
 
 .web {
-    background-image: url("../img/web.png");
+    background-image: url("../imgs/web.webp");
 }
 
 .each .fa-github {
@@ -161,11 +161,11 @@ div.horizontal-scroll a  {
 }
 
 .external {
-    background-image: url("../img/external.png");
+    background-image: url("../imgs/external.webp");
 }
 
 .paper {
-    background-image: url("../img/paper.png");
+    background-image: url("../imgs/paper.webp");
 }
 
 .projects-section .each .project-head {

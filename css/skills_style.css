@@ -1,6 +1,6 @@
 .skill-section {
     padding-top: 5%;
-    background: url("../img/skills_section.png");
+    background: url("../imgs/skills_section.webp");
     /* filter: grayscale(10%); */
     background-color: rgba(17, 17, 17, 0.7);
     background-blend-mode: darken;
@@ -28,19 +28,19 @@
 }
 
 .code {
-    background-image: url("../img/coding.png");
+    background-image: url("../imgs/coding.webp");
 }
 
 .math {
-    background-image: url("../img/formula.png");
+    background-image: url("../imgs/formula.webp");
 }
 
 .skill {
-    background-image: url("../img/skills_icon.png");
+    background-image: url("../imgs/skills_icon.webp");
 }
 
 .tech {
-    background-image: url("../img/dashboard.png");
+    background-image: url("../imgs/dashboard.webp");
 }
 
 .skill-section .para    {
@@ -49,7 +49,7 @@
 }
 
 .idea {
-    background-image: url("../img/thought.png");
+    background-image: url("../imgs/thought.webp");
 }
 
 .skill-section i {

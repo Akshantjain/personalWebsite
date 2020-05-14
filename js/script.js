@@ -1,6 +1,11 @@
 $(document).ready(function () {
-        $(".masthead h1").animate({ height: '15rem' }, 650);
-        $(".appearonload").animate({opacity: '1'}, 1000);
+    setTimeout(() => {
+        $(".pageTop").fadeIn('slow');
+        setTimeout(() => {
+            $(".masthead h1").animate({ height: '15rem' }, 850);
+            $(".appearonload").animate({opacity: '1'}, 1200);
+        }, 800);
+    }, 200);
 });
 
 const classes = ["encryption_project", "covid_tracker", "home_security", "personal_v1", "tic_tac_toe", "baccarat_game"]

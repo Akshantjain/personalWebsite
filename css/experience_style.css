@@ -1,6 +1,6 @@
 .experience-section {
     padding-top: 4.5%;
-    background: url("../img/experience.png");
+    background: url("../imgs/experience.webp");
     background-color: rgba(17, 17, 17, 0.582);
     background-blend-mode: darken;
     background-repeat: no-repeat;
@@ -10,15 +10,15 @@
 }
 
 .college {
-    background-image: url("../img/university.png");
+    background-image: url("../imgs/university.webp");
 }
 
 .course {
-    background-image: url("../img/course.png");
+    background-image: url("../imgs/course.webp");
 }
 
 .connect {
-    background-image: url("../img/networking.png");
+    background-image: url("../imgs/networking.webp");
 }
 
 .experience-section .each {
