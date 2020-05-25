@@ -9,12 +9,19 @@
     background-position: center;
 }
 
+.project-head {
+    margin: auto;
+    margin-left: 0;
+    margin-right: 10px;
+    margin-bottom: 0;
+}
+
 .duration   {
     font-size: 15px;
     color: rgb(184, 184, 184);
-    padding: 0%;
-    margin: 0%;
-    display: inline-block;
+    margin: auto;
+    margin-left: 0;
+    margin-bottom: 5px;
 }
 
 div.description  {
@@ -37,11 +44,11 @@ div.project-description {
 }
 
 .encryption_project {
-    height: 150px;
+    height: auto;
 }
 
 .covid_tracker {
-    height: 150px;
+    height: 120px;
 }
 
 .home_security {
@@ -112,14 +119,15 @@ div.horizontal-scroll a  {
 .projects-section .img {
     width: 40px;
     height: 40px;
-    margin-right: 15px;
-    display: inline-block;
     vertical-align: middle;
     position: relative;
-    top: -3px;
     background-repeat: no-repeat;
     background-position: center center;
     background-size: 100%;
+    margin: auto;
+    margin-left: 0px;
+    margin-right: 15px;
+    
 }
 
 .webapp {
@@ -142,22 +150,10 @@ div.horizontal-scroll a  {
     background-image: url("../img/web.png");
 }
 
-.each .fa-github {
-    font-size: 30px;
-    color: ghostwhite;
-    float: right;
-}
-
-.projects-section .img2 {
-    width: 30px;
-    height: 30px;
-    vertical-align: middle;
-    position: relative;
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: 100%;
-    float: right;
-    margin-right: 20px;
+.projects-section .each .weblinks {
+    color: white;
+    font-size: 35px;
+    margin-right: 10px;
 }
 
 .external {
@@ -174,61 +170,28 @@ div.horizontal-scroll a  {
 }
 
 @media (max-width: 1100px) {
-    .projects-section .img {
-        width: 33px;
-        height: 33px;
-        margin-right: 8px;
-        top: -2px;
-    }
+    .img {}
+
+    .project-head {}
+
+    .duration {}
+    
+    .weblinks {}
+
+    .project-description {}
 }
 
 @media (max-width: 1000px) {
-    .projects-section .each .project-head {
-        font-size: 1.2rem;
-    }
-
-    .projects-section .img {
-        width: 29px;
-        height: 29px;
-        margin-right: 6px;
-        top: -1px;
-    }
 }
 
 @media (max-width: 780px) {
-    .projects-section .each .project-head {
-        font-size: 1.1rem;
-    }
-
-    .projects-section .img {
-        width: 28px;
-        height: 28px;
-        margin-right: 4px;
-    }
 }
 
 @media (max-width: 550px) {
-    .projects-section .each .project-head {
-        font-size: 0.9rem;
-    }
-
-    .projects-section .img {
-        width: 26px;
-        height: 26px;
-        margin-right: 2px;
-    }
 }
 
-@media (max-width: 440px) {}
+@media (max-width: 440px) {
+}
 
 @media (max-width: 350px) {
-    .projects-section .each .project-head {
-        font-size: 0.8rem;
-    }
-
-    .projects-section .img {
-        width: 18px;
-        height: 18px;
-        margin-right: 1px;
-    }
 }

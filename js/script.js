@@ -1,5 +1,9 @@
 // response.setHeader("Set-Cookie", "HttpOnly;Secure;SameSite=Strict");
 
+// setTimeout(function () {
+//     window.location.reload(1);
+// }, 10000);
+
 $(document).ready(function () {
     setTimeout(() => {
         $(".pageTop").fadeIn('slow');
@@ -10,10 +14,11 @@ $(document).ready(function () {
     }, 200);
 });
 
-const classes = ["encryption_project", "covid_tracker", "home_security", "personal_v1", "tic_tac_toe", "baccarat_game"]
+const classes = ["covid_tracker", "home_security", "personal_v1", "tic_tac_toe", "baccarat_game"]
 
 const each_description = document.querySelectorAll(".projects-section .each .project-description");
 let is_expanded = false;
+
 
 function expandFunction(index) {
 
