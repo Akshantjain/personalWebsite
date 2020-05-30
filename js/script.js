@@ -1,19 +1,24 @@
 // response.setHeader("Set-Cookie", "HttpOnly;Secure;SameSite=Strict");
 
+// setTimeout(function () {
+//     window.location.reload(1);
+// }, 10000);
+
 $(document).ready(function () {
     setTimeout(() => {
         $(".pageTop").fadeIn('slow');
         setTimeout(() => {
-            $(".masthead h1").animate({ height: '15rem' }, 850);
+            $(".masthead h1").animate({ height: '8rem' }, 850);
             $(".appearonload").animate({opacity: '1'}, 1200);
         }, 800);
     }, 200);
 });
 
-const classes = ["encryption_project", "covid_tracker", "home_security", "personal_v1", "tic_tac_toe", "baccarat_game"]
+const classes = ["covid_tracker", "home_security", "personal_v1", "tic_tac_toe", "baccarat_game"]
 
 const each_description = document.querySelectorAll(".projects-section .each .project-description");
 let is_expanded = false;
+
 
 function expandFunction(index) {
 
@@ -26,11 +31,13 @@ function expandFunction(index) {
     else if (is_expanded) {
         for (let i = 0; i < each_description.length; ++i) {
             if (each_description[i].classList.contains(classes[i])) {
+
                 each_description[i].classList.remove(classes[i]);
                 each_description[i].classList.add("minimize");
             }
         }
     }
+
     each_description[index].classList.remove("minimize");
     each_description[index].classList.add(classes[index]);
     is_expanded = true;

@@ -1,6 +1,6 @@
 const cacheName = "Cache";
 const assets = [
-    "./", 
+    // "./", 
     "./index.html", 
     "./site.webmanifest",
     "./sw.js", 
@@ -20,7 +20,7 @@ const assets = [
     "./css/skills_style.css", 
     "./images/favicon.png", 
     "./images/favicon2.png",
-//     "./img/404.png",
+    "./img/404.png",
     "./img/code.png",
     "./img/coding.png",
     "./img/course.png",
@@ -32,9 +32,9 @@ const assets = [
     "./img/folder.png",
     "./img/formula.png",
     "./img/game.png",
-    "./img/header3.png",
-    "./img/my_image.png",
-    "./img/myimage.png",
+    "./img/header3.jpg",
+    "./img/my_image.jpg",
+    "./img/myimage.jpg",
     "./img/networking.png",
     "./img/paper.png",
     "./img/project_section.png",
@@ -48,16 +48,14 @@ const assets = [
     "https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js", 
     "https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js", 
     "https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css", 
-//     "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css", 
+    "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css", 
     "https://fonts.googleapis.com/css?family=Varela+Round", 
     "https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i", 
-    "https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css"
-//     "./favicon_io/android-chrome-192x192.png", 
-//     "./favicon_io/android-chrome-192x192.png", 
-//     "./favicon_io/apple-touch-icon.png", 
-//     "./favicon_io/favicon-16x16.png", 
-//     "./favicon_io/favicon-16x16.png", 
-//     "./favicon_io/favicon.ico"
+    "https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css",
+    "./favicon_io/android-chrome-192x192.png",
+    "./favicon_io/apple-touch-icon.png", 
+    "./favicon_io/favicon-16x16.png", 
+    "./favicon_io/favicon.ico"
 ];
 
 self.addEventListener('install', function (event) {
