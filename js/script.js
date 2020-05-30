@@ -8,7 +8,7 @@ $(document).ready(function () {
     setTimeout(() => {
         $(".pageTop").fadeIn('slow');
         setTimeout(() => {
-            $(".masthead h1").animate({ height: '15rem' }, 850);
+            $(".masthead h1").animate({ height: '8rem' }, 850);
             $(".appearonload").animate({opacity: '1'}, 1200);
         }, 800);
     }, 200);
@@ -31,11 +31,13 @@ function expandFunction(index) {
     else if (is_expanded) {
         for (let i = 0; i < each_description.length; ++i) {
             if (each_description[i].classList.contains(classes[i])) {
+
                 each_description[i].classList.remove(classes[i]);
                 each_description[i].classList.add("minimize");
             }
         }
     }
+
     each_description[index].classList.remove("minimize");
     each_description[index].classList.add(classes[index]);
     is_expanded = true;

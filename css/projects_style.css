@@ -9,11 +9,15 @@
     background-position: center;
 }
 
+.info-links {
+    display: flex;
+}
+
 .project-head {
-    margin: auto;
+    margin-top: auto;
     margin-left: 0;
     margin-right: 10px;
-    margin-bottom: 0;
+    margin-bottom: auto;
 }
 
 .duration   {
@@ -24,63 +28,69 @@
     margin-bottom: 5px;
 }
 
-div.description  {
-    font-size: 17px;
+.description  {
+    font-size: 16px;
     color: rgb(185, 185, 185);
     opacity: 0 !important;
     transition: .5s ease-in-out;
     opacity: 1 !important;
     display: block;
     padding-top: 10px;
+    padding-left: 10px;
+    padding-left: 10px;
 }
 
-div.project-description {
+.project-description {
     overflow: hidden;
     transition: height 0.5s;
+    padding-inline-start: 1rem;
+    padding-inline-end: 1rem;
+    font-size: inherit;
 }
 
 .minimize {
     height: 0px;
 }
 
-.encryption_project {
-    height: auto;
-}
-
 .covid_tracker {
-    height: 120px;
+    height: 145px;
 }
 
 .home_security {
-    height: 400px;
+    height: 430px;
 }
 
 .personal_v1 {
-    height: 150px;
+    height: 180px;
 }
 
 .tic_tac_toe {
-    height: 150px;
+    height: 180px;
 }
 
 .baccarat_game {
-    height: 90px;
+    height: 120px;
 }
 
 div.description ul   {
     list-style-type: square;
 }
 
-div.horizontal-scroll   {
+div.description ul li {
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+
+.horizontal-scroll   {
     background-color: transparent;
     overflow: scroll;
     white-space: nowrap;
     transition: .5s ease-in-out;
 }
 
-div.horizontal-scroll a  {
+.horizontal-scroll a  {
     background-color: transparent;
-    font-size: 15px;
+    font-size: inherit;
     display: inline-block;
     border: 0.1rem solid #64a19d;
     text-decoration-color: #64a19d;
@@ -108,26 +118,17 @@ div.horizontal-scroll a  {
     transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1) 0s;
 }
 
-.projects-section .clickable-section {
+.projects-section .each-area {
     cursor: pointer;
+    border-radius: 4px;
+}
+
+.projects-section .each-area:hover {
+    background-color: rgba(0, 0, 0, 0.322);
 }
 
 .projects-section .each:hover {
     transform: translate(0px, -2.5px);
-}
-
-.projects-section .img {
-    width: 40px;
-    height: 40px;
-    vertical-align: middle;
-    position: relative;
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: 100%;
-    margin: auto;
-    margin-left: 0px;
-    margin-right: 15px;
-    
 }
 
 .webapp {
@@ -169,29 +170,212 @@ div.horizontal-scroll a  {
     color: rgba(235, 235, 235, 0.6);
 }
 
+.subhead {
+    font-size: inherit;
+}
+
 @media (max-width: 1100px) {
-    .img {}
+    .projects-section .each .project-head {
+        font-size: 1.4rem;
+    }
 
-    .project-head {}
+    .projects-section .each {
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
 
-    .duration {}
-    
-    .weblinks {}
-
-    .project-description {}
 }
 
 @media (max-width: 1000px) {
+    .projects-section .each .project-head {
+        font-size: 1.3rem;
+    }
+
+    .projects-section .each {
+        padding-left: 1.8rem;
+        padding-right: 1.8rem;
+    }
+
+    .projects-section .each .weblinks {font-size: 25px;}
 }
 
-@media (max-width: 780px) {
+@media (max-width: 991px) {
+    .covid_tracker {
+        height: 175px;
+    }
+
+    .home_security {
+        height: 550px;
+    }
+
+    .personal_v1 {
+        height: 180px;
+    }
+
+    .tic_tac_toe {
+        height: 230px;
+    }
+
+    .baccarat_game {
+        height: 160px;
+    }
 }
 
+@media (max-width: 800px) {
+    .projects-section .each .project-head {
+        font-size: 1.2rem;
+    }
+
+    .duration {
+        display: none;
+        margin: 0;
+    }
+
+    .projects-section .each {
+        padding-left: 1.0rem;
+        padding-right: 1.0rem;
+    }
+    
+    .projects-section .img {
+        display: none;
+        margin: 0;
+    }
+
+    .projects-section .wrapper {
+        margin-right: auto;
+        margin-left: auto;
+        padding-top: 0.2rem;
+    }
+
+    .info-links {
+        flex-direction: row-reverse;
+    }
+
+    .description {
+        font-size: 14px;
+        padding-top: 1px;
+        padding-left: 5px;
+        padding-left: 5px;
+    }
+
+    .horizontal-scroll a {
+        font-size: 14px;
+    }
+
+    .subhead {
+        font-size: inherit;
+    }
+
+    .project-description {
+        padding-inline-start: 0.2rem;
+        padding-inline-end: 0.8rem;
+    }
+
+    div.description ul {
+        padding-inline-start: 20px;
+    }
+
+    .covid_tracker {
+        height: 130px;
+    }
+
+    .home_security {
+        height: 500px;
+    }
+
+    .personal_v1 {
+        height: 160px;
+    }
+
+    .tic_tac_toe {
+        height: 180px;
+    }
+
+    .baccarat_game {
+        height: 140px;
+    }
+}
+
+@media (max-width: 765px){
+    .covid_tracker {
+        height: 190px;
+    }
+
+    .tic_tac_toe {
+        height: 210px;
+    }
+}
+ 
 @media (max-width: 550px) {
+    .projects-section .each .project-head {
+        font-size: 1.15rem;
+        margin-right: 0;
+    }
+
+    .projects-section .each {
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+        margin-right: 0;
+        margin-left: 0;
+        
+    }
+
+    .projects-section .each + div {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .projects-section .img {
+        display: none;
+        margin: 0;
+    }
+
+    .weblinks {font-size: 20px;}
+
+    .description {
+        font-size: 11px;
+    }
+
+    .horizontal-scroll a {
+        font-size: 12px;
+    }
+
+    .subhead {
+        font-size: inherit;
+    }
+
 }
 
 @media (max-width: 440px) {
+    .projects-section .each .project-head {
+        font-size: 1.0rem;
+    }
+
+    .duration {
+        display: none;
+        margin: 0;
+    }
 }
 
 @media (max-width: 350px) {
+    .projects-section .each .project-head {
+        font-size: 0.9rem;
+    }
+
+    .duration {
+        display: none;
+        margin: 0;
+    }
+
+    .description {
+        font-size: 9px;
+    }
+
+    .horizontal-scroll a {
+        font-size: 10px;
+    }
+
+    .subhead {
+        font-size: inherit;
+    }
 }

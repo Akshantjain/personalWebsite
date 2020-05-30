@@ -34,7 +34,7 @@ const assets = [
     "./img/game.png",
     "./img/header3.png",
     "./img/my_image.png",
-    "./img/myimage.png",
+    // "./img/myimage.png",
     "./img/networking.png",
     "./img/paper.png",
     "./img/project_section.png",

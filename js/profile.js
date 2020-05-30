@@ -42,25 +42,25 @@ let data = {
     },
     skills: ["HTML", "CSS", "JavaScript", "Bootstrap", "React", "C++", "Java", "Python", "MySQL", "GitHub"],
     projects: [
-        {
-            heading: "Advanced Encryptor",
-            timeFrame: "April 2020 - Present",
-            skillsUsed: [],
-            description: [
-                "The product would be able to encrypt large amount of data which could be decrypted later when required.",
-                "The data could be encrypted in different security levels as specified by the user.",
-                "Working in a group of two members, where I am responsible for front end and some of back end development.",
-                "The project is in development stage and is expected to launch the first version by June 2020.",
-                "We are expecting to launch the product on cross platforms by the end of September 2020."
-            ],
-            repo_url: "https://github.com/Akshantjain/AdvancedEncryptor",
-            website_url: "https://akshantjain.github.io/AdvancedEncryptor/",
-            documentation: "https://akshantjain.github.io/AdvancedEncryptor/content/documentation.html",
-            comments: ""
-        },
+        // {
+        //     heading: "Advanced Encryptor",
+        //     timeFrame: "April 2020 - Present",
+        //     skillsUsed: [],
+        //     description: [
+        //         "The product would be able to encrypt large amount of data which could be decrypted later when required.",
+        //         "The data could be encrypted in different security levels as specified by the user.",
+        //         "Working in a group of two members, where I am responsible for front end and some of back end development.",
+        //         "The project is in development stage and is expected to launch the first version by June 2020.",
+        //         "We are expecting to launch the product on cross platforms by the end of September 2020."
+        //     ],
+        //     repo_url: "https://github.com/Akshantjain/AdvancedEncryptor",
+        //     website_url: "https://akshantjain.github.io/AdvancedEncryptor/",
+        //     documentation: "https://akshantjain.github.io/AdvancedEncryptor/content/documentation.html",
+        //     comments: ""
+        // },
         {
             heading: "COVID-19 Tracker",
-            timeFrame: "April 2020",
+            timeFrame: "April - May 2020",
             skillsUsed: ["HTML", "CSS", "Bootstrap", "Javascript", "API Endpoint", "Google Material Design"],
             description: [
                 "The web app provides data about the COVID-19 cases worldwide.",
@@ -71,14 +71,15 @@ let data = {
             repo_url: "https://github.com/Akshantjain/it202-project4",
             website_url: "http://akshantjain.github.io/it202-project4/",
             documentation: "",
-            comments: ""
+            comments: "",
+            view: true
         },
         {
             heading: "Home Security System",
-            timeFrame: "Fall 2019",
+            timeFrame: "September - December 2019",
             skillsUsed: ["C++", "Arduino"],
             description: [
-                "The project was a part of Computer Design Course (CS 362) of UIC from Fall 2019 Semester.",
+                "The project was a part of " + "<em>Computer Design Course</em>" + " (CS 362) of UIC from " + "<em>Fall 2019</em>" + " Semester.",
                 "This was a group project of three members.", 
                 "The main idea of the project was to design and create a prototype of home security system.", 
                 "The prototype is able to detect threats which could take place in a house in your absence.", 
@@ -89,7 +90,8 @@ let data = {
             repo_url: "https://github.com/Akshantjain/Home-Security-System",
             website_url: "",
             documentation: "",
-            comments: ""
+            comments: "", 
+            view: false
         },
         {
             heading: "Personal Website v1",
@@ -105,11 +107,12 @@ let data = {
             repo_url: "https://github.com/Akshantjain/v1",
             website_url: "https://akshantjain.github.io/v1/",
             documentation: "",
-            comments: ""
+            comments: "", 
+            view: true
         },
         {
             heading: "Tic Tac Toe Game",
-            timeFrame: "Fall 2019",
+            timeFrame: "November 2019",
             skillsUsed: ["Java", "JavaFx", "Maven"],
             description: [
                 "This project is a part of Software Design Course (CS 342) of UIC from Fall 2019Semester.", 
@@ -121,7 +124,8 @@ let data = {
             repo_url: "https://github.com/Akshantjain/Tic-Tac-Toe-Game",
             website_url: "",
             documentation: "",
-            comments: ""
+            comments: "", 
+            view: false
         },
         {
             heading: "Baccarat Game",
@@ -135,7 +139,8 @@ let data = {
             repo_url: "https://github.com/Akshantjain/Baccarat-Game",
             website_url: "",
             documentation: "",
-            comments: ""
+            comments: "" ,
+            view: false
         }
     ],
     affiliations: [
