@@ -52,6 +52,8 @@ const assets = [
     "https://fonts.googleapis.com/css?family=Varela+Round", 
     "https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i", 
     "https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css",
+    "https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js.map",
+    "https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css.map",
     "./favicon_io/android-chrome-192x192.png",
     "./favicon_io/apple-touch-icon.png", 
     "./favicon_io/favicon-16x16.png", 
