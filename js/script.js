@@ -6,11 +6,19 @@
 
 $(document).ready(function () {
     setTimeout(() => {
-        $(".pageTop").fadeIn('slow');
+        $(".pageTop").fadeIn(3000);
+        // $(".pageTop").animate({backgroundColor: "white"}, "slow");
         setTimeout(() => {
-            $(".masthead h1").animate({ height: '8rem' }, 850);
+            // $(".masthead h1").animate({ height: '8rem' }, 850);
+            $(".masthead h1").addClass("headLoad");
             $(".appearonload").animate({opacity: '1'}, 1200);
-        }, 800);
+            setTimeout(() => {
+                // $("section").animate({display: 'block'}, 100);
+                // $("footer").animate({ display: 'block' }, 100);
+                $("section").show();
+                $("footer").show();
+            }, 100);
+        }, 1000);
     }, 200);
 });
 
@@ -31,7 +39,6 @@ function expandFunction(index) {
     else if (is_expanded) {
         for (let i = 0; i < each_description.length; ++i) {
             if (each_description[i].classList.contains(classes[i])) {
-
                 each_description[i].classList.remove(classes[i]);
                 each_description[i].classList.add("minimize");
             }
@@ -72,13 +79,13 @@ function colorout(index) {
             if ((a = a.length ? a : e("[name=" + this.hash.slice(1) + "]")).length)
                 return e("html, body").animate({
                     scrollTop: a.offset().top - 70
-                }, 1e3, "easeInOutExpo"), !1
+                }, "easeInOutCubic"), !1
         }
     }), e(".js-scroll-trigger").click(function () {
         e(".navbar-collapse").collapse("hide")
     }), e("body").scrollspy({
         target: "#mainNav",
-        offset: $('header').outerHeight() - 150
+        offset: $('header').outerHeight() - 400
     });
     function a() {
         $('header').outerHeight() - 150 < e("#mainNav").offset().top ? e("#mainNav").addClass("navbar-shrink") : e("#mainNav").removeClass("navbar-shrink")

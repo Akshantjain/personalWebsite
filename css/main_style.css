@@ -4,15 +4,15 @@ body {
     overflow-y: scroll;
     overflow-x: scroll;
     -ms-overflow-style: none;
-    /* display: none; */
+    display: none;
 }
 
 html  {
-  scroll-behavior: smooth;
-}
+    scroll-behavior: smooth;
+    background-color: black;}
 
 body::-webkit-scrollbar {
-  display: none;
+    display: none;
 }
 
 a {
@@ -22,6 +22,10 @@ a {
 a:focus, a:hover {
     text-decoration: none;
     color:#3c6360
+}
+
+section, footer {
+  display: none;
 }
 
 .wrapper    {
