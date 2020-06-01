@@ -39,6 +39,7 @@ function expandFunction(index) {
     else if (is_expanded) {
         for (let i = 0; i < each_description.length; ++i) {
             if (each_description[i].classList.contains(classes[i])) {
+
                 each_description[i].classList.remove(classes[i]);
                 each_description[i].classList.add("minimize");
             }

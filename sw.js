@@ -1,6 +1,6 @@
 const cacheName = "Cache";
 const assets = [
-    "./", 
+    // "./", 
     "./index.html", 
     "./site.webmanifest",
     "./sw.js", 
