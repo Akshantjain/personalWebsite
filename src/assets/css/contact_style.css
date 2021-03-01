@@ -1,0 +1,119 @@
+.contact-section {
+    padding:5rem 0 0;
+    font-family: Gotham,
+    Helvetica,
+    Arial,
+    sans-serif;
+}
+
+.contact-section .card {
+    border: 0;
+    border-bottom:.25rem solid #64a19d
+}
+
+.contact-section .card h4 {
+    font-size: .8rem;
+    /* font-family: 'Varela Round'; */
+    text-transform: uppercase;
+    letter-spacing:.15rem
+}
+
+.contact-section .card hr {
+    border-color: #64a19d;
+    border-width: .25rem;
+    width:3rem
+}
+
+.contact-section .social {
+    margin-top:5rem;
+    /* transition: background-color .5s ease-in-out; */
+}
+
+.contact-section .social a {
+    text-align: center;
+    height: 3rem;
+    width: 3rem;
+    background: rgba(255, 255, 255, .1);
+    border-radius: 100%;
+    line-height: 3rem;
+    color:rgba(255, 255, 255, .3)
+}
+
+.contact-section .social .fb {
+    transition: background-color .3s ease-out;
+    color: #4267B2;
+}
+
+.contact-section .social .fb:hover{
+    transition:background-color .3s ease-in;
+    background-color: #4267B2;
+    color: white;
+}
+
+.contact-section .social .fb:active{
+    background-color: #4267B2;
+    color: white;
+}
+
+.contact-section .social .linkedin {
+    transition: background-color .3s ease-out;
+    color: #2867B2;
+}
+
+.contact-section .social .linkedin:hover{
+    transition:background-color .3s ease-in;
+    background-color: #2867B2;
+    color: white;
+}
+
+.contact-section .social .linkedin:active{
+    background-color: #2867B2;
+    color: white;
+}
+
+.contact-section .social .google    {
+    transition: background-color .3s ease-out;
+}
+
+.contact-section .social .google:hover{
+    transition:background-color .3s ease-in;
+    background-color: white;
+    color: #DB4437;
+}
+
+.contact-section .social .google:active{
+    background-color: white;
+    color: #DB4437;
+}
+
+.contact-section .social .whatsapp {
+    transition: background-color .3s ease-out;
+    color: #4AC959;
+}
+
+.contact-section .social .whatsapp:hover{
+    transition:background-color .3s ease-in;
+    background-color: #4AC959;
+    color: white;
+}
+
+.contact-section .social .whatsapp:active{
+    background-color: #4AC959;
+    color: white;
+}
+
+.contact-section .social .github {
+    transition: background-color .3s ease-out;
+    color: white;
+}
+
+.contact-section .social .github:hover{
+    transition:background-color .3s ease-in;
+    background-color: white;
+    color: #333;
+}
+
+.contact-section .social .github:active{
+    background-color: white;
+    color: #333;
+}
