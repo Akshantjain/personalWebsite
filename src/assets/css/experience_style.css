@@ -21,6 +21,10 @@
     background-image: url("../images/networking.webp");
 }
 
+.work {
+    background-image: url("../images/work.webp");
+}
+
 .experience-section .each {
     background-color: rgba(0, 0, 0, 0.144);
     border-radius: 5px;

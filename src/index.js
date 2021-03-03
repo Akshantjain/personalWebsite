@@ -3,13 +3,14 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './app/App';
 import reportWebVitals from './reportWebVitals';
-
 import firebase from "firebase/app";
 import "firebase/analytics";
+import "firebase/database"
 
-var firebaseConfig = {
+const firebaseConfig = {
   apiKey: "AIzaSyDpZFZ6Jez4EQVun8B1qeV_pz5Vytq83F4",
   authDomain: "mypersonalwebsite-b3da2.firebaseapp.com",
+  databaseURL: "https://mypersonalwebsite-b3da2-default-rtdb.firebaseio.com",
   projectId: "mypersonalwebsite-b3da2",
   storageBucket: "mypersonalwebsite-b3da2.appspot.com",
   messagingSenderId: "578977779676",
@@ -22,7 +23,7 @@ firebase.analytics();
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <App/>
   </React.StrictMode>,
   document.getElementById('root')
 );

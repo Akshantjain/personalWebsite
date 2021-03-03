@@ -1,12 +1,16 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import '../assets/css/footer_style.css'
-export const Footer = () => {
+export const Footer = (props) => {
+    const data = props.data
     return (
+        <>
         <footer className="bg-black small text-center contents text-white-50 " style={{"paddingTop": "30px"}}>
+            {data &&
             <div className="container">
-                <a className="text-white-50" href="http://bit.ly/2VmnVhn" target="_blank" rel="noopener noreferrer">Designed and Developed by Akshant Jain <br/>
-                    Copyright &copy; Akshant Jain 2020</a>
-            </div>
+                <a className="text-white-50" href={data.links.website_repo} target="_blank" rel="noopener noreferrer">Designed and Developed by {data.aboutMe.name} <br/>
+                    Copyright &copy; {data.aboutMe.name} 2020</a>
+            </div>}
         </footer>
+        </>
     )
 }

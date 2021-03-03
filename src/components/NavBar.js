@@ -1,13 +1,18 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import '../assets/css/navbar_style.css'
+// import { data } from '../assets/data/profile'
 import favicon from '../assets/images/favicon2.webp'
 
 export const NavBar = (props) => {
+    let data = props.data
     return (
+        <>
         <nav className="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+            {data &&
             <div className="container-fluid mx-3 appearonload">
                 <a className="navbar-brand js-scroll-trigger ml-1" href="#page-top"><img className="main-logo" alt="Logo" src={favicon}/></a>
-                <button className="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
+                <button 
+                    className="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
                     data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
                     aria-label="Toggle navigation">
                     Menu
@@ -15,24 +20,15 @@ export const NavBar = (props) => {
                 </button>
                 <div className="collapse navbar-collapse" id="navbarResponsive">
                     <ul className="navbar-nav ml-auto">
-                        <li className="nav-item">
-                            <a className="nav-link js-scroll-trigger" href="#about">About Me</a>
-                        </li>
-                        <li className="nav-item">
-                            <a className="nav-link js-scroll-trigger" href="#skills">Coursework & Skills</a>
-                        </li>
-                        <li className="nav-item">
-                            <a className="nav-link js-scroll-trigger" href="#experience">Experience</a>
-                        </li>
-                        <li className="nav-item">
-                            <a className="nav-link js-scroll-trigger" href="#projects">Projects</a>
-                        </li>
-                        <li className="nav-item">
-                            <a className="nav-link js-scroll-trigger" href="#contact">Contact</a>
-                        </li>
+                        {data.navigation && data.navigation.map((value, key) => {
+                            return <li className="nav-item" key={key}>
+                                <a className="nav-link js-scroll-trigger" href={value.link}>{value.title}</a>
+                            </li>
+                        })}
                     </ul>
                 </div>
-            </div>
+            </div>}
         </nav>
+        </>
     )
 }
