@@ -1,6 +1,5 @@
-import React, { useEffect } from 'react'
+import React from 'react'
 import '../assets/css/navbar_style.css'
-// import { data } from '../assets/data/profile'
 import favicon from '../assets/images/favicon2.webp'
 
 export const NavBar = (props) => {

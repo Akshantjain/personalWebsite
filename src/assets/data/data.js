@@ -3,7 +3,7 @@ import 'firebase/database'
 
 export const getData = async () => {
     let data;
-    await firebase.database().ref('Website data').once('value', snapshot => {
+    await firebase.database().ref('/WebsiteData/').once('value', snapshot => {
         data = snapshot.val();  
     })
     return data;

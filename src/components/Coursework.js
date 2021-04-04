@@ -13,10 +13,12 @@ export const Coursework = (props) => {
                     <div className="wrapper mb-4 mt-1 pt-2">
                         <div className="mb-2">
                             <div className="img idea mb-3"></div>
-                            <p className="head_p text-uppercase d-inline-block text-white">knowledge <span className="line" style={{width: "80%"}}></span></p><br></br>
-                            {data.knowledge && data.knowledge.map((value, key) => {
-                                return <span className="text-white-50" key={key} style={{ 'fontFamily': 'Gotham,Helvetica,Arial,sans-serif', 'fontSize': '1rem'}}>{value}, </span>
-                            })}
+                            <p className="head_p text-uppercase d-inline-block text-white">Programming Skills <span className="line" style={{width: "80%"}}></span></p><br></br>
+                                <p className="para text-white-50" style={{ 'fontFamily': 'Gotham,Helvetica,Arial,sans-serif'}}>
+                                {data.knowledge && data.knowledge.map((value) => {
+                                    return value + ", "
+                                })}
+                            </p>
                     </div>
                         <div className=" pt-4 pb-3 row border-secondary border-top">
                             <div className="col text-white border-secondary skill-row">
@@ -28,7 +30,7 @@ export const Coursework = (props) => {
                             </div>
                             <div className="col text-white border-secondary skill-row">
                                 <div className="img skill"></div>
-                                <p className="head_p text-uppercase d-inline-block">Skills<span className="line" style={{width: "80%"}}></span></p>
+                                <p className="head_p text-uppercase d-inline-block">Knowledge<span className="line" style={{width: "80%"}}></span></p>
                                 <p className="para text-white-50">
                                     {data.skills}
                             </p>

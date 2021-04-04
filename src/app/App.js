@@ -1,4 +1,3 @@
-// import { MainLayout } from "../layout/MainLayout";
 import '../assets/css/main_style.css'
 import { Contact, Coursework, Experience, Footer, Header, Introduction, NavBar, Projects, Resume } from "../components";
 import { useEffect, useState } from "react";

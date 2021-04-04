@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react'
+import React from 'react'
 import '../assets/css/masthead_style.css'
 
 export const Header = (props) => {

@@ -85,7 +85,6 @@
 
     #mainNav.navbar-shrink {
         background-color:rgb(255, 255, 255);
-        /* display: block; */
         visibility: visible;
         font-weight: bold;
     }
