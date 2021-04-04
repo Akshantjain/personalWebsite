@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react'
+import React from 'react'
 import '../assets/css/experience_style.css'
 
 export const Experience = (props) => {
@@ -21,10 +21,10 @@ export const Experience = (props) => {
                                 <div className="mt-1 ex-para">
                                     <p className="text-white mb-0 head_p">{data.education.undergraduate.university}</p>
                                     <span className="line" style={{width: "50%", height: "1px"}}></span>
-                                    <p className="text-white ml-1 mb-0 para-p" style={{ "fontFamily": "Cambria, Georgia, serif"}}>
+                                    <p className="text-white ml-1 mb-0 para" style={{ "fontFamily": "Cambria, Georgia, serif"}}>
                                         {data.aboutMe.major} with {data.aboutMe.minor}
                                 </p>
-                                    <p className="text-white-50 ml-3 para-p">
+                                    <p className="text-white-50 ml-3 para">
                                         {data.education.undergraduate.year}<br/>
                                         Graduation Expected: {data.education.undergraduate.graduation}<br/>
                                         Honors: {data.education.undergraduate.honors.map((value, key) => {
@@ -49,10 +49,10 @@ export const Experience = (props) => {
                                         <div className="mt-1 ex-para">
                                             <p className="text-white mb-0 head_p">{data.internship.company}</p>
                                             <span className="line" style={{width: "50%", height: "1px"}}></span>
-                                            <p className="text-white ml-1 mb-0 para-p" style={{ "fontFamily": "Cambria, Georgia, serif" }}>
+                                            <p className="text-white ml-1 mb-0 para" style={{ "fontFamily": "Cambria, Georgia, serif" }}>
                                                 {data.internship.role} | {data.internship.time}
                                             </p>
-                                            <ul className="text-white-50 para-p" style={{listStyleType: "square"}}>
+                                            <ul className="text-white-50 para" style={{listStyleType: "square"}}>
                                                 {data.internship && data.internship.description.map((value, key) => {
                                                     return <li key={key}>{value}</li>
                                                 })}
@@ -75,7 +75,7 @@ export const Experience = (props) => {
                                         <div className="mt-1 ex-para">
                                             <p className="text-white mb-0 head_p">University of Illinois at Chicago (UIC)</p>
                                             <span className="line" style={{ width: "50%", height: "1px" }}></span>
-                                            <ul className="text-white-50 para-p" style={{ listStyleType: "square" }}>
+                                            <ul className="text-white-50 para" style={{ listStyleType: "square" }}>
                                             {data.education.undergraduate.coursework && 
                                                 data.education.undergraduate.coursework.map((value, key) => {
                                                     return <li key={key}>{value}</li>
@@ -99,10 +99,10 @@ export const Experience = (props) => {
                                         <div className="mt-1 ex-para ">
                                             <p className="text-white mb-0 head_p">{data.affiliations.organisation}</p>
                                             <span className="line" style={{width: "50%", height: "1px"}}></span>
-                                            <p className="text-white ml-1 mb-0 para-p" style={{ "fontFamily": "Cambria, Georgia, serif" }}>
+                                            <p className="text-white ml-1 mb-0 para" style={{ "fontFamily": "Cambria, Georgia, serif" }}>
                                                 {data.affiliations.duration}
                                             </p>
-                                            <p className="text-white-50 ml-1 mb-0 para-p">
+                                            <p className="text-white-50 ml-3 para">
                                                 {data.affiliations.role}
                                 </p>
                                         </div>

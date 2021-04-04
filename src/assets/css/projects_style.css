@@ -1,6 +1,6 @@
 .projects-section {
-    padding-top: 5%;
-    padding-bottom: 4%;
+    padding-top: 7%;
+    padding-bottom: 7%;
     background: url("../images/project_section.webp");
     background-color: rgba(17, 17, 17, 0.582);
     background-blend-mode: darken;
@@ -21,15 +21,14 @@
 }
 
 .duration   {
-    font-size: 15px;
+    font-size: 1rem;
     color: rgb(184, 184, 184);
     margin: auto;
-    margin-left: 0;
+    margin-right: 0;
     margin-bottom: 5px;
 }
 
 .description  {
-    font-size: 16px;
     color: rgb(185, 185, 185);
     opacity: 0 !important;
     transition: .5s ease-in-out;
@@ -45,7 +44,6 @@
     transition: height 0.5s;
     padding-inline-start: 1rem;
     padding-inline-end: 1rem;
-    font-size: inherit;
     font-family: Gotham,
     Helvetica,
     Arial,
@@ -57,23 +55,23 @@
 }
 
 .covid_tracker {
-    height: 145px;
+    height: 340px;
 }
 
 .home_security {
-    height: 430px;
+    height: 630px;
 }
 
 .personal_v1 {
-    height: 180px;
+    height: 370px;
 }
 
 .tic_tac_toe {
-    height: 180px;
+    height: 370px;
 }
 
 .baccarat_game {
-    height: 120px;
+    height: 330px;
 }
 
 div.description ul   {
@@ -92,9 +90,9 @@ div.description ul li {
     transition: .5s ease-in-out;
 }
 
-.horizontal-scroll a  {
+.horizontal-scroll a,
+.horizontal-scroll span {
     background-color: transparent;
-    font-size: inherit;
     display: inline-block;
     border: 0.1rem solid #64a19d;
     text-decoration-color: #64a19d;
@@ -105,9 +103,21 @@ div.description ul li {
     padding-left: 10px;
     padding-right: 10px;
     border-radius: 0.3rem;
-    margin-right: 5px;
+    margin-right: 7.5px;
     transition: .5s ease-in-out;
     overflow: scroll;
+}
+
+.horizontal-scroll .skilluse {
+    border: 0.1rem solid #9da164 !important;
+    text-decoration-color: #9da164 !important;
+    color: #9da164 !important;
+}
+
+.horizontal-scroll .linkuse {
+    border: 0.1rem solid #92624a !important;
+    text-decoration-color: #92624a !important;
+    color: #92624a !important;
 }
 
 .horizontal-scroll::-webkit-scrollbar    {
@@ -170,8 +180,9 @@ div.description ul li {
 }
 
 .projects-section .each .project-head {
-    font-size: 1.5rem;
-    color: rgba(235, 235, 235, 0.6);
+    font-size: 1.25rem;
+    color: rgba(255, 255, 255);
+    text-transform: capitalize;
 }
 
 .subhead {
@@ -205,23 +216,23 @@ div.description ul li {
 
 @media (max-width: 991px) {
     .covid_tracker {
-        height: 175px;
+        height: 365px;
     }
 
     .home_security {
-        height: 550px;
+        height: 740px;
     }
 
     .personal_v1 {
-        height: 180px;
+        height: 370px;
     }
 
     .tic_tac_toe {
-        height: 230px;
+        height: 420px;
     }
 
     .baccarat_game {
-        height: 160px;
+        height: 350px;
     }
 }
 
@@ -256,14 +267,9 @@ div.description ul li {
     }
 
     .description {
-        font-size: 14px;
         padding-top: 1px;
         padding-left: 5px;
         padding-left: 5px;
-    }
-
-    .horizontal-scroll a {
-        font-size: 14px;
     }
 
     .subhead {
@@ -280,33 +286,37 @@ div.description ul li {
     }
 
     .covid_tracker {
-        height: 130px;
+        height: 330px;
     }
 
     .home_security {
-        height: 500px;
+        height: 680px;
     }
 
     .personal_v1 {
-        height: 160px;
+        height: 340px;
     }
 
     .tic_tac_toe {
-        height: 180px;
+        height: 360px;
     }
 
     .baccarat_game {
-        height: 140px;
+        height: 320px;
     }
 }
 
 @media (max-width: 765px){
     .covid_tracker {
-        height: 190px;
+        height: 370px;
     }
 
     .tic_tac_toe {
-        height: 210px;
+        height: 390px;
+    }
+
+    .personal_v1 {
+        height: 370px;
     }
 }
  
@@ -336,16 +346,28 @@ div.description ul li {
 
     .weblinks {font-size: 20px;}
 
-    .description {
-        font-size: 11px;
-    }
-
-    .horizontal-scroll a {
-        font-size: 12px;
-    }
-
     .subhead {
         font-size: inherit;
+    }
+
+    .home_security {
+        height: 610px;
+    }
+
+    .covid_tracker {
+        height: 300px;
+    }
+
+    .personal_v1 {
+        height: 300px;
+    }
+
+    .tic_tac_toe {
+        height: 370px;
+    }
+
+    .baccarat_game {
+        height: 300px;
     }
 
 }
@@ -359,6 +381,14 @@ div.description ul li {
         display: none;
         margin: 0;
     }
+
+    .covid_tracker {
+        height: 340px;
+    }
+
+    .personal_v1 {
+        height: 370px;
+    }
 }
 
 @media (max-width: 350px) {
@@ -371,15 +401,11 @@ div.description ul li {
         margin: 0;
     }
 
-    .description {
-        font-size: 9px;
-    }
-
-    .horizontal-scroll a {
-        font-size: 10px;
-    }
-
     .subhead {
         font-size: inherit;
+    }
+
+    .home_security {
+        height: 640px;
     }
 }

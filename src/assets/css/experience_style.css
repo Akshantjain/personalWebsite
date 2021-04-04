@@ -1,12 +1,12 @@
 .experience-section {
-    padding-top: 4.5%;
+    padding-top: 7%;
     background: url("../images/experience.webp");
     background-color: rgba(17, 17, 17, 0.582);
     background-blend-mode: darken;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    padding-bottom: 5%;
+    padding-bottom: 7%;
 }
 
 .college {
@@ -38,7 +38,6 @@
     display: inline-block;
     vertical-align: middle;
     position: relative;
-    /* top: -3px; */
     margin-top: auto;
     margin-bottom: auto;
     background-repeat: no-repeat;
@@ -56,16 +55,8 @@
     min-width: 350px;
 }
 
-.experience-section .ex-heads .head_p {
-    font-size: 1.25rem;
-}
-
 .experience-section .ex-para    {
     width: auto;
-}
-
-.experience-section .ex-para .head_p    {
-    font-size: 1.25rem;
 }
 
 .experience-section .ex-para .para-p    {
@@ -87,14 +78,6 @@
         margin-right: 12px;
     }
 
-    .experience-section .ex-heads .head_p {
-        font-size: 1.05rem;
-    }
-
-    .experience-section .ex-para .head_p    {
-        font-size: 1.05rem;
-    }
-
     .experience-section .ex-para .para-p    {
         font-size: 0.95rem;
     }
@@ -109,15 +92,6 @@
         width: 29px;
         height: 29px;
         margin-right: 7px;
-    }
-
-    .experience-section .ex-heads .head_p {
-        margin-bottom: 0.5rem;
-        font-size: 0.925rem;
-    }
-
-    .experience-section .ex-para .head_p    {
-        font-size: 0.925rem;
     }
 
     .experience-section .ex-para .para-p    {
@@ -146,15 +120,6 @@
         margin-right: 5px;
     }
 
-    .experience-section .ex-heads .head_p {
-        margin-bottom: 0.5rem;
-        font-size: 0.835rem;
-    }
-
-    .experience-section .ex-para .head_p    {
-        font-size: 0.835rem;
-    }
-
     .experience-section .ex-para .para-p    {
         font-size: 0.85rem;
     }
@@ -179,15 +144,6 @@
         width: 26px;
         height: 26px;
         margin-right: 3px;
-    }
-
-    .experience-section .ex-heads .head_p {
-        margin-bottom: 0.5rem;
-        font-size: 0.795rem;
-    }
-
-    .experience-section .ex-para .head_p    {
-        font-size: 0.795rem;
     }
 
     .experience-section .ex-para .para-p    {
@@ -230,15 +186,6 @@
         width: 18px;
         height: 18px;
         margin-right: 2px;
-    }
-
-    .experience-section .ex-heads .head_p {
-        margin-bottom: 0.5rem;
-        font-size: 0.705rem;
-    }
-
-    .experience-section .ex-para .head_p    {
-        font-size: 0.715rem;
     }
 
     .experience-section .ex-para .para-p    {

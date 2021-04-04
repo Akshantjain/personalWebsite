@@ -11,11 +11,6 @@
     object-fit: cover;
 }
 
-.about-section p {
-    margin-bottom:5rem;
-    font-size: 1rem;
-}
-
 .about-intro    {
     display: inline-block;
     width: 90%;
@@ -27,18 +22,14 @@
     font-size: 2rem;
 }
 
-.about-intro p  {
-    /* font-family: serif; */
-}
-
 .about-section .headshot {
     float: right;
-    border-radius: 50%;
-    margin-top: -4%;
+    border-radius: 4%;
+    margin-top: -6%;
     margin-left: 4%;
     margin-bottom: 1%;
     height: auto;
-    width: 390px; 
+    width: 350px; 
 }
 
 @media (max-width: 942px)  {
@@ -67,9 +58,4 @@
     .about-intro .name {
         font-size: 1.3rem;
     }
-
-    .about-intro p{
-        font-size: 0.9rem;
-    }
-
 }

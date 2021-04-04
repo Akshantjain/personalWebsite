@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react'
+import React from 'react'
 import '../assets/css/footer_style.css'
 export const Footer = (props) => {
     const data = props.data

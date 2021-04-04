@@ -1,11 +1,11 @@
 .skill-section {
-    padding-top: 5%;
+    padding-top: 7%;
     background: url("../images/skills_section.webp");
     background-color: rgba(17, 17, 17, 0.7);
     background-blend-mode: darken;
     background-repeat: no-repeat;
     background-size: cover;
-    padding-bottom: 5%;
+    padding-bottom: 7%;
     background-position: center;
 }
 
@@ -42,7 +42,7 @@
     background-image: url("../images/dashboard.webp");
 }
 
-.skill-section .para    {
+.para    {
     font-family: Gotham,Helvetica,Arial,sans-serif;
     font-size: 1rem;
 }
@@ -59,66 +59,6 @@
     color: rgba(255, 255, 255, 0.3);
 }
 
-.java, .cplusplus, .python, .mysql, .android, .html, .css, .javascript, .bootstrap, .git {
-    transition: color .3s ease-out;
-}
-
-.java:hover {
-    color: rgb(216, 65, 57);
-    transition: color .3s ease-in;
-}
-
-.cplusplus:hover {
-    color: rgb(165, 32, 68);
-    transition: color .3s ease-in;
-}
-
-.python:hover {
-    color: rgb(249, 216, 98);
-    transition: color .3s ease-in;
-}
-
-.mysql:hover {
-    color: white;
-    transition:color .3s ease-in;
-}
-
-
-.android:hover {
-    color: rgb(171, 194, 82);
-    transition: color .3s ease-in;
-}
-
-.html:hover {
-    color: rgb(212, 87, 54);
-    transition: color .3s ease-in;
-}
-
-.css:hover {
-    color: rgb(54, 117, 180);
-    transition: color .3s ease-in;
-}
-
-.javascript:hover {
-    color: rgb(237, 218, 104);
-    transition: color.3s ease-in;
-}
-
-.bootstrap:hover {
-    color: rgb(46, 27, 87);
-    transition: color .3s ease-in;
-}
-
-.git:hover {
-    color: white;
-    transition: color .3s ease-in;
-}
-
-.react:hover {
-    color: rgb(140, 209, 247);
-    transition: color .3s ease-in;
-}
-
 .line-center {
     margin-left: 7rem;
 }
@@ -127,7 +67,7 @@
     width: 80%;
 }
 
-.skill-section .head_p {
+.head_p {
     font-size: 1.5rem;
 }
 
@@ -148,7 +88,7 @@
         top: -2px;
     }
 
-    .skill-section .para    {
+    .para    {
         font-size: 0.9rem;
     }
 
@@ -165,7 +105,7 @@
         margin-right: 0.3rem;
     }
 
-    .skill-section .head_p {
+    .head_p {
         font-size: 1.2rem;
     }
 
@@ -176,8 +116,8 @@
         top: -1px;
     }
 
-    .skill-section .para    {
-        font-size: 0.8rem;
+    .para    {
+        font-size: 0.85rem;
         text-align: justify;
     }
 }
@@ -190,7 +130,7 @@
         margin-right: 0.3rem;
     }
 
-    .skill-section .head_p {
+    .head_p {
         font-size: 1.1rem;
     }
 
@@ -200,8 +140,8 @@
         margin-right: 4px;
     }
 
-    .skill-section .para    {
-        font-size: 0.7rem;
+    .para    {
+        font-size: 0.85rem;
         text-align: justify;
     }
 }
@@ -213,8 +153,8 @@
         margin-right: 0.2rem;
     }
 
-    .skill-section .head_p {
-        font-size: 0.8 rem;
+    .head_p {
+        font-size: 1rem;
     }
 
     .skill-section .img {
@@ -224,8 +164,8 @@
     }
 
 
-    .skill-section .para    {
-        font-size: 0.6rem;
+    .para    {
+        font-size: 0.75rem;
         text-align: justify;
     }
 }
@@ -243,8 +183,8 @@
         margin-right: 0.1rem;
     }
 
-    .skill-section .head_p {
-        font-size: 0.7rem;
+    .head_p {
+        font-size: 1rem;
     }
 
     .skill-section .img {
@@ -253,8 +193,8 @@
         margin-right: 1px;
     }
 
-    .skill-section .para    {
-        font-size: 0.6rem;
+    .para    {
+        font-size: 0.75rem;
         text-align: justify;
     }
 
