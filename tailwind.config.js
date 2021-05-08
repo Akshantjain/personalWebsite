@@ -8,7 +8,12 @@ module.exports = {
       },
       fontFamily: {
         'caveat': ['"Caveat"', 'cursive'],
-        'robotoSlab': ['"Roboto Slab"', 'serif']
+        'robotoSlab': ['"Roboto Slab"', 'serif'],
+        'lato': ['"Lato"', 'sans-serif'],
+        'head': ['"Alegreya Sans SC"', 'sans-serif'],
+        'proHead': ['"Allerta Stencil"', 'sans-serif'],
+        'sign': ['"Cookie"', 'cursive'],
+        'desc': ['"Mukta"', 'sans-serif']
       },
       scale: {
         '99': '.99'

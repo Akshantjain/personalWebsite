@@ -38,7 +38,7 @@
             "role" : "Web Developer Intern",
             "time" : "June 2020 – August 2020"
         },
-        "introduction" : ["I'm a fourth year student at University of Illinois at Chicago studying Computer Science with minor in mathematics. I have experience in developing and designing computer softwares and web applications from simple basic programs to progressive and responsice web applications and websites. I love to create software to enhance user experience and solve real world problems in a creative ways.", "I like learning new development languages to create user experiences with clean, efficient, and scalable Code.I consider work an ongoing education, and I'm always looking for opportunities to work people who are willing to share their knowledge and skills so that we could develop better things. At the end of the day, my primary goal is to learn and help people with their problems in a virtual and creative way through my skills and knowledge.", "I am also interested in learning Artificial Intelligence and Machine Learning to find a way to develop programs in a much easier and productive manner."],
+        "introduction" : ["I'm a fourth year student at University of Illinois at Chicago studying Computer Science with minor in mathematics. I have experience in developing and designing computer softwares and web applications from simple basic programs to progressive and responsice web applications and websites. I love to create software to enhance user experience and solve real world problems in a creative ways.", "I like learning new development languages to create user experiences with clean, efficient, and scalable Code. I consider work an ongoing education, and I'm always looking for opportunities to work people who are willing to share their knowledge and skills so that we could develop better things. At the end of the day, my primary goal is to learn and help people with their problems in a virtual and creative way through my skills and knowledge.", "I am also interested in learning Artificial Intelligence and Machine Learning to find a way to develop programs in a much easier and productive manner."],
         "languages" : ["Java", "C++", "Python", "JavaScript", "HTML", "CSS", "MySQL", "TypeScript", "React.js", "Express.js", "Node.js", "PWA", "API", "Google Firebase", "Netlify", "Arduino", "Git", "Postman"],
         "links" : {
             "email" : "mailto:akshant.jain2@gmail.com",
@@ -218,7 +218,7 @@
                     "comments": "",
                     "description": ["The project is the collection of my personal websites.", "The wesite was my first step towards web development and web design.", "The websites are Coded in HTML, CSS, JavaScript, and React", "The websites are hosted and deployed using GitHub Pages and Google Firebase.", "The newest version (current) of my website is now public."],
                     "documentation": "",
-                    "heading": "Personal Website (v1, v2, v3)",
+                    "heading": "My Websites (v1-3)",
                     "iconClass": "img web",
                     "listItems": [{
                         "icon": "px-1 fa fa-Code",
@@ -250,7 +250,7 @@
                     "website_url": "https://akshantjain.github.io/v1/"
                 }, {
                     "comments": "",
-                    "description": ["This was a group project of three members.", "Coded the games in Java and JavaFX using server and client threads.", "Coded the game in multiplayer mode where players play against an algorithm .", "Worked on Front-end and client thread in the projects."],
+                    "description": ["This was a group project of three members.", "Coded the games in Java and JavaFX using server and client threads.", "Coded the game in multiplayer mode where players play against an algorithm.", "Worked on Front-end and client thread in the projects."],
                     "documentation": "",
                     "heading": "Tic Tac Toe Game",
                     "iconClass": "img game",
