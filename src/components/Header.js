@@ -1,6 +1,4 @@
 import { useEffect } from 'react'
-// import myImage from '../assets/images/my_image.jpg'
-// import headerImage from '../assets/images/header.jpg'
 export const Header = ({data}) => {
     const aboutMe = data.aboutMe;
 
