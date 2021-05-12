@@ -1,6 +1,7 @@
 {
-  "short_name": "Akshant Jain",
-  "name": "Akshant Jain | Developer",
+  "short_name": "AJ",
+  "name": "Akshant Jain",
+  "description" : "Web Developer",
   "icons": [
     {
       "src": "favicon.ico",
@@ -10,18 +11,18 @@
     {
       "src": "logo192.png",
       "type": "image/png",
-      "sizes": "192x192"
+      "sizes": "192x192",
+      "purpose": "any maskable"
     },
     {
       "src": "logo512.png",
       "type": "image/png",
-      "sizes": "512x512",
-      "purpose": "any maskable"
+      "sizes": "512x512"
     }
   ],
-  "start_url": ".",
-  "display": "fullscreen",
-  "theme_color": "#000000",
+  "start_url": "/",
+  "display": "standalone",
+  "theme_color": "#e5e7eb",
   "background_color": "#ffffff",
-  "lang": "en"
+  "prefer_related_applications": true
 }
