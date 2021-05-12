@@ -3,7 +3,7 @@ import { Fragment } from 'react';
 
 export const Coursework = ({data}) => {
     return (
-        <section id="coursework" className=" mt-2 py-2 pb-3 md:pb-10 lg:pb-20 space-y-10">
+        <section id="skills" className=" mt-2 py-2 pb-3 md:pb-10 lg:pb-20 space-y-10">
             <div className="container mx-auto rounded-2xl bg-gray-100 shadow-2xl
                             transform scale-95">
                 <div className="container mx-auto rounded-2xl py-7 bg-yellow-500 shadow-2xl
@@ -22,8 +22,8 @@ export const Coursework = ({data}) => {
                             <div className="font-head py-5 px-10 leading-10 col-span-1 text-left lg:text-right text-2xl font-semibold text-yellow-900
                                             bg-yellow-50 border-b-2 border-yellow-100 ">Programming Languages</div>
                             <div className=" container py-5 px-10 text-xl leading-10 col-span-2 border-b-2 border-yellow-100">
-                                {data.languages.map((val, key) => {
-                                    return <Fragment key={key}>{val}{key !== data.languages.length-1 ? ',' : ''} </Fragment>;
+                                {data.knowledge.map((val, key) => {
+                                    return <Fragment key={key}>{val}{key !== data.knowledge.length-1 ? ',' : ''} </Fragment>;
                                 })}
                             </div>
                             <div className="font-head py-5 px-10 leading-10 col-span-1 text-left lg:text-right text-2xl font-semibold text-yellow-900

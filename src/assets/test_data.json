@@ -1,315 +1,475 @@
 {
-    "WebsiteData" : {
-        "aboutMe" : {
-            "email" : "mailto:akshant.jain2@gmail.com",
-            "headline" : "Web Developer",
-            "major" : "Bachelor in Computer Science",
-            "minor" : "Minor in Mathematics",
-            "name" : "Akshant Jain"
-        },
-        "affiliations" : {
-            "duration" : "January 2020 - Present",
-            "organisation" : "Assosiation for Computing Machinery (ACM)",
-            "role" : "Member of ACM UIC, Sig-Webdev and International",
-            "website" : "acm.uic.edu"
-        },
-        "computerScience" : "Using Programming languages like Java, C++, etc. along with web development, I am passionate about combining these two different developments to develop new softwares and programs to enhance user experience and make provide more functionalities.",
-            "education" : {
-            "graduate" : {
-                "duration" : "",
-                    "gpa" : "",
-                        "university" : ""
-            },
-            "undergraduate" : {
-                "coursework" : ["Data Structures and Algorithms", "Software Design", "Computer Architecture and Design", "Databases Systems", "Web Development and applications", "User Interface Design", "Object Oriented Programming", "Software Engineering"],
-                "duration" : "August 2017 - May 2021",
-                "degree": "Bachelor in Computer Science with Minor in Mathematics",
-                "gpa" : "3.30",
-                "graduation" : "May 2021",
-                "honors" : ["Dean's List for Fall 2019 Semester"],
-                "university" : "University of Illinois at Chicago (UIC)",
-                "year" : "Senior Year"
-            }
-        },
-        "internship" : {
-            "company" : "SVS Techno Consultants Pvt. Ltd.",
-            "description" : ["Collaborated with the web development team", "Re-designed and developed company's new website", "Integrated the website with a user accounts", "Integrated accounts with google firebase", "Coded the projects in React.js framework", "Assisted the team in installing an api to send emails"],
-            "location" : "New Delhi, India",
-            "role" : "Web Developer Intern",
-            "time" : "June 2020 – August 2020"
-        },
-        "introduction" : ["I'm a fourth year student at University of Illinois at Chicago studying Computer Science with minor in mathematics. I have experience in developing and designing computer softwares and web applications from simple basic programs to progressive and responsice web applications and websites. I love to create software to enhance user experience and solve real world problems in a creative ways.", "I like learning new development languages to create user experiences with clean, efficient, and scalable Code. I consider work an ongoing education, and I'm always looking for opportunities to work people who are willing to share their knowledge and skills so that we could develop better things. At the end of the day, my primary goal is to learn and help people with their problems in a virtual and creative way through my skills and knowledge.", "I am also interested in learning Artificial Intelligence and Machine Learning to find a way to develop programs in a much easier and productive manner."],
-        "languages" : ["Java", "C++", "Python", "JavaScript", "HTML", "CSS", "MySQL", "TypeScript", "React.js", "Express.js", "Node.js", "PWA", "API", "Google Firebase", "Netlify", "Arduino", "Git", "Postman"],
-        "links" : {
-            "email" : "mailto:akshant.jain2@gmail.com",
-            "facebook" : "https://facebook.com/akshantjain",
-            "github" : "https://github.com/Akshantjain",
-            "linkedIn" : "https://linkedin.com/in/akshantjain/",
-            "repos" : "https://github.com/Akshantjain?tab=repositories",
-            "resume" : "https://docs.google.com/document/d/1KakHLt7NnjJg5UPB4DHB0hh9-eTM-6n1OgcJVkpu3V0/edit?usp=sharing",
-            "twitter" : "https://twitter.com/AkshantJain",
-            "website" : "https://akshantjain.com",
-            "website_repo" : "https://github.com/Akshantjain/personalWebsite",
-            "whatsapp" : "https://wa.me/13125610879?text=I'm%20interested%20in%20developing%20a%20site%20by%20you."
-        },
-        "mathematics" : "Along with pursing my computer science degree, I also opted for mathematics as a minor. I love solving math problems in my free time and also love to help my peers and solve problems with them.",
-            "navigation" : [{
-                "link": "#aboutMe",
-                "title": "About Me"
-            }, {
-                "link": "#coursework",
-                "title": "Coursework & Skills"
-            }, {
-                "link": "#experience",
-                "title": "Experience"
-            }, {
-                "link": "#projects",
-                "title": "Projects"
-            }, {
-                "link": "#resume",
-                "title" : "Resume"
-            }, {
-                "link": "#contact",
-                "title": "Contact"
-            }],
-                "projects" : [{
-                    "comments": "",
-                    "description": ["The web app provides data about the COVID-19 cases worldwide.", "The project provide the visitors with the number of cases for each country.", "The data provides the data with graphical visualization to the visitors.", "The app/website allows visitor to filter countries."],
-                    "documentation": "",
-                    "heading": "COVID-19 Tracker",
-                    "iconClass": "img webapp",
-                    "listItems": [{
-                        "icon": "px-1 fa fa-Code",
-                        "items": [{
-                            "title": "HTML"
-                        }, {
-                            "title": "CSS"
-                        }, {
-                            "title": "BootStrap"
-                        }, {
-                            "title": "JavaScript"
-                        }, {
-                            "title": "API Endpoints"
-                        }, {
-                            "title": "Google Material"
-                        }],
-                        "title": "Skills Used",
-                        "useClass": "skilluse"
-                    }, {
-                        "icon": "px-1 fa fa-link",
-                        "items": [{
-                            "link": "https://github.com/Akshantjain-it202projects/it202-project4",
-                            "title": "Code"
-                        }, {
-                            "link": "covidtracker.akshantjain.com",
-                            "title": "Demo"
-                        }],
-                        "title": "Project Links",
-                        "useClass": "linkuse"
-                    }],
-                    "repo_url": "https://github.com/Akshantjain-it202projects/it202-project4",
-                    "skillsUsed": ["HTML", "CSS", "Bootstrap", "Javascript", "API Endpoints", "Google Material Design"],
-                    "timeFrame": "April - May 2020",
-                    "view": true,
-                    "website_url": "https://akshantjain-it202projects.github.io/it202-project4/"
-                }, {
-                    "comments": "",
-                    "description": ["This was a group project of three members.", "The main idea of the project is to create a prototype of home security system.", "The prototype is able to detect threats in a house during human absence.", "Potential threats detection includes theft, invade, smoke, fire, gas and lights.", "The system is password protected with new combination each time.", "The security system is Coded in C++ on Arduino and other hardwares."],
-                    "documentation": "",
-                    "heading": "Home Security System",
-                    "iconClass": "img security",
-                    "listItems": [{
-                        "icon": "px-1 fa fa-Code",
-                        "items": [{
-                            "title": "C++"
-                        }, {
-                            "title": "Arduino"
-                        }],
-                        "title": "Skills Used",
-                        "useClass": "skilluse"
-                    }, {
-                        "icon": "fa fa-tools px-1",
-                        "items": [{
-                            "link": "https://learn.sparkfun.com/tutorials/what-is-an-arduino/all",
-                            "title": "Arduino UNO (3)"
-                        }, {
-                            "link": "https://www.arduino.cc/en/Tutorial/MasterWriter",
-                            "title": "I2C Communication"
-                        }, {
-                            "link": "https://learn.adafruit.com/lesson-0-getting-started/breadboard",
-                            "title": "BreadBoard (3)"
-                        }, {
-                            "link": "https://learn.pimoroni.com/tutorial/170pt-projects/anatomy-of-a-mini-breadboard",
-                            "title": "Mini BreadBoard (1)"
-                        }, {
-                            "link": "https://en.wikipedia.org/wiki/Nine-volt_battery",
-                            "title": "Batteries (3)"
-                        }, {
-                            "link": "https://www.arduino.cc/en/Tutorial/HelloWorld",
-                            "title": "16x2 LCD Display(3)"
-                        }, {
-                            "link": "https://www.arduino.cc/en/tutorial/blink",
-                            "title": "LED Lights (4)"
-                        }, {
-                            "link": "https://www.instructables.com/id/How-to-use-a-photoresistor-or-photocell-Arduino-Tu/",
-                            "title": "Photoresistor (1)"
-                        }, {
-                            "link": "https://www.arduino.cc/en/tutorial/potentiometer",
-                            "title": "Potentiometer(3)"
-                        }, {
-                            "link": "https://www.arduino.cc/en/tutorial/button",
-                            "title": "Pin Buttons (2)"
-                        }, {
-                            "link": "https://www.tutorialspoint.com/arduino/arduino_ultrasonic_sensor.htm",
-                            "title": "Ultrasonic Sensor (1)"
-                        }, {
-                            "link": "https://playground.arduino.cc/Code/Keypad/",
-                            "title": "4x4 Keypad (1)"
-                        }, {
-                            "link": "https://create.arduino.cc/projecthub/Aritro/smoke-detection-using-mq-2-gas-sensor-79c54a",
-                            "title": "Smoke Sensor (1)"
-                        }, {
-                            "link": "https://create.arduino.cc/projecthub/SURYATEJA/use-a-buzzer-module-piezo-speaker-using-arduino-uno-89df45",
-                            "title": "Buzzers (3)"
-                        }, {
-                            "link": "https://www.arduino.cc/en/reference/wire",
-                            "title": "Connecting Wires (~50)"
-                        }, {
-                            "link": "https://learn.adafruit.com/adafruit-arduino-lesson-2-leds/resistors",
-                            "title": " Resistors (8)"
-                        }],
-                        "title": "Hardware and Concepts used"
-                    }, {
-                        "icon": "px-1 fa fa-file-alt",
-                        "items": [{
-                            "link": "http://bit.ly/2SZ3C83",
-                            "title": "Initial Team and Idea"
-                        }, {
-                            "link": "http://bit.ly/3c8AoeG",
-                            "title": "Team and Project Contract"
-                        }, {
-                            "link": "http://bit.ly/2wIGSAx",
-                            "title": "Updated Design Document"
-                        }, {
-                            "link": "http://bit.ly/2SY0FEQ",
-                            "title": "Project Presentation"
-                        }, {
-                            "link": "http://bit.ly/2PrJo4V",
-                            "title": "Final Design Document"
-                        }],
-                        "title": "Project Documents"
-                    }, {
-                        "icon": "px-1 fa fa-link",
-                        "items": [{
-                            "link": "https://github.com/Akshantjain/Home-Security-System",
-                            "title": "Code"
-                        }, {
-                            "link": "https://akshantjain.github.io/home-security-system/",
-                            "title": "Demo"
-                        }],
-                        "title": "Project Links",
-                        "useClass": "linkuse"
-                    }],
-                    "repo_url": "https://github.com/Akshantjain/Home-Security-System",
-                    "skillsUsed": ["C++", "Arduino"],
-                    "timeFrame": "September - December 2019",
-                    "view": true
-                }, {
-                    "comments": "",
-                    "description": ["The project is the collection of my personal websites.", "The wesite was my first step towards web development and web design.", "The websites are Coded in HTML, CSS, JavaScript, and React", "The websites are hosted and deployed using GitHub Pages and Google Firebase.", "The newest version (current) of my website is now public."],
-                    "documentation": "",
-                    "heading": "My Websites (v1-3)",
-                    "iconClass": "img web",
-                    "listItems": [{
-                        "icon": "px-1 fa fa-Code",
-                        "items": [{
-                            "title": "HTML"
-                        }, {
-                            "title": "CSS"
-                        }, {
-                            "title": "BootStrap"
-                        }],
-                        "title": "Skills Used",
-                        "useClass": "skilluse"
-                    }, {
-                        "icon": "px-1 fa fa-link",
-                        "items": [{
-                            "link": "https://github.com/Akshantjain/v1",
-                            "title": "Code"
-                        }, {
-                            "link": "v1.akshantjain.com",
-                            "title": "Demo"
-                        }],
-                        "title": "Project Links",
-                        "useClass": "linkuse"
-                    }],
-                    "repo_url": "https://github.com/Akshantjain/v1",
-                    "skillsUsed": ["HTML", "CSS", "BootStrap"],
-                    "timeFrame": "July - August 2019",
-                    "view": true,
-                    "website_url": "https://akshantjain.github.io/v1/"
-                }, {
-                    "comments": "",
-                    "description": ["This was a group project of three members.", "Coded the games in Java and JavaFX using server and client threads.", "Coded the game in multiplayer mode where players play against an algorithm.", "Worked on Front-end and client thread in the projects."],
-                    "documentation": "",
-                    "heading": "Tic Tac Toe Game",
-                    "iconClass": "img game",
-                    "listItems": [{
-                        "icon": "px-1 fa fa-Code",
-                        "items": [{
-                            "title": "Java"
-                        }, {
-                            "title": "JavaFx"
-                        }, {
-                            "title": "Maven"
-                        }],
-                        "title": "Skills Used",
-                        "useClass": "skilluse"
-                    }, {
-                        "icon": "px-1 fa fa-link",
-                        "items": [{
-                            "link": "https://github.com/Akshantjain/Tic-Tac-Toe-Game",
-                            "title": "Code"
-                        }],
-                        "title": "Project Links",
-                        "useClass": "linkuse"
-                    }],
-                    "repo_url": "https://github.com/Akshantjain/Tic-Tac-Toe-Game",
-                    "skillsUsed": ["Java", "JavaFx", "Maven"],
-                    "timeFrame": "November 2019",
-                    "view": true
-                }, {
-                    "comments": "",
-                    "description": ["This was a solo project.", "The main idea of the project was to design and create a prototype of classical baccarat game played in casinos."],
-                    "documentation": "",
-                    "heading": "Baccarat Game",
-                    "iconClass": "img game",
-                    "listItems": [{
-                        "icon": "px-1 fa fa-Code",
-                        "items": [{
-                            "title": "Java"
-                        }, {
-                            "title": "JavaFx"
-                        }, {
-                            "title": "Maven"
-                        }],
-                        "title": "Skills Used",
-                        "useClass": "skilluse"
-                    }, {
-                        "icon": "px-1 fa fa-link",
-                        "items": [{
-                            "link": "https://github.com/Akshantjain/Baccarat-Game",
-                            "title": "Code"
-                        }],
-                        "title": "Project Links",
-                        "useClass": "linkuse"
-                    }],
-                    "repo_url": "https://github.com/Akshantjain/Baccarat-Game",
-                    "skillsUsed": ["Java", "JavaFx", "Maven"],
-                    "timeFrame": "September 2019",
-                    "view": true
-                }],
-                    "skills" : "While pursiung my bachelor's degree, I have come acroos different programming languages as well as web languages. I have a good experience with programming languages namely JAVA, C++, Python, SQL, and web languages like HTML, CSS, JavaScript and Bootstrap.",
-                        "toolsAndTech" : "Coming across the number of languages, I know some tools and technologies like Github, Git, Chrome Dev Tools, etc. I am trying to know about some more technologies using which I could have some better programming experience and help my peers to use them as well."
-    }
+  "WebsiteData": {
+    "aboutMe": {
+      "email": "mailto:akshant.jain2@gmail.com",
+      "headline": "Aspiring Software Developer",
+      "major": "Bachelor in Computer Science",
+      "minor": "Minor in Mathematics",
+      "name": "Akshant Jain"
+    },
+    "affiliations": {
+      "duration": "January 2020 - Present",
+      "organisation": "Assosiation for Computing Machinery (ACM)",
+      "role": "Member of ACM UIC, Sig-Webdev and International",
+      "website": "acm.uic.edu"
+    },
+    "computerScience": "Using Programming languages like Java, C++, etc. along with web development, I am passionate about combining these two different developments to develop new softwares and programs to enhance user experience and make provide more functionalities.",
+    "education": {
+      "graduate": {
+        "duration": "",
+        "gpa": "",
+        "university": ""
+      },
+      "undergraduate": {
+        "coursework": [
+          "Data Structures and Algorithms",
+          "Software Design",
+          "Computer Architecture and Design",
+          "Databases Systems",
+          "Web Development and applications",
+          "User Interface Design",
+          "Object Oriented Programming",
+          "Software Engineering"
+        ],
+        "duration": "August 2017 - May 2021",
+        "degree": "Bachelor in Computer Science with Minor in Mathematics",
+        "gpa": "3.4",
+        "graduation": "May 2021",
+        "honors": ["Dean's List for Fall 2019 Semester"],
+        "university": "University of Illinois at Chicago (UIC)",
+        "year": "Senior Year"
+      }
+    },
+    "internship": {
+      "company": "SVS Techno Consultants Pvt. Ltd.",
+      "description": [
+        "Collaborated with the web development team",
+        "Re-designed and developed company's new website",
+        "Integrated the website with a user accounts",
+        "Integrated accounts with google firebase",
+        "Coded the projects in React.js framework",
+        "Assisted the team in installing an api to send emails"
+      ],
+      "location": "New Delhi, India",
+      "role": "Web Developer Intern",
+      "time": "June 2020 – August 2020"
+    },
+    "introduction": [
+      "I'm a fourth year student at University of Illinois at Chicago studying Computer Science with minor in mathematics. I have experience in developing and designing computer softwares and web applications from simple basic programs to progressive and responsice web applications and websites. I love to create software to enhance user experience and solve real world problems in a creative ways.",
+      "I like learning new development languages to create user experiences with clean, efficient, and scalable code.I consider work an ongoing education, and I'm always looking for opportunities to work people who are willing to share their knowledge and skills so that we could develop better things. At the end of the day, my primary goal is to learn and help people with their problems in a virtual and creative way through my skills and knowledge.",
+      "I am also interested in learning Artificial Intelligence and Machine Learning to find a way to develop programs in a much easier and productive manner."
+    ],
+    "knowledge": [
+      "Java",
+      "C++",
+      "Python",
+      "JavaScript",
+      "HTML",
+      "CSS",
+      "MySQL",
+      "TypeScript",
+      "React.js",
+      "Express.js",
+      "Node.js",
+      "PWA",
+      "API",
+      "Google Firebase",
+      "Netlify",
+      "Arduino",
+      "Git",
+      "Postman"
+    ],
+    "links": {
+      "email": "mailto:akshant.jain2@gmail.com",
+      "facebook": "https://facebook.com/akshantjain",
+      "github": "https://github.com/Akshantjain",
+      "linkedIn": "https://linkedin.com/in/akshantjain/",
+      "repos": "https://github.com/Akshantjain?tab=repositories",
+      "resume": "https://docs.google.com/document/d/1KakHLt7NnjJg5UPB4DHB0hh9-eTM-6n1OgcJVkpu3V0/edit?usp=sharing",
+      "twitter": "https://twitter.com/AkshantJain",
+      "website": "https://akshantjain.com",
+      "website_repo": "https://github.com/Akshantjain/personalWebsite",
+      "whatsapp": "https://wa.me/13125610879?text=I'm%20interested%20in%20developing%20a%20site%20by%20you."
+    },
+    "mathematics": "Along with pursing my computer science degree, I also opted for mathematics as a minor. I love solving math problems in my free time and also love to help my peers and solve problems with them.",
+    "navigation": [
+      {
+        "link": "#about",
+        "title": "About Me"
+      },
+      {
+        "link": "#skills",
+        "title": "Coursework & Skills"
+      },
+      {
+        "link": "#experience",
+        "title": "Experience"
+      },
+      {
+        "link": "#projects",
+        "title": "Projects"
+      },
+      {
+        "link": "#resume",
+        "title": "Resume"
+      },
+      {
+        "link": "#contact",
+        "title": "Contact"
+      }
+    ],
+    "projects": [
+      {
+        "comments": "",
+        "description": [
+          "The web app provides data about the COVID-19 cases worldwide.",
+          "The main idea of the project was provide the visitors with the number of cases for each country.",
+          "The data provides the data with graphical visualization to the visitors.",
+          "The app/website allows visitor to filter countries."
+        ],
+        "documentation": "",
+        "heading": "COVID-19 Tracker",
+        "iconClass": "img webapp",
+        "listItems": [
+          {
+            "icon": "px-1 fa fa-code",
+            "items": [
+              {
+                "title": "HTML"
+              },
+              {
+                "title": "CSS"
+              },
+              {
+                "title": "BootStrap"
+              },
+              {
+                "title": "JavaScript"
+              },
+              {
+                "title": "API Endpoints"
+              },
+              {
+                "title": "Google Material"
+              }
+            ],
+            "title": "Skills Used",
+            "useClass": "skilluse"
+          },
+          {
+            "icon": "px-1 fa fa-link",
+            "items": [
+              {
+                "link": "https://github.com/Akshantjain-it202projects/it202-project4",
+                "title": "CODE"
+              },
+              {
+                "link": "covidtracker.akshantjain.com",
+                "title": "DEMO"
+              }
+            ],
+            "title": "Project Links",
+            "useClass": "linkuse"
+          }
+        ],
+        "repo_url": "https://github.com/Akshantjain-it202projects/it202-project4",
+        "skillsUsed": [
+          "HTML",
+          "CSS",
+          "Bootstrap",
+          "Javascript",
+          "API Endpoints",
+          "Google Material Design"
+        ],
+        "timeFrame": "April - May 2020",
+        "view": true,
+        "website_url": "https://akshantjain-it202projects.github.io/it202-project4/"
+      },
+      {
+        "comments": "",
+        "description": [
+          "This was a group project of three members.",
+          "The main idea of the project is to create a prototype of home security system.",
+          "The prototype is able to detect threats in a house during human absence.",
+          "Potential threats detection includes theft, invade, smoke, fire, gas and lights.",
+          "The system is password protected with new combination each time.",
+          "The security system is coded in C++ on Arduino and other hardwares."
+        ],
+        "documentation": "",
+        "heading": "Home Security System",
+        "iconClass": "img security",
+        "listItems": [
+          {
+            "icon": "px-1 fa fa-code",
+            "items": [
+              {
+                "title": "C++"
+              },
+              {
+                "title": "Arduino"
+              }
+            ],
+            "title": "Skills Used",
+            "useClass": "skilluse"
+          },
+          {
+            "icon": "fa fa-tools px-1",
+            "items": [
+              {
+                "link": "https://learn.sparkfun.com/tutorials/what-is-an-arduino/all",
+                "title": "Arduino UNO (3)"
+              },
+              {
+                "link": "https://www.arduino.cc/en/Tutorial/MasterWriter",
+                "title": "I2C Communication"
+              },
+              {
+                "link": "https://learn.adafruit.com/lesson-0-getting-started/breadboard",
+                "title": "BreadBoard (3)"
+              },
+              {
+                "link": "https://learn.pimoroni.com/tutorial/170pt-projects/anatomy-of-a-mini-breadboard",
+                "title": "Mini BreadBoard (1)"
+              },
+              {
+                "link": "https://en.wikipedia.org/wiki/Nine-volt_battery",
+                "title": "Batteries (3)"
+              },
+              {
+                "link": "https://www.arduino.cc/en/Tutorial/HelloWorld",
+                "title": "16x2 LCD Display(3)"
+              },
+              {
+                "link": "https://www.arduino.cc/en/tutorial/blink",
+                "title": "LED Lights (4)"
+              },
+              {
+                "link": "https://www.instructables.com/id/How-to-use-a-photoresistor-or-photocell-Arduino-Tu/",
+                "title": "Photoresistor (1)"
+              },
+              {
+                "link": "https://www.arduino.cc/en/tutorial/potentiometer",
+                "title": "Potentiometer(3)"
+              },
+              {
+                "link": "https://www.arduino.cc/en/tutorial/button",
+                "title": "Pin Buttons (2)"
+              },
+              {
+                "link": "https://www.tutorialspoint.com/arduino/arduino_ultrasonic_sensor.htm",
+                "title": "Ultrasonic Sensor (1)"
+              },
+              {
+                "link": "https://playground.arduino.cc/Code/Keypad/",
+                "title": "4x4 Keypad (1)"
+              },
+              {
+                "link": "https://create.arduino.cc/projecthub/Aritro/smoke-detection-using-mq-2-gas-sensor-79c54a",
+                "title": "Smoke Sensor (1)"
+              },
+              {
+                "link": "https://create.arduino.cc/projecthub/SURYATEJA/use-a-buzzer-module-piezo-speaker-using-arduino-uno-89df45",
+                "title": "Buzzers (3)"
+              },
+              {
+                "link": "https://www.arduino.cc/en/reference/wire",
+                "title": "Connecting Wires (~50)"
+              },
+              {
+                "link": "https://learn.adafruit.com/adafruit-arduino-lesson-2-leds/resistors",
+                "title": " Resistors (8)"
+              }
+            ],
+            "title": "Hardware and Concepts used"
+          },
+          {
+            "icon": "px-1 fa fa-file-alt",
+            "items": [
+              {
+                "link": "http://bit.ly/2SZ3C83",
+                "title": "Initial Team and Idea"
+              },
+              {
+                "link": "http://bit.ly/3c8AoeG",
+                "title": "Team and Project Contract"
+              },
+              {
+                "link": "http://bit.ly/2wIGSAx",
+                "title": "Updated Design Document"
+              },
+              {
+                "link": "http://bit.ly/2SY0FEQ",
+                "title": "Project Presentation"
+              },
+              {
+                "link": "http://bit.ly/2PrJo4V",
+                "title": "Final Design Document"
+              }
+            ],
+            "title": "Project Documents"
+          },
+          {
+            "icon": "px-1 fa fa-link",
+            "items": [
+              {
+                "link": "https://github.com/Akshantjain/Home-Security-System",
+                "title": "CODE"
+              },
+              {
+                "link": "https://akshantjain.github.io/home-security-system/",
+                "title": "DEMO"
+              }
+            ],
+            "title": "Project Links",
+            "useClass": "linkuse"
+          }
+        ],
+        "repo_url": "https://github.com/Akshantjain/Home-Security-System",
+        "skillsUsed": ["C++", "Arduino"],
+        "timeFrame": "September - December 2019",
+        "view": true
+      },
+      {
+        "comments": "",
+        "description": [
+          "The project is the collection of my personal websites.",
+          "The wesite was my first step towards web development and web design.",
+          "The website are coded in HTML, CSS, JavaScript and React",
+          "The websites are hosted and deployed using GitHub Pages and Google Firebase.",
+          "The newest version of my website is now public."
+        ],
+        "documentation": "",
+        "heading": "My Websites (v1-3)",
+        "iconClass": "img web",
+        "listItems": [
+          {
+            "icon": "px-1 fa fa-code",
+            "items": [
+              {
+                "title": "HTML"
+              },
+              {
+                "title": "CSS"
+              },
+              {
+                "title": "BootStrap"
+              }
+            ],
+            "title": "Skills Used",
+            "useClass": "skilluse"
+          },
+          {
+            "icon": "px-1 fa fa-link",
+            "items": [
+              {
+                "link": "https://github.com/Akshantjain/v1",
+                "title": "CODE"
+              },
+              {
+                "link": "v1.akshantjain.com",
+                "title": "DEMO"
+              }
+            ],
+            "title": "Project Links",
+            "useClass": "linkuse"
+          }
+        ],
+        "repo_url": "https://github.com/Akshantjain/v1",
+        "skillsUsed": ["HTML", "CSS", "BootStrap"],
+        "timeFrame": "July - August 2019",
+        "view": true,
+        "website_url": "https://akshantjain.github.io/v1/"
+      },
+      {
+        "comments": "",
+        "description": [
+          "This was a group project of three members.",
+          "Coded the games in Java and JavaFX using server and client threads.",
+          "Coded the game in multiplayer mode where players play against an algorithm .",
+          "Worked on Front-end and client thread in the projects."
+        ],
+        "documentation": "",
+        "heading": "Tic Tac Toe Game",
+        "iconClass": "img game",
+        "listItems": [
+          {
+            "icon": "px-1 fa fa-code",
+            "items": [
+              {
+                "title": "Java"
+              },
+              {
+                "title": "JavaFx"
+              },
+              {
+                "title": "Maven"
+              }
+            ],
+            "title": "Skills Used",
+            "useClass": "skilluse"
+          },
+          {
+            "icon": "px-1 fa fa-link",
+            "items": [
+              {
+                "link": "https://github.com/Akshantjain/Tic-Tac-Toe-Game",
+                "title": "CODE"
+              }
+            ],
+            "title": "Project Links",
+            "useClass": "linkuse"
+          }
+        ],
+        "repo_url": "https://github.com/Akshantjain/Tic-Tac-Toe-Game",
+        "skillsUsed": ["Java", "JavaFx", "Maven"],
+        "timeFrame": "November 2019",
+        "view": true
+      },
+      {
+        "comments": "",
+        "description": [
+          "This was a solo project.",
+          "The main idea of the project was to design and create a prototype of classical baccarat game played in casinos."
+        ],
+        "documentation": "",
+        "heading": "Baccarat Game",
+        "iconClass": "img game",
+        "listItems": [
+          {
+            "icon": "px-1 fa fa-code",
+            "items": [
+              {
+                "title": "Java"
+              },
+              {
+                "title": "JavaFx"
+              },
+              {
+                "title": "Maven"
+              }
+            ],
+            "title": "Skills Used",
+            "useClass": "skilluse"
+          },
+          {
+            "icon": "px-1 fa fa-link",
+            "items": [
+              {
+                "link": "https://github.com/Akshantjain/Baccarat-Game",
+                "title": "CODE"
+              }
+            ],
+            "title": "Project Links",
+            "useClass": "linkuse"
+          }
+        ],
+        "repo_url": "https://github.com/Akshantjain/Baccarat-Game",
+        "skillsUsed": ["Java", "JavaFx", "Maven"],
+        "timeFrame": "September 2019",
+        "view": true
+      }
+    ],
+    "skills": "While pursiung my bachelor's degree, I have come acroos different programming languages as well as web languages. I have a good experience with programming languages namely JAVA, C++, Python, SQL, and web languages like HTML, CSS, JavaScript and Bootstrap.",
+    "toolsAndTech": "Coming across the number of languages, I know some tools and technologies like Github, Git, Chrome Dev Tools, etc. I am trying to know about some more technologies using which I could have some better programming experience and help my peers to use them as well."
+  }
 }

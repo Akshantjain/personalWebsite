@@ -18,7 +18,7 @@
     -->
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
     <link rel="preconnect" href="https://fonts.gstatic.com"> 
-    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&family=Roboto+Slab&family=Alegreya+Sans+SC:wght@400;500;600&family=Allerta+Stencil&family=Lato&family=Cookie&family=Mukta&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&family=Roboto+Slab&family=Alegreya+Sans+SC:wght@400;500;600&family=Allerta+Stencil&family=Cookie&family=Mukta&family=Paprika&family=Acme&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/9e308de20c.js" crossorigin="anonymous"></script>
     <meta name="google-site-verification" content="4NVr2JGiZTc1akpibiEpmsh9afnt5nRSaRHVdGnh2-k" />
     <!--
@@ -51,18 +51,23 @@
     <script src="/__/firebase/8.2.9/firebase-analytics.js"></script>
 
     <script src="sw.js"></script>
-        <script>
-            if ('serviceWorker' in navigator) {
-              window.addEventListener('load', function() {
-                navigator.serviceWorker.register('sw.js').then(function(registration) {
-                  // Registration was successful
-                  console.log('ServiceWorker registration successful with scope: ', registration.scope);
-                }, function(err) {
-                  // registration failed :(
-                  console.log('ServiceWorker registration failed: ', err);
-                });
-              });
-            }
-        </script>
+    <script>
+        if ('serviceWorker' in navigator) {
+          window.addEventListener('load', function() {
+            navigator.serviceWorker.register('sw.js').then(function(registration) {
+              // Registration was successful
+              console.log('ServiceWorker registration successful with scope: ', registration.scope);
+            }, function(err) {
+              // registration failed :(
+              console.log('ServiceWorker registration failed: ', err);
+            });
+          });
+        }
+    </script>
+    <!-- <script>
+      if (typeof window.__REACT_DEVTOOLS_GLOBAL_HOOK__ === 'object') {
+          __REACT_DEVTOOLS_GLOBAL_HOOK__.inject = function() {};
+      }
+    </script> -->
   </body>
 </html>

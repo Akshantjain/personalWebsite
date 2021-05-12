@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react'
-// import { getData } from './assets/data'
+import { getData } from './assets/data'
 import { Coursework } from './components/Coursework'
 import { Experience } from './components/Experience'
 import { Footer } from './components/Footer'
@@ -8,20 +8,16 @@ import { Introduction } from './components/Introduction'
 import Navbar from './components/Navbar'
 import { Projects } from './components/Projects'
 import { Resume } from './components/Resume'
-import mydata from './assets/test_data.json'
-
 
 function App() {
   const [data, setData] = useState(null)
 
   useEffect(() => {
     const loadData = async () => {
-      // const result = await getData();
-      // setData(result)
-      // console.log(result);
+      const result = await getData();
+      setData(result)
     }
     loadData();
-    setData(mydata.WebsiteData);
   }, [])
   
   return ( data && 

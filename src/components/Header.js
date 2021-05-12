@@ -1,29 +1,37 @@
 import { useEffect } from 'react'
-import myImage from '../assets/images/my_image.jpg'
+// import myImage from '../assets/images/my_image.jpg'
 // import headerImage from '../assets/images/header.jpg'
 export const Header = ({data}) => {
     const aboutMe = data.aboutMe;
 
     useEffect(() => {
-        document.getElementById("myImage").classList.add("-translate-x-8", "translate-y-8")
+        setTimeout(() => {
+            document.getElementById("line").classList.remove("w-80");
+            document.getElementById("line").classList.add("w-8");
+            setTimeout(() => {
+                document.getElementById("line").classList.add("w-80");
+                document.getElementById("line").classList.remove("w-8");
+                document.getElementById("name").classList.remove("text-transparent");
+                document.getElementById("headline").classList.add("text-gray-700");
+            }, 1000);
+        }, 200);
     }, [])
 
     return (aboutMe && 
-            <header className="font-sans mx-auto grid grid-cols-3 dark:bg-gray-800 gap-4 h-screen pt-5 min-h-60 place-items-center">
-                <div className="mt-32 ml-5">
-                        <p className="font-caveat text-2xl">Hi, I am</p>
-                        <p className="font-caveat text-7xl underline text-black dark:text-white drop-shadow-2xl subpixel-antialiased font-semibold tracking-normal leading-tight">{aboutMe.name}</p>
-                        <p className="font-caveat text-right text-xl text-gray-700 dark:text-gray-300 antialiased font-semibold">{aboutMe.headline}</p>
+            <header id="home" className="bg-header bg-white bg-cover bg-top bg-blend-color bg-opacity-0 lg:bg-fixed font-sans dark:bg-gray-800 h-screen place-self-center mx-auto px-4">
+                <div className="h-full flex flex-wrap content-center">
+                    <p 
+                        id="name" 
+                        className="transition-all duration-900 ease-linear 
+                        w-full font-name uppercase text-center text-transparent text-5xl 
+                        md:text-6xl dark:text-white drop-shadow-2xl subpixel-antialiased 
+                        font-semibold tracking-widest leading-tight bg-clip-text"
+                    >
+                        {aboutMe.name}
+                    </p>
+                    <span id="line" className="mx-auto bg-white w-80 h-1 mt-4 mb-1 transition-all duration-900 ease-in-out rounded-md"/>
+                    <p id="headline" className="transition-all uppercase duration-900 ease-linear w-full font-caveat text-2xl text-center text-transparent dark:text-gray-300 antialiased font-semibold">{aboutMe.headline}</p>
                 </div>
-                <div className="bg-gradient-to-b from-blue-300 to-blue-800 bg-opacity-50
-                                dark:shadow-inner w-9/12
-                                rounded-3xl shadow-2xl self-end col-span-2">
-                    <img src={myImage} alt="Me" id="myImage" 
-                        className="scale-99 opacity-95 h-auto w-auto transition-transform ease-in delay-300 duration-700 
-                                    transform hover:-translate-x-2 hover:translate-y-2
-                                    shadow-2xl rounded-3xl" />
-                </div>
-                <a href="#aboutMe" className="animate-bounce col-span-3 text-xl px-3 py-1 rounded-full hover:bg-gray-50 ">&#8595;</a>
             </header>
     )
 }

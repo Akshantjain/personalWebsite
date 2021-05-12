@@ -3,7 +3,7 @@ import { UserIcon } from '@heroicons/react/outline'
 export const Introduction = ({data}) => {
     const intro = data.introduction;
     return (
-        <section id="aboutMe" className=" mt-2 py-2 pb-3 md:pb-10 lg:pb-20 space-y-10">
+        <section id="about" className=" mt-16 py-2 pb-3 md:pb-10 lg:pb-20 space-y-10">
             <div className="container mx-auto rounded-2xl bg-gray-100 shadow-2xl transform scale-95">
                 <div className="container mx-auto rounded-2xl py-7 bg-blue-500 shadow-2xl
                                 origin-center transform rotate-0 md:-rotate-1
