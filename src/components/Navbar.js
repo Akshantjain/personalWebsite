@@ -22,7 +22,7 @@ function Navbar({data}) {
 
     return (
         <Fragment>
-            <nav id="navbar" className="bg-gray-100 bg-opacity-25 fixed w-full shadow z-50 transition-colors duration-300 ease-linear">
+            <nav id="navbar" className={classNames({ "bg-opacity-25": !show }, { " bg-opacity-100": show },"bg-gray-100 fixed w-full shadow z-50 transition-colors duration-300 ease-linear")}>
                 <div className="container mx-auto flex-none lg:flex flex-row full-width transition ease-linear duration-900 transform scale-90 py-3 px-3">
                     <div className="z-50 container mx-auto flex flex-row">
                         <div className="mr-auto self-center px-3 py-1 font-caveat text-black dark:text-white text-4xl rounded-2xl">

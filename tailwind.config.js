@@ -1,8 +1,16 @@
 module.exports = {
-  purge: ['./src/**/*.{js,jsx,ts,tsx}', './public/index.html'],
+  purge: {
+    preserveHtmlElements: false,
+    enabled: true,
+    content: ['./src/**/*.{js,jsx,ts,tsx}', './public/index.html']
+  },
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {
+      transitionTimingFunction: {
+        'step-end': 'step-end',
+        'step-start': 'step-start',
+      },
       margin: {
         '-68': '-17rem',
       },

@@ -1,7 +1,6 @@
 import { TerminalIcon, CodeIcon, DesktopComputerIcon, CollectionIcon } from '@heroicons/react/outline'
 import classNames from 'classnames';
 import { Fragment } from 'react';
-import Tooltip from '../assets/custom/Tooltip';
 
 const LinkItems = (data) => {
     return (
@@ -30,11 +29,9 @@ export const Projects = ({data}) => {
                                     hover:rotate-0
                                     bg-white rounded-2xl shadow-2xl">
                         <div className="font-sans text-4xl flex flex-row-reverse lg:flex-row font-bold rounded-t-2xl p-10 bg-red-200 shadow z-50 text-red-900">
-                            <Tooltip title="Github Collection" placement="right-start">
                                 <a target="_blank" rel="noopener noreferrer" href={data.links.github}>
                                     <i className="transition-all ease-in-out duration-500 hover:text-black fab fa-github"></i>
                                 </a>
-                            </Tooltip>
                             <p className="mr-auto lg:mr-0 ml-4 lg:ml-auto">Projects</p>
                             <TerminalIcon className="h-10 w-auto mb-1 ml-0 lg:ml-4"/>
                         </div>
@@ -47,7 +44,6 @@ export const Projects = ({data}) => {
                                             <p className="font-head text-xl text-red-700">{value.timeFrame}</p>
                                         </div>
                                         <div className="relative inline-flex ml-0 lg:ml-auto my-auto divide-x-2 divide-red-50 lg:mt-auto lg:my-0">
-                                            <Tooltip show={value.repo_url === undefined} title="No Code Available" placement="top-end">
                                                 <a
                                                     href={value.repo_url}
                                                     disabled={value.repo_url === undefined}
@@ -62,23 +58,20 @@ export const Projects = ({data}) => {
                                                     <CodeIcon className="w-6 mr-2 align-middle" />
                                                     CODE
                                                 </a>
-                                            </Tooltip>
-                                            <Tooltip show={value.website_url === undefined} title="Not Available" placement="top-end">
                                                 <a 
-                                                    href={value.website_url !== undefined ? value.website_url : ""}
+                                                    href={value.website_url !== undefined ? value.website_url : "#"}
                                                     disabled={value.website_url === undefined} 
                                                     rel="noreferrer"
                                                     target="_blank"
                                                     className={classNames(
                                                         "relative flex justify-start items-center rounded-r-md p-1 px-4 font-bold transition-all duration-500 ease-in-out",
                                                         { "bg-red-200 hover:bg-red-700 hover:opacity-90 hover:text-red-50": value.website_url !== undefined},
-                                                        {"bg-red-100 opacity-50" : value.website_url === undefined}
+                                                        {"bg-red-100 opacity-50 cursor-not-allowed pointer-events-none" : value.website_url === undefined}
                                                         )}
                                                 >
                                                         <DesktopComputerIcon className="w-6 mr-2 align-middle"/>
                                                         VIEW
                                                 </a>
-                                            </Tooltip>
                                         </div>
                                     </div>
                                     <div className="container py-5 px-10 text-xl leading-10 col-span-2 border-b-2 border-red-100">
