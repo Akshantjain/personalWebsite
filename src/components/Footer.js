@@ -8,19 +8,19 @@ export const Footer = ({data}) => {
                         <a target="_blank" rel="noopner noreferrer" href="https://github.com/Akshantjain/personalWebsite/tree/v4.0" className="mr-auto text-left font-light text-gray-700 text-xs hover:text-black hover:font-bold transition-all ease-in-out duration-500 hover:underline font-robotoSlab">Designed and Developed by Akshant Jain<br />Copyright &copy; Akshant Jain 2021</a>
                     </div>
                     <div className="pt-3 text-center lg:py-0 ml-auto">
-                        <a target="_blank" rel="noopener noreferrer" href={links.email}>
+                        <a target="_blank" rel="noopener noreferrer" href={links.email}>{' '}
                             <i className="text-2xl mx-4 text-gray-500 transition-all ease-in-out duration-500 hover:text-red-500 far fa-envelope"></i>
                         </a>
-                        <a target="_blank" rel="noopener noreferrer" href={links.github}>
+                        <a target="_blank" rel="noopener noreferrer" href={links.github}>{' '}
                             <i className="text-2xl mx-4 text-gray-500 transition-all ease-in-out duration-500 hover:text-black fab fa-github"></i>
                         </a>
-                        <a target="_blank" rel="noopener noreferrer" href={links.linkedIn}>
+                        <a target="_blank" rel="noopener noreferrer" href={links.linkedIn}>{' '}
                             <i className="text-2xl mx-4 text-gray-500 transition-all ease-in-out duration-500 hover:text-blue-500 fab fa-linkedin-in"></i>
                         </a>
-                        <a target="_blank" rel="noopener noreferrer" href={links.facebook}>
+                        <a target="_blank" rel="noopener noreferrer" href={links.facebook}>{' '}
                             <i className="text-2xl mx-4 text-gray-500 transition-all ease-in-out duration-500 hover:text-blue-700 fab fa-facebook-f"></i>
                         </a>
-                        <a target="_blank" rel="noopener noreferrer" href={links.whatsapp}>
+                        <a target="_blank" rel="noopener noreferrer" href={links.whatsapp}>{' '}
                             <i className="text-2xl mx-4 text-gray-500 transition-all ease-in-out duration-500 hover:text-green-500 font-bold fab fa-whatsapp"></i>
                         </a>
                     </div>

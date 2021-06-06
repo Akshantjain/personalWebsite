@@ -3,6 +3,8 @@ const CACHE_NAME = 'offline';
 const OFFLINE_URL = 'offline.html';
 var urlsToCache = [
     '/',
+    '/__/firebase/8.2.9/firebase-analytics.js',
+    '/__/firebase/8.2.9/firebase-app.js',
 ];
 
 self.addEventListener('install', function (event) {

@@ -30,7 +30,7 @@ export const Projects = ({data}) => {
                                     bg-white rounded-2xl shadow-2xl">
                         <div className="font-sans text-4xl flex flex-row-reverse lg:flex-row font-bold rounded-t-2xl p-10 bg-red-200 shadow z-50 text-red-900">
                                 <a target="_blank" rel="noopener noreferrer" href={data.links.github}>
-                                    <i className="transition-all ease-in-out duration-500 hover:text-black fab fa-github"></i>
+                                    <i className="transition-all ease-in-out duration-500 hover:text-black fab fa-github">{' '}</i>
                                 </a>
                             <p className="mr-auto lg:mr-0 ml-4 lg:ml-auto">Projects</p>
                             <TerminalIcon className="h-10 w-auto mb-1 ml-0 lg:ml-4"/>
