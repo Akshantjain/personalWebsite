@@ -2,7 +2,7 @@ export const Footer = ({data}) => {
     const links = data.links;
     return (
         <section id="contact" className=" bg-gray-100 bg-top bg-cover py-2 space-y-5">
-            <div className="container px-4 lg:mx-auto w-full divide-y divide-gray-300">
+            <div className="px-4 lg:mx-auto w-full divide-y divide-gray-300">
                 <div className="container mx-auto py-5 lg:flex">
                     <div className="text-center lg:text-left">
                         <a target="_blank" rel="noopner noreferrer" href="https://github.com/Akshantjain/personalWebsite/tree/v4.0" className="mr-auto text-left font-light text-gray-700 text-xs hover:text-black hover:font-bold transition-all ease-in-out duration-500 hover:underline font-robotoSlab">Designed and Developed by Akshant Jain<br />Copyright &copy; Akshant Jain 2021</a>

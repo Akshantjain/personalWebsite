@@ -7,7 +7,7 @@ import { MainContent } from './components/MainContent'
 
 function App() {
   const [data, setData] = useState(null)
-  const [visible, setVisible] = useState(false)
+  const [visible, setVisible] = useState(true)
 
   useEffect(() => {
     const loadData = async () => {
@@ -19,7 +19,7 @@ function App() {
   
   return ( data && 
     <Fragment>
-      <div id="welcomeScreen" className="absolute h-screen w-screen bg-gray-100 transition-opacity opacity-100">
+      {/* <div id="welcomeScreen" className="absolute h-screen w-screen bg-gray-100 transition-opacity opacity-100">
         <div className="h-full flex flex-wrap content center absolute">
             <Lottie
               loop={false}
@@ -33,7 +33,7 @@ function App() {
               style={{ width: '50%', height: '50%', margin: 'auto', }}
             />
           </div>
-      </div>
+      </div> */}
       {visible && <MainContent data={data} />}
 
     </Fragment>

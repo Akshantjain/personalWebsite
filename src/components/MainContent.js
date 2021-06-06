@@ -10,12 +10,8 @@ import { Resume } from './Resume'
 
 export const MainContent = ({data}) => {
 
-    useEffect(() => {
-        // document.querySelector('main').style.opacity = 100;
-    }, [])
-
     return (
-        <main className="font-desc bg-gray-100 transition-opacity delay-100 duration-700 opacity-0">
+        <main className="font-desc bg-gray-100">
             <Navbar data={data} />
             <Header data={data} />
             <Introduction data={data} />
