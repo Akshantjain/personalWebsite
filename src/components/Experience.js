@@ -30,8 +30,7 @@ export const Experience = ({data}) => {
                                 <p className="text-2xl font-semibold font-proHead underline">{education.university}</p>
                                 <p className="text-md text-gray-500 font-semibold">{education.degree}</p>
                                 <ul className="ml-6 list-outside list-disc">
-                                    <li>{education.year}</li>
-                                    <li>Expected: {education.graduation}</li>
+                                    <li>Graduated: {education.graduation}</li>
                                     <li>Honors: {education.honors.map((value, key) => { return <Fragment key={key}>{value}</Fragment> })}</li>
                                 </ul>
                                 </div>

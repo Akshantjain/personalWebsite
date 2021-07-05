@@ -1,4 +1,4 @@
-import { TerminalIcon, CodeIcon, DesktopComputerIcon, CollectionIcon } from '@heroicons/react/outline'
+import { TerminalIcon, CodeIcon, DesktopComputerIcon, CollectionIcon, DocumentReportIcon } from '@heroicons/react/outline'
 import classNames from 'classnames';
 import { Fragment } from 'react';
 
@@ -55,8 +55,9 @@ export const Projects = ({data}) => {
                                                         { "bg-red-100 opacity-50": value.repo_url === undefined }
                                                     )}
                                                 >
-                                                    <CodeIcon className="w-6 mr-2 align-middle" />
-                                                    CODE
+                                                    
+                                                    {value.codeToDoc ? <DocumentReportIcon className="w-6 mr-2 align-middle" /> : <CodeIcon className="w-6 mr-2 align-middle" />}
+                                                    {value.codeToDoc ? "DOCS" : "CODE"}
                                                 </a>
                                                 <a 
                                                     href={value.website_url !== undefined ? value.website_url : "#"}
@@ -69,8 +70,9 @@ export const Projects = ({data}) => {
                                                         {"bg-red-100 opacity-50 cursor-not-allowed pointer-events-none" : value.website_url === undefined}
                                                         )}
                                                 >
-                                                        <DesktopComputerIcon className="w-6 mr-2 align-middle"/>
-                                                        VIEW
+                                                        
+                                                        {value.viewToDoc ? <DocumentReportIcon className="w-6 mr-2 align-middle"/> : <DesktopComputerIcon className="w-6 mr-2 align-middle"/>}
+                                                        {value.viewToDoc ? "DOCS" : "VIEW"}
                                                 </a>
                                         </div>
                                     </div>
