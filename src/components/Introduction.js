@@ -17,7 +17,7 @@ export const Introduction = ({data}) => {
                             <UserIcon className="h-9 w-auto mb-1 mr-4" />
                             <p className="js-show-on-scroll" data-show="right">About Me</p>
                         </div>
-                        <div className="container  py-5 px-10 text-xl leading-10 shadow-inner">
+                        <div className="container  py-5 px-10 text-xl leading-10 shadow-inner js-show-on-scroll" data-show="right">
                             {intro.map((value, key) => {
                                 return <p key={key} className="pb-3">&ensp; &ensp; &ensp; &ensp; {value}<br/></p>
                             })}
