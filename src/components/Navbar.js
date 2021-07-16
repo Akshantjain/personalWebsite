@@ -30,6 +30,11 @@ function Navbar({data}) {
                                 AJ
                             </a>
                         </div>
+                        <button onClick={() => setshow(!show)} className="p-2 bg-gray-50 space-y-1 border-2 ring-transparent rounded-md block lg:hidden">
+                            <div className={classNames("border-2 border-gray-300 w-7 h-1 rounded-sm transform transition-all duration-200 ease-linear")}></div>
+                            <div className={classNames("border-2 border-gray-300 w-7 h-1 rounded-sm transform transition-all duration-200 ease-linear",)}></div>
+                            <div className={classNames("border-2 border-gray-300 w-7 h-1 rounded-sm transform transition-all duration-200 ease-linear")}></div>
+                        </button>
                     </div>
                     <div className={classNames('z-0 flex-none space-y-5 lg:space-y-0 lg:flex lg:flex-row space-x-0 lg:space-x-6 py-3 justify-end text-base font-sans font-semibold antialiased text-gray-700 transition-all duration-700 ease-in-out', { '-mt-68 invisible': !show }, 'lg:mt-0  lg:visible js-show-on-scroll')} data-show="right">
                         {navItems.map((val, key) => {
